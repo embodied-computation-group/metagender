@@ -10,6 +10,10 @@ _<sup>4</sup>Cambridge Psychiatry, Cambridge University, Cambridge, UK_
 ## Abstract
 Metacognition refers to the ability to monitor our cognitive and perceptual processes. Previous research has investigated gender differences in self-confidence and self-esteem, but comparatively little is known about gender differences in metacognition. To address this gap, we conducted a study of 317 individuals, who completed global and local measures indexing recognition memory, semantic memory, and visual sensitivity. We found both domain-specific and domain-general effects spanning global and local metacognition measures. Women exhibit a systematic negative bias in metacognitive self-beliefs and were also found to update these beliefs more negatively than men. A similar metacognition bias was found for women, which was driven by greater sensitivity to errors made during testing. Using computational modelling, we could show that this more conservative strategy is accompanied by an enhanced global metacognitive efficiency in women. These results highlight previously unknown but robust gender differences in metacognitive self-monitoring.
 
+## Preprint
+[https://osf.io/preprints/psyarxiv/2gwky](https://osf.io/preprints/psyarxiv/2gwky)
+
+
 ---
 
 ## Contributors
@@ -33,7 +37,7 @@ This work was supported by a Lundbeck Foundation Fellowship (R272-2017-4345), an
 ## Citation
 To reference this work in your research, please cite as follows: 
 
-Hoogervorst, K., Banellis, L., Fardo, F., XUE, K., Rahnev, D., & Allen, M. (2024, January 31). Gender Differences in Metacognition: Global and Local Contrasts in Bias and Efficiency. Retrieved from osf.io/preprints/psyarxiv/2gwky
+Hoogervorst, K., Banellis, L., Fardo, F., Xue, K., Rahnev, D., & Allen, M. (2024, January 31). Gender Differences in Metacognition: Global and Local Contrasts in Bias and Efficiency. Retrieved from osf.io/preprints/psyarxiv/2gwky
 
 
 ## Figures and Legends
