@@ -31,7 +31,9 @@ This work was supported by a Lundbeck Foundation Fellowship (R272-2017-4345), an
 
 
 ## Citation
-To reference this work in your research, please cite as follows: (URL2)
+To reference this work in your research, please cite as follows: 
+
+Hoogervorst, K., Banellis, L., Fardo, F., XUE, K., Rahnev, D., & Allen, M. (2024, January 31). Gender Differences in Metacognition: Global and Local Contrasts in Bias and Efficiency. Retrieved from osf.io/preprints/psyarxiv/2gwky
 
 
 ## Figures and Legends
