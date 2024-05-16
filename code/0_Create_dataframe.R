@@ -7,9 +7,9 @@ library(dplyr)
 library(rstatix)
 
 # load data ---------------------------------------------------------------
-data_meta <- read.csv('../data/metacognition_TrialData_master.csv')
-sb_pre <- read.table('../data/self_belief_pre_labels.csv', sep = ";", header = T) 
-sb_post <- read.table('../data/self_belief_post_labels.csv', sep = ";", header = T)  
+data_meta <- read.csv('./data/metacognition_TrialData_master.csv')
+sb_pre <- read.table('./data/self_belief_pre_labels.csv', sep = ";", header = T) 
+sb_post <- read.table('./data/self_belief_post_labels.csv', sep = ";", header = T)  
 
 # check duplicates in data
 sum(duplicated(data_meta))
@@ -30,7 +30,7 @@ sb_post <- sb_post[-which(duplicated(sb_post$Sid), arr.ind = FALSE, useNames = T
 data_meta <- filter(data_meta, rt>0.05)
 
 # MAD outliers
-source("remove_outliers.R")
+source("./code/remove_outliers.R")
 data_meta$rt <- remove_outliers(data_meta$rt)
 data_meta$rt_conf <- remove_outliers(data_meta$rt_conf)
 
@@ -132,15 +132,16 @@ conffinal$avg_conf <- rowMeans(subset(conffinal[,10:13]))
 
 
 # Combine the three sets ----------------------------------------------------
-all_data <- inner_join(selfbel, t1w, by = "subj")
-all_data <- inner_join(all_data, conffinal, by = "subj")
+all_data <- left_join(selfbel, t1w, by = "subj")
+all_data <- left_join(all_data, conffinal, by = "subj")
 
 # delete non-binary person
 all_data <- filter(all_data, gender!="non-binary")
-# delete na
-all_data <- na.omit(all_data)
 # delete outlier person
 all_data <- filter(all_data, subj!=214)
+# delete na
+all_data <- na.omit(all_data)
+
 # check duplicates
 sum(duplicated(all_data$subj))
 # no duplicates 
@@ -153,5 +154,5 @@ all_long <- gather(all_long, key="mod", value="measure", pre_mem:avg_conf)
 # Save tables -------------------------------------------------------------
 
 # save megatable as csv
-write.csv(all_data, file = "../data/megatable.csv")
-write.csv(all_long, file = "../data/megatable_long.csv")
+write.csv(all_data, file = "./data/megatable.csv")
+write.csv(all_long, file = "./data/megatable_long.csv")
