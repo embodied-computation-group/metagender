@@ -147,12 +147,56 @@ sum(duplicated(all_data$subj))
 # no duplicates 
 
 
+# Additional analysis values ----------------------------------------------
+
+result_data <- all_data %>%
+  mutate(
+    diff_acc_mem_pre = acc_mem*100 - pre_mem,
+    diff_acc_mem_post = acc_mem*100 - post_mem,
+    diff_acc_vis_pre = acc_vis*100 - pre_vis,
+    diff_acc_vis_post = acc_vis*100 - post_vis,
+    diff_acc_gdp_pre = acc_gdp*100 - pre_gdp,
+    diff_acc_gdp_post = acc_gdp*100 - post_gdp,    
+    diff_acc_cal_pre = acc_cal*100 - pre_cal,
+    diff_acc_cal_post = acc_cal*100 - post_cal,
+    MemSBScoreDiff = diff_acc_mem_post - diff_acc_mem_pre,
+    VisSBScoreDiff = diff_acc_vis_post - diff_acc_vis_pre,
+    GDPSBScoreDiff = diff_acc_gdp_post - diff_acc_gdp_pre,
+    CalSBScoreDiff = diff_acc_cal_post - diff_acc_cal_pre,
+  )
+
+
+# Append M-ratio data -----------------------------------------------------
+mratios <- read.csv('./data/mratio_data.csv')
+mratios <- mratios[,c(1, 3:7)]
+final_data <- left_join(result_data, mratios, by = "subj")
+
 # put data in long format -------------------------------------------------------------
-all_long <- all_data
-all_long <- gather(all_long, key="mod", value="measure", pre_mem:avg_conf)
+all_long <- final_data
+all_long <- gather(all_long, key="mod", value="measure", pre_mem:CalSBScoreDiff)
+
+# Change column names -----------------------------------------------------
+colnames(final_data) <- c('Subject', 'Age', 'Gender', 'SB pre Memory', 'SB pre Vision', 'SB pre GDP', 'SB pre Calories',
+                  'SB post Memory', 'SB post Vision', 'SB post GDP', 'SB post Calories', 'SB average Memory',
+                  'SB average Vision', 'SB average GDP', 'SB average Calories', 'SB average pre', 'SB average post',
+                  'SB updating Memory', 'SB updating Vision', 'SB updating GDP', 'SB updating Calories', 'SB updating',
+                  'SB average', 'Accuracy Memory', 'Accuracy Vision', 'Accuracy GDP', 'Accuracy Calories',
+                  'RT Memory', 'RT Vision', 'RT GDP', 'RT Calories', 'Accuracy', 'RT', 'LC correct Memory',
+                  'LC incorrect Memory', 'LC correct Vision', 'LC incorrect Vision', 'LC correct GDP',
+                  'LC incorrect GDP', 'LC correct Calories', 'LC incorrect Calories', 'Local confidence Memory',
+                  'Local confidence Vision', 'Local confidence GDP', 'Local confidence Calories',
+                  'Correct-incorrect Memory', 'Correct-incorrect Vision', 'Correct-incorrect GDP',
+                  'Correct-incorrect Calories', 'LC incorrect', 'LC correct', 'Local Confidence average',
+                  'Accuracy-SB pre Memory', 'Accuracy-SB pre Vision', 'Accuracy-SB pre GDP', 'Accuracy-SB pre Calories',
+                  'Accuracy-SB post Memory', 'Accuracy-SB post Vision', 'Accuracy-SB post GDP', 'Accuracy-SB post Calories', 
+                  'Accuracy-SB updating Memory',  'Accuracy-SB updating Vision',  'Accuracy-SB updating GDP',  'Accuracy-SB updating Calories',
+                  'M-ratio Memory', 'M-ratio Vision', 'M-ratio GDP', 'M-ratio Calories', 'M-ratio General')
+
 
 # Save tables -------------------------------------------------------------
 
 # save megatable as csv
-write.csv(all_data, file = "./data/megatable.csv")
-write.csv(all_long, file = "./data/megatable_long.csv")
+write.csv(final_data, file = "./data/megatable.csv", row.names = F)
+write.csv(all_long, file = "./data/megatable_long.csv", row.names = F)
+
+
