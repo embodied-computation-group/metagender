@@ -63,9 +63,9 @@ t1w$avg_rt <- rowMeans(subset(t1w, select = c("rt_cal", "rt_gdp", "rt_mem", "rt_
 # select relevant data
 
 # pre test data
-pref <- as.data.frame(cbind(sb_pre$Sid, sb_pre$age, sb_pre$gender, sb_pre$self_memory_pre, sb_pre$self_visual_pre, sb_pre$self_gdp_pre, sb_pre$self_calories_pre))
-colnames(pref) <- c("subj","age", "gender", "pre_mem", "pre_vis", "pre_gdp", "pre_cal")
-pref[, c(1,2,4:7)] <- as.numeric(unlist(pref[, c(1,2,4:7)])) # because numbers were characters
+pref <- as.data.frame(cbind(sb_pre$Sid, sb_pre$age, sb_pre$gender, sb_pre$years_edu, sb_pre$self_memory_pre, sb_pre$self_visual_pre, sb_pre$self_gdp_pre, sb_pre$self_calories_pre))
+colnames(pref) <- c("subj","age", "gender", "edu", "pre_mem", "pre_vis", "pre_gdp", "pre_cal")
+pref[, c(1,2,4:8)] <- as.numeric(unlist(pref[, c(1,2,4:8)])) # because numbers were characters
 
 # post test data
 postf <- as.data.frame(cbind(sb_post$Sid, sb_post$self_memory_post, sb_post$self_visual_post, sb_post$self_gdp_post, sb_post$self_calories_post))
@@ -176,7 +176,7 @@ all_long <- final_data
 all_long <- gather(all_long, key="mod", value="measure", pre_mem:CalSBScoreDiff)
 
 # Change column names -----------------------------------------------------
-colnames(final_data) <- c('Subject', 'Age', 'Gender', 'SB pre Memory', 'SB pre Vision', 'SB pre GDP', 'SB pre Calories',
+colnames(final_data) <- c('Subject', 'Age', 'Gender', 'Years edu', 'SB pre Memory', 'SB pre Vision', 'SB pre GDP', 'SB pre Calories',
                   'SB post Memory', 'SB post Vision', 'SB post GDP', 'SB post Calories', 'SB average Memory',
                   'SB average Vision', 'SB average GDP', 'SB average Calories', 'SB average pre', 'SB average post',
                   'SB updating Memory', 'SB updating Vision', 'SB updating GDP', 'SB updating Calories', 'SB updating',
