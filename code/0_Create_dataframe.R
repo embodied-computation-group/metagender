@@ -58,6 +58,23 @@ t1w <- t1w[,c(1, 4, 5, 3, 2, 8, 9, 7, 6)]
 t1w$avg_acc <- rowMeans(subset(t1w, select = c("acc_cal", "acc_gdp", "acc_mem", "acc_vis")))
 t1w$avg_rt <- rowMeans(subset(t1w, select = c("rt_cal", "rt_gdp", "rt_mem", "rt_vis")))
 
+# calculate rt for correct and incorrect trials
+t1rt <-  t1data %>%
+  group_by(subj, mod, acc)%>%
+  summarise(mean(rt, na.rm=T))
+colnames(t1rt) <- c("subj", "mod", "acc", "rt_avg")
+
+# pivot to wide format
+t1rt<- t1rt %>%
+  pivot_wider(id_cols = subj, names_from = c(mod, acc), values_from = c(rt_avg))
+colnames(t1rt) <- c("subj", "rt_incor_mem", "rt_cor_mem", "rt_incor_vis", "rt_cor_vis", "rt_incor_gdp", "rt_cor_gdp", "rt_incor_cal", "rt_cor_cal")
+
+# merge to other t1 data
+t1w <- left_join(t1w, t1rt, by = "subj")
+
+# calculate general averages
+t1w$rt_cor <- mean(t1data$rt[t1data$acc == 1])
+t1w$rt_incor <- mean(t1data$rt[t1data$acc == 0])
 
 # For self belief data ----------------------------------------------------
 # select relevant data
@@ -181,7 +198,9 @@ colnames(final_data) <- c('Subject', 'Age', 'Gender', 'Years edu', 'SB pre Memor
                   'SB average Vision', 'SB average GDP', 'SB average Calories', 'SB average pre', 'SB average post',
                   'SB updating Memory', 'SB updating Vision', 'SB updating GDP', 'SB updating Calories', 'SB updating',
                   'SB average', 'Accuracy Memory', 'Accuracy Vision', 'Accuracy GDP', 'Accuracy Calories',
-                  'RT Memory', 'RT Vision', 'RT GDP', 'RT Calories', 'Accuracy', 'RT', 'LC correct Memory',
+                  'RT Memory', 'RT Vision', 'RT GDP', 'RT Calories', 'Accuracy', 'RT', 'RT incorrect Memory', 'RT correct Memory', 
+                  'RT incorrect Vision', 'RT correct Vision', 'RT incorrect GDP', 'RT correct GDP', 'RT incorrect Calories', 
+                  'RT correct Calories', 'RT correct average', 'RT incorrect average', 'LC correct Memory',
                   'LC incorrect Memory', 'LC correct Vision', 'LC incorrect Vision', 'LC correct GDP',
                   'LC incorrect GDP', 'LC correct Calories', 'LC incorrect Calories', 'Local confidence Memory',
                   'Local confidence Vision', 'Local confidence GDP', 'Local confidence Calories',
@@ -198,5 +217,3 @@ colnames(final_data) <- c('Subject', 'Age', 'Gender', 'Years edu', 'SB pre Memor
 # save megatable as csv
 write.csv(final_data, file = "./data/megatable.csv", row.names = F)
 write.csv(all_long, file = "./data/megatable_long.csv", row.names = F)
-
-
