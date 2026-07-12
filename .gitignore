@@ -14,4 +14,4 @@ revision/figures/**/*.png
 # --- VMP replication layer ---
 # revision/data/vmp/* IS committed on purpose: this repo is PRIVATE until the anonymisation
 # pass. Do not make the repo public without removing or anonymising participant-level data.
-revision/models/fit_vmp.rds
+revision/models/fit_vmp_*.rds

@@ -53,7 +53,12 @@ echo "=== $(date -Is) VMP replication fit starting on $(hostname) ==="
   --backend rstan \
   --adapt-delta 0.99 \
   --max-treedepth 12 \
-  --out revision/models/fit_vmp.rds
+  --out revision/models/fit_vmp_fixed.rds
+
+/usr/bin/time -v Rscript revision/code/03b_fit_vmp.R --relative \
+  --nsub 0 --iter "${HMETAD_ITER:-2000}" --chains 4 --refresh 50 \
+  --backend rstan --adapt-delta 0.99 --max-treedepth 12 \
+  --out revision/models/fit_vmp_relative.rds
 rc=$?
 echo "=== $(date -Is) exit=${rc} ==="
 exit $rc
