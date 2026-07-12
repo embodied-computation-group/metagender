@@ -3,3 +3,10 @@
 .RData
 .Ruserdata
 *.mat
+
+# --- Revision analysis: large / regenerated artifacts (rebuilt on the cluster) ---
+revision/models/*
+!revision/models/.gitkeep
+revision/logs/*
+!revision/logs/.gitkeep
+revision/figures/**/*.png
