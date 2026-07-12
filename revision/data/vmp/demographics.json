@@ -1,0 +1,77 @@
+{
+    "participant_id": {
+        "LongName": "Participant ID in BIDS format",
+        "Description": "Participant specific identification number (sub, sub_id) in BIDS format, e.g.: sub-0001"
+    },
+    "id": {
+        "LongName": "Numeric participant ID",
+        "Description": "numeric variant of the participant specific identification number"
+    },
+    "task": {
+        "LongName": "task identicator",
+        "Description": "string that indicates the task the individual trial belongs to"
+    },
+    "cohort": {
+        "Description": "first (vmp1) or second (vmp2) data collection cohort of the Visceral Mind Project",
+        "Levels": {
+            "vmp1": "first data collection cohort",
+            "vmp2": "second data collection cohort"
+        }
+    },
+    "demographics_basic_ques_english_Metadata": {
+        "Description": "Demographic and Basic Questions"
+    },
+    "gender": {
+        "Description": "What is your gender?",
+        "Levels": {
+            "1.0": "Female",
+            "2.0": "Male",
+            "3.0": "Other"
+        }
+    },
+    "age": {
+        "Description": "What is your age?",
+        "Units": "Years"
+    },
+    "weight": {
+        "Description": "What do you weigh in kilos?",
+        "Units": "Kilos"
+    },
+    "height": {
+        "Description": "How tall are you in cm?",
+        "Units": "cm"
+    },
+    "bmi": {
+        "Description": "BMI",
+        "Units": "BMI"
+    },
+    "handedness": {
+        "Description": "Are you right or left handed?",
+        "Levels": {
+            "1.0": "Right",
+            "2.0": "Left",
+            "3.0": "Ambidextral"
+        }
+    },
+    "head_size": {
+        "Description": "Do you know the circumfrence of your head or can you measure it?",
+        "Levels": {
+            "1.0": "Yes",
+            "0.0": "No"
+        }
+    },
+    "circumfrence_head": {
+        "Description": "What is the circumfrence of your head in cm?",
+        "Units": "Centimeters"
+    },
+    "hat_size": {
+        "Description": "What size would you estimate your head to be in hat-size?",
+        "Levels": {
+            "1.0": "S",
+            "2.0": "M",
+            "3.0": "L",
+            "4.0": "XL",
+            "5.0": "XXL"
+        }
+    }
+}
