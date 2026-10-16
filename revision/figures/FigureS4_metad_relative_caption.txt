@@ -1,0 +1,24 @@
+Gender contrasts (Women - Men) on metacognitive efficiency and metacognitive bias,
+from the unified hierarchical meta-d' model fitted to the first-edition sample (top row;
+318 participants, four domains) and to the VMP replication sample (bottom row; 456
+participants, the same two general knowledge domains). Confidence model: fixed-criterion.
+
+Model. All fifteen distributional parameters of the hmetad family (log M-ratio, d', c and
+the twelve type-2 criterion log-spacings for K = 7) share the linear predictor
+
+    <parameter> ~ 0 + domain + domain:gender + (0 + domain | participant),
+
+with gender sum-coded (+0.5 women / -0.5 men), so domain:gender is the Women - Men contrast
+WITHIN a domain and the domain-general effect is the draw-wise mean of the per-domain
+contrasts rather than a separate coefficient. Priors: domain cell means normal(0, 0.5) on
+log M-ratio and c, normal(1, 0.5) on d', normal(-0.5, 1) on the criteria; every gender
+contrast normal(0, 0.5); sd normal(0, 1); correlations lkj(2).
+
+Panels. Posterior densities with the median and the 66% and 95% quantile intervals, shaded
+vermillion where the contrast favours women and blue where it favours men. The x-axis is
+shared between the two rows within each column. Left: log M-ratio in log units, with the
++/-0.05 log-unit region of practical equivalence shaded grey. Right: meta-Delta averaged
+over the two response sides. meta-Delta is the distance between the average confidence
+criterion and meta-c, so a POSITIVE contrast means women use lower confidence and are LESS
+metacognitively biased. Labels give the Savage-Dickey BF10 against a point null at zero
+and, for log M-ratio, the percentage of the posterior inside the ROPE.

@@ -1,0 +1,3 @@
+Figure S2. Type-1 reaction time by gender and task domain (N = 317; 172 women / 145 men).
+Mean first-order response time in seconds for each participant in each domain, women in vermillion and men in blue;
+half boxplots give the median, quartiles and 1.5 IQR whiskers, with one point per participant beside them, and the y scale is free per panel.

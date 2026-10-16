@@ -1,0 +1,5 @@
+"gender","mod","acc_obs","acc_pred","acc_lo","acc_hi","acc_in_CrI","conf_obs","conf_pred","conf_lo","conf_hi","conf_in_CrI"
+"Masculin","GDP",0.702,0.702,0.696,0.708,TRUE,4.42,4.41,4.38,4.44,TRUE
+"Masculin","Calories",0.709,0.709,0.702,0.715,TRUE,5.33,5.31,5.28,5.33,FALSE
+"Feminin","GDP",0.699,0.699,0.693,0.704,TRUE,3.95,3.95,3.93,3.97,TRUE
+"Feminin","Calories",0.71,0.71,0.705,0.714,TRUE,5.18,5.16,5.14,5.18,TRUE

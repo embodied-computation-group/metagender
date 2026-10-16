@@ -1,0 +1,24 @@
+Figure 3. Local confidence by gender and trial accuracy (N = 317; 172 women / 145 men).
+
+(A) Mean confidence on correct and on incorrect trials, averaged over the four task
+domains. Each grey line is one participant; half boxplots show the median, quartiles and
+1.5 IQR whiskers per gender and accuracy. The colour map on the individual lines used in
+the first edition has been removed (Reviewer 3): the slope of each line already carries
+that information.
+
+(B) Model-implied mean confidence per domain, gender and trial accuracy, posterior mean
+with the 95% highest-density interval, from
+
+    confidence ~ 0 + domain + domain:gender + domain:accuracy + domain:gender:accuracy
+                 + task accuracy + age + education + (1 | participant),
+    sigma      ~ 0 + domain:accuracy,
+
+with gender sum-coded (+0.5 women / -0.5 men), trial accuracy sum-coded (+0.5 correct /
+-0.5 incorrect), domain cell-means coded, and task accuracy the participant's overall
+accuracy in that domain, z-scored within domain (the accuracy control Reviewer 2 asked
+for). Priors: cell means and covariates normal(0, SD(DV)), contrast coefficients (anything
+on gender or trial accuracy) normal(0, 0.5 x SD(DV)), sd normal(0, SD(DV)), sigma
+student_t(3, 0, SD(DV)).
+
+Mean confidence is reported here as a DESCRIPTIVE quantity. It is not a metacognitive bias
+in the normative sense (Reviewer 2); the bias proper is meta-Delta in Figure 4.

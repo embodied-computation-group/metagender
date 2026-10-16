@@ -1,0 +1,9 @@
+"gender","mod","acc_obs","acc_pred","acc_lo","acc_hi","acc_in_CrI","conf_obs","conf_pred","conf_lo","conf_hi","conf_in_CrI"
+"Masculin","memory",0.758,0.759,0.755,0.764,TRUE,4.55,4.56,4.54,4.59,TRUE
+"Masculin","Calories",0.706,0.704,0.697,0.711,TRUE,5.26,5.23,5.21,5.25,FALSE
+"Masculin","GDP",0.703,0.702,0.695,0.709,TRUE,4.66,4.65,4.63,4.68,TRUE
+"Masculin","vision",0.718,0.718,0.713,0.723,TRUE,4.28,4.27,4.25,4.28,FALSE
+"Feminin","memory",0.782,0.783,0.779,0.786,TRUE,4.45,4.47,4.45,4.5,FALSE
+"Feminin","Calories",0.712,0.712,0.705,0.718,TRUE,5.23,5.21,5.18,5.23,TRUE
+"Feminin","GDP",0.698,0.698,0.69,0.704,TRUE,4.04,4.04,4.01,4.07,TRUE
+"Feminin","vision",0.719,0.718,0.714,0.723,TRUE,4.06,4.04,4.02,4.05,FALSE

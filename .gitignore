@@ -1,0 +1,28 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+*.mat
+
+# Local-only revision docs (reviewer reports, submitted manuscript) stay untracked;
+# the manuscript sources, tables and build scripts are versioned. PDFs, Word files
+# and the generated reference.docx are rebuilt by docs/manuscript/build/build.sh
+# and are not.
+docs/*
+!docs/manuscript/
+docs/manuscript/build/*.pdf
+docs/manuscript/build/*.docx
+docs/manuscript/build/install-deps.log
+
+# --- Revision analysis: large / regenerated artifacts (rebuilt on the cluster) ---
+revision/models/*
+!revision/models/.gitkeep
+revision/logs/*
+!revision/logs/.gitkeep
+
+# --- VMP replication layer ---
+revision/models/fit_vmp_*.rds
+revision/interim_results.html
+
+# Raw task code copied from cortex (VMP trivia, Psychtoolbox); reference only, not versioned
+task_code/

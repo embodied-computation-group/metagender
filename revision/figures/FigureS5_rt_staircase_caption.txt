@@ -1,0 +1,27 @@
+Figure S5. The two design confounds Reviewer 3 raised, tested directly.
+
+(A) Raw mean type-1 reaction time per domain and gender, on correct and on error trials
+(mean +/- 95% CI over participants; N = 317).
+
+(B) Posterior gender x accuracy interaction from model 23 -- the Women - Men difference in
+error slowing, per domain and domain-general (the draw-wise mean of the four). A positive
+value means women slow down more after an error than men do. Model:
+
+    RT    ~ 0 + domain + domain:gender + domain:accuracy + domain:gender:accuracy
+            + age + education + (1 | participant),
+    sigma ~ 0 + domain:accuracy,
+
+with gender sum-coded (+0.5 women / -0.5 men) and trial accuracy sum-coded (+0.5 correct /
+-0.5 incorrect).
+
+(C) Raw within-participant SD of the absolute stimulus level, z-scored within domain, per
+domain and gender. Memory used three fixed blockwise difficulty levels rather than a
+staircase and is therefore not shown.
+
+(D) Posterior gender contrast on that quantity from model 24:
+
+    staircase SD (z) ~ 0 + domain + domain:gender + age + education + (1 | participant).
+
+Points and intervals are posterior means with 95% highest-density intervals, coloured
+vermillion where the contrast is positive and blue where it is negative, as in Figure 4.
+Labels give the Savage-Dickey BF10 against a point null at zero.

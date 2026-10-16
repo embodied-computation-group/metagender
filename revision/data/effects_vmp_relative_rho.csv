@@ -1,0 +1,2 @@
+"param","effect","term","mean","hdi_lo","hdi_hi","p_gt0","excludes0"
+"rho(log M)","cor_subj__modGDP__modCalories","cor_subj__modGDP__modCalories",0.104290293144159,-0.0752004189185063,0.278686628969661,0.8745,FALSE

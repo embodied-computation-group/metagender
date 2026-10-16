@@ -1,0 +1,751 @@
+"tag","confidence_model","block","dpar","variable","rhat","ess_bulk","ess_tail"
+"fe_fixed","fixed","domain cell mean","N","b_modmemory",1.00131850596755,3571.85198418966,2695.06118152328
+"fe_fixed","fixed","domain cell mean","N","b_modCalories",1.00082257513633,3379.38605829438,3178.54931016618
+"fe_fixed","fixed","domain cell mean","N","b_modGDP",1.00068927267101,3221.00946875465,3303.0147806351
+"fe_fixed","fixed","domain cell mean","N","b_modvision",1.0017321334103,2833.38604438841,3174.19652311654
+"fe_fixed","fixed","gender contrast","N","b_modmemory:fem_c",1.00085473271732,3423.4596001173,3050.48201476197
+"fe_fixed","fixed","gender contrast","N","b_modCalories:fem_c",0.999971163997959,2191.78369871502,3394.71830964027
+"fe_fixed","fixed","gender contrast","N","b_modGDP:fem_c",1.00047888075376,3263.4770539855,3066.5832345625
+"fe_fixed","fixed","gender contrast","N","b_modvision:fem_c",1.00078336167234,2439.455385896,2780.80962386153
+"fe_fixed","fixed","domain cell mean","dprime","b_dprime_modmemory",1.00675930411407,602.897063020375,1177.13287862832
+"fe_fixed","fixed","domain cell mean","dprime","b_dprime_modCalories",1.00088384088988,8587.93816171602,2613.48685758204
+"fe_fixed","fixed","domain cell mean","dprime","b_dprime_modGDP",1.00041882854389,6053.64752048159,3241.17317516974
+"fe_fixed","fixed","domain cell mean","dprime","b_dprime_modvision",1.00125869250446,7269.37645143036,3272.38424750755
+"fe_fixed","fixed","gender contrast","dprime","b_dprime_modmemory:fem_c",1.00558478098375,697.796614229399,1414.58188676802
+"fe_fixed","fixed","gender contrast","dprime","b_dprime_modCalories:fem_c",1.0006223777937,6149.6008531613,3177.49588831895
+"fe_fixed","fixed","gender contrast","dprime","b_dprime_modGDP:fem_c",0.999686723297204,6155.87488322214,3186.78858449689
+"fe_fixed","fixed","gender contrast","dprime","b_dprime_modvision:fem_c",0.999990030456396,7785.92114703889,2961.3524005107
+"fe_fixed","fixed","domain cell mean","c","b_c_modmemory",1.00108929297508,1917.90176441689,2403.52250186158
+"fe_fixed","fixed","domain cell mean","c","b_c_modCalories",1.00172516122899,6073.48660952192,2811.21097227586
+"fe_fixed","fixed","domain cell mean","c","b_c_modGDP",1.00047272549517,4111.41999617023,3158.21954423169
+"fe_fixed","fixed","domain cell mean","c","b_c_modvision",1.00118601032879,1398.36396032838,1889.0880291516
+"fe_fixed","fixed","gender contrast","c","b_c_modmemory:fem_c",1.0015293737478,1620.39212640798,2422.06351957481
+"fe_fixed","fixed","gender contrast","c","b_c_modCalories:fem_c",0.999738743855902,6103.5282588071,2762.43042598676
+"fe_fixed","fixed","gender contrast","c","b_c_modGDP:fem_c",1.00066893469259,3900.4845158859,3205.68000218579
+"fe_fixed","fixed","gender contrast","c","b_c_modvision:fem_c",1.00423333342241,1456.94381837286,2450.28848780937
+"fe_fixed","fixed","domain cell mean","metac2zero1diff","b_metac2zero1diff_modmemory",1.00774581559124,385.319677422717,585.272921832863
+"fe_fixed","fixed","domain cell mean","metac2zero1diff","b_metac2zero1diff_modCalories",1.00285357137358,1264.41802775506,2051.60796253149
+"fe_fixed","fixed","domain cell mean","metac2zero1diff","b_metac2zero1diff_modGDP",1.0021442918232,908.906681828105,1352.28835815562
+"fe_fixed","fixed","domain cell mean","metac2zero1diff","b_metac2zero1diff_modvision",1.01246718369298,640.459968105672,1418.2210051956
+"fe_fixed","fixed","gender contrast","metac2zero1diff","b_metac2zero1diff_modmemory:fem_c",1.01534128048062,267.839478921481,536.954655500793
+"fe_fixed","fixed","gender contrast","metac2zero1diff","b_metac2zero1diff_modCalories:fem_c",1.00073754300242,1371.76387014763,2017.38897827226
+"fe_fixed","fixed","gender contrast","metac2zero1diff","b_metac2zero1diff_modGDP:fem_c",1.00403678686512,909.854674837858,1833.9264950169
+"fe_fixed","fixed","gender contrast","metac2zero1diff","b_metac2zero1diff_modvision:fem_c",1.00283759992768,800.383335616497,1877.85379924556
+"fe_fixed","fixed","domain cell mean","metac2zero2diff","b_metac2zero2diff_modmemory",1.00296714229469,1075.01359674573,1649.34808526713
+"fe_fixed","fixed","domain cell mean","metac2zero2diff","b_metac2zero2diff_modCalories",1.00171316334766,1788.56706114005,2459.2975692132
+"fe_fixed","fixed","domain cell mean","metac2zero2diff","b_metac2zero2diff_modGDP",1.00293352297746,1615.95055840669,2702.23211972647
+"fe_fixed","fixed","domain cell mean","metac2zero2diff","b_metac2zero2diff_modvision",1.00188709480643,1403.04690069763,2330.65440377694
+"fe_fixed","fixed","gender contrast","metac2zero2diff","b_metac2zero2diff_modmemory:fem_c",1.00458984050254,1000.46025175097,1584.62033998543
+"fe_fixed","fixed","gender contrast","metac2zero2diff","b_metac2zero2diff_modCalories:fem_c",1.00026084239522,1782.51737238593,2551.1634883943
+"fe_fixed","fixed","gender contrast","metac2zero2diff","b_metac2zero2diff_modGDP:fem_c",1.00297464353084,1640.14595169775,2826.39425581687
+"fe_fixed","fixed","gender contrast","metac2zero2diff","b_metac2zero2diff_modvision:fem_c",1.0006408670624,1296.26664022131,1945.2428344872
+"fe_fixed","fixed","domain cell mean","metac2zero3diff","b_metac2zero3diff_modmemory",1.00128298260909,1543.77792678197,2211.90398548093
+"fe_fixed","fixed","domain cell mean","metac2zero3diff","b_metac2zero3diff_modCalories",1.00081887667552,1817.18799473441,2609.33651611316
+"fe_fixed","fixed","domain cell mean","metac2zero3diff","b_metac2zero3diff_modGDP",1.00135502887131,2215.01734169179,2856.19896992754
+"fe_fixed","fixed","domain cell mean","metac2zero3diff","b_metac2zero3diff_modvision",1.00142509782891,1694.5799690236,2086.59521456175
+"fe_fixed","fixed","gender contrast","metac2zero3diff","b_metac2zero3diff_modmemory:fem_c",1.00008733976726,1214.51679623174,2232.98919477865
+"fe_fixed","fixed","gender contrast","metac2zero3diff","b_metac2zero3diff_modCalories:fem_c",1.00223602526517,1516.14184398878,2287.77620499876
+"fe_fixed","fixed","gender contrast","metac2zero3diff","b_metac2zero3diff_modGDP:fem_c",1.00239398856928,1768.2908232698,2965.11223380533
+"fe_fixed","fixed","gender contrast","metac2zero3diff","b_metac2zero3diff_modvision:fem_c",1.00172456598729,1354.28514826111,2040.01975337793
+"fe_fixed","fixed","domain cell mean","metac2zero4diff","b_metac2zero4diff_modmemory",1.00222960653346,1690.31870148161,1966.78643140661
+"fe_fixed","fixed","domain cell mean","metac2zero4diff","b_metac2zero4diff_modCalories",1.00115924280769,2140.08205344534,2733.99163622388
+"fe_fixed","fixed","domain cell mean","metac2zero4diff","b_metac2zero4diff_modGDP",1.00126466251932,2558.04712110549,3201.74552531698
+"fe_fixed","fixed","domain cell mean","metac2zero4diff","b_metac2zero4diff_modvision",1.0006001688631,1614.70020442414,2102.52491634809
+"fe_fixed","fixed","gender contrast","metac2zero4diff","b_metac2zero4diff_modmemory:fem_c",1.00223220535013,1497.233577831,2548.8560343695
+"fe_fixed","fixed","gender contrast","metac2zero4diff","b_metac2zero4diff_modCalories:fem_c",1.00056129727423,1973.02623932318,2276.77782402213
+"fe_fixed","fixed","gender contrast","metac2zero4diff","b_metac2zero4diff_modGDP:fem_c",1.00069788042688,2168.73840073837,3030.47849990681
+"fe_fixed","fixed","gender contrast","metac2zero4diff","b_metac2zero4diff_modvision:fem_c",1.00373466995166,1345.46765749061,2393.07865176434
+"fe_fixed","fixed","domain cell mean","metac2zero5diff","b_metac2zero5diff_modmemory",1.0039890858866,1394.78683399414,2098.44600088697
+"fe_fixed","fixed","domain cell mean","metac2zero5diff","b_metac2zero5diff_modCalories",1.00334720724614,1218.30864366128,2535.46342903092
+"fe_fixed","fixed","domain cell mean","metac2zero5diff","b_metac2zero5diff_modGDP",1.00201706225689,1613.19774057493,2902.33071123603
+"fe_fixed","fixed","domain cell mean","metac2zero5diff","b_metac2zero5diff_modvision",1.00160604585285,1222.7746245795,2483.61735882583
+"fe_fixed","fixed","gender contrast","metac2zero5diff","b_metac2zero5diff_modmemory:fem_c",1.00467771847423,1335.39307684421,1784.19833536337
+"fe_fixed","fixed","gender contrast","metac2zero5diff","b_metac2zero5diff_modCalories:fem_c",1.00198627638103,907.244107167689,1290.99064667451
+"fe_fixed","fixed","gender contrast","metac2zero5diff","b_metac2zero5diff_modGDP:fem_c",1.00148724229448,1991.35775513984,2694.69041101293
+"fe_fixed","fixed","gender contrast","metac2zero5diff","b_metac2zero5diff_modvision:fem_c",1.0007068442557,1192.00683204606,2496.6409032303
+"fe_fixed","fixed","domain cell mean","metac2zero6diff","b_metac2zero6diff_modmemory",1.00103056264611,1006.56679168704,1749.54811001065
+"fe_fixed","fixed","domain cell mean","metac2zero6diff","b_metac2zero6diff_modCalories",1.00119253287613,1631.43970980764,2643.84647672051
+"fe_fixed","fixed","domain cell mean","metac2zero6diff","b_metac2zero6diff_modGDP",1.00043038811361,2163.35028959891,2667.46111237963
+"fe_fixed","fixed","domain cell mean","metac2zero6diff","b_metac2zero6diff_modvision",1.00140831642489,1546.41740320735,1924.11622559961
+"fe_fixed","fixed","gender contrast","metac2zero6diff","b_metac2zero6diff_modmemory:fem_c",1.0015366873497,1242.47184012819,2370.53955413052
+"fe_fixed","fixed","gender contrast","metac2zero6diff","b_metac2zero6diff_modCalories:fem_c",1.0020138244716,1579.39719728174,2513.96594852068
+"fe_fixed","fixed","gender contrast","metac2zero6diff","b_metac2zero6diff_modGDP:fem_c",1.00047111247153,1939.47338260426,2841.59893395796
+"fe_fixed","fixed","gender contrast","metac2zero6diff","b_metac2zero6diff_modvision:fem_c",1.00062983654525,1587.07762208528,2195.59002628172
+"fe_fixed","fixed","domain cell mean","metac2one1diff","b_metac2one1diff_modmemory",1.00307990881133,619.110862121506,1140.26568569158
+"fe_fixed","fixed","domain cell mean","metac2one1diff","b_metac2one1diff_modCalories",1.00061734094643,1924.43008738164,2781.10170595021
+"fe_fixed","fixed","domain cell mean","metac2one1diff","b_metac2one1diff_modGDP",1.00280691185705,1333.30143555184,2078.56743397715
+"fe_fixed","fixed","domain cell mean","metac2one1diff","b_metac2one1diff_modvision",1.00262987541788,1054.84979652505,1433.84101516565
+"fe_fixed","fixed","gender contrast","metac2one1diff","b_metac2one1diff_modmemory:fem_c",1.01161680363293,504.771319497286,872.396813654167
+"fe_fixed","fixed","gender contrast","metac2one1diff","b_metac2one1diff_modCalories:fem_c",1.00429396926783,1475.9863765691,2174.19919702687
+"fe_fixed","fixed","gender contrast","metac2one1diff","b_metac2one1diff_modGDP:fem_c",1.00816573877907,1038.29950943077,1897.50943014475
+"fe_fixed","fixed","gender contrast","metac2one1diff","b_metac2one1diff_modvision:fem_c",1.01088825668634,698.037171521917,1530.10186877562
+"fe_fixed","fixed","domain cell mean","metac2one2diff","b_metac2one2diff_modmemory",1.00301768550759,972.737419928509,1846.67978794973
+"fe_fixed","fixed","domain cell mean","metac2one2diff","b_metac2one2diff_modCalories",1.00187683539378,1835.86838907316,2591.8448806515
+"fe_fixed","fixed","domain cell mean","metac2one2diff","b_metac2one2diff_modGDP",1.00081962013913,1631.96867350774,2321.37326164993
+"fe_fixed","fixed","domain cell mean","metac2one2diff","b_metac2one2diff_modvision",1.00245148233079,988.316041054307,1974.53576602556
+"fe_fixed","fixed","gender contrast","metac2one2diff","b_metac2one2diff_modmemory:fem_c",1.00083715634357,1202.75022576474,2014.25607638567
+"fe_fixed","fixed","gender contrast","metac2one2diff","b_metac2one2diff_modCalories:fem_c",1.00174521453518,1782.26978270596,2604.59747267571
+"fe_fixed","fixed","gender contrast","metac2one2diff","b_metac2one2diff_modGDP:fem_c",1.00011575131763,1473.50745670238,2323.7788216664
+"fe_fixed","fixed","gender contrast","metac2one2diff","b_metac2one2diff_modvision:fem_c",1.00062374770483,1338.86804946726,2098.59838559847
+"fe_fixed","fixed","domain cell mean","metac2one3diff","b_metac2one3diff_modmemory",0.999883337212524,1568.37322993235,2369.28096895521
+"fe_fixed","fixed","domain cell mean","metac2one3diff","b_metac2one3diff_modCalories",1.00118402015527,1965.44489466854,2605.38177781964
+"fe_fixed","fixed","domain cell mean","metac2one3diff","b_metac2one3diff_modGDP",1.0003859065196,2235.96003269998,3150.99295801942
+"fe_fixed","fixed","domain cell mean","metac2one3diff","b_metac2one3diff_modvision",1.00172057487232,1403.36905452358,2150.76566914512
+"fe_fixed","fixed","gender contrast","metac2one3diff","b_metac2one3diff_modmemory:fem_c",1.00297018171156,1379.69807906773,2676.73716363092
+"fe_fixed","fixed","gender contrast","metac2one3diff","b_metac2one3diff_modCalories:fem_c",1.00448145689066,1591.45677613888,2537.5813645614
+"fe_fixed","fixed","gender contrast","metac2one3diff","b_metac2one3diff_modGDP:fem_c",1.00193809035729,2178.88842535954,2720.77115891296
+"fe_fixed","fixed","gender contrast","metac2one3diff","b_metac2one3diff_modvision:fem_c",1.00124779247189,1557.09618151787,2370.42946013979
+"fe_fixed","fixed","domain cell mean","metac2one4diff","b_metac2one4diff_modmemory",1.00154395190361,1643.72605931468,2208.03056121114
+"fe_fixed","fixed","domain cell mean","metac2one4diff","b_metac2one4diff_modCalories",1.00290098833561,2377.06923770268,3106.64929808595
+"fe_fixed","fixed","domain cell mean","metac2one4diff","b_metac2one4diff_modGDP",1.00201291893519,2471.70277534629,2989.54594780931
+"fe_fixed","fixed","domain cell mean","metac2one4diff","b_metac2one4diff_modvision",1.00309104775773,1259.816954659,2286.98430831483
+"fe_fixed","fixed","gender contrast","metac2one4diff","b_metac2one4diff_modmemory:fem_c",1.00016606737937,1975.9708038861,2684.46688817034
+"fe_fixed","fixed","gender contrast","metac2one4diff","b_metac2one4diff_modCalories:fem_c",1.00056700347609,2242.18295221838,2860.26981929504
+"fe_fixed","fixed","gender contrast","metac2one4diff","b_metac2one4diff_modGDP:fem_c",1.00135050578837,2172.14667165701,2748.61391851282
+"fe_fixed","fixed","gender contrast","metac2one4diff","b_metac2one4diff_modvision:fem_c",1.00003958726121,1590.19657805153,2375.17020148604
+"fe_fixed","fixed","domain cell mean","metac2one5diff","b_metac2one5diff_modmemory",1.00064965600295,1617.01605527865,2720.99207371231
+"fe_fixed","fixed","domain cell mean","metac2one5diff","b_metac2one5diff_modCalories",1.00054616684635,1724.10813781719,2404.2491393537
+"fe_fixed","fixed","domain cell mean","metac2one5diff","b_metac2one5diff_modGDP",1.00076199378191,2244.54952886292,2885.05875509426
+"fe_fixed","fixed","domain cell mean","metac2one5diff","b_metac2one5diff_modvision",1.00083173102946,1587.16475197235,2445.21264684633
+"fe_fixed","fixed","gender contrast","metac2one5diff","b_metac2one5diff_modmemory:fem_c",1.00193601671813,1638.81435462714,2401.07593580588
+"fe_fixed","fixed","gender contrast","metac2one5diff","b_metac2one5diff_modCalories:fem_c",1.00114366123068,1523.35832387076,2712.97429748337
+"fe_fixed","fixed","gender contrast","metac2one5diff","b_metac2one5diff_modGDP:fem_c",1.00085515291636,1876.42552874669,2818.0071344465
+"fe_fixed","fixed","gender contrast","metac2one5diff","b_metac2one5diff_modvision:fem_c",1.00289117163129,1646.75141920584,2441.64821918944
+"fe_fixed","fixed","domain cell mean","metac2one6diff","b_metac2one6diff_modmemory",1.00130850397465,1307.78245154855,2154.83125114076
+"fe_fixed","fixed","domain cell mean","metac2one6diff","b_metac2one6diff_modCalories",1.00258404310835,1448.68564380005,2160.76815291455
+"fe_fixed","fixed","domain cell mean","metac2one6diff","b_metac2one6diff_modGDP",1.00088998907398,2059.34275563889,2629.36440863447
+"fe_fixed","fixed","domain cell mean","metac2one6diff","b_metac2one6diff_modvision",1.00412354013749,1421.10054381187,2203.56683451009
+"fe_fixed","fixed","gender contrast","metac2one6diff","b_metac2one6diff_modmemory:fem_c",1.00304052195905,1073.30730253628,1915.39440098101
+"fe_fixed","fixed","gender contrast","metac2one6diff","b_metac2one6diff_modCalories:fem_c",1.00134204133255,1535.98726528412,2522.51352068098
+"fe_fixed","fixed","gender contrast","metac2one6diff","b_metac2one6diff_modGDP:fem_c",1.00088444460299,2027.73123443213,2674.27922687428
+"fe_fixed","fixed","gender contrast","metac2one6diff","b_metac2one6diff_modvision:fem_c",0.99999301664521,1741.63258739358,2480.01508293651
+"fe_fixed","fixed","random-effect SD",NA,"sd_subj__modmemory",1.00256646930217,1327.24530716987,1720.85622371009
+"fe_fixed","fixed","random-effect SD",NA,"sd_subj__modCalories",1.00067846284315,1800.90069868925,2406.1575368355
+"fe_fixed","fixed","random-effect SD",NA,"sd_subj__modGDP",0.999911149192908,1750.03105046567,2780.67693670077
+"fe_fixed","fixed","random-effect SD",NA,"sd_subj__modvision",1.00100844568169,2011.06571425083,2681.86213868736
+"fe_fixed","fixed","random-effect SD",NA,"sd_subj__dprime_modmemory",1.00209185127341,1049.7569273569,2134.6075431714
+"fe_fixed","fixed","random-effect SD",NA,"sd_subj__dprime_modCalories",1.00110683119192,2871.90396171243,2156.57739174467
+"fe_fixed","fixed","random-effect SD",NA,"sd_subj__dprime_modGDP",1.00311706647372,1495.12077222815,1114.38006347672
+"fe_fixed","fixed","random-effect SD",NA,"sd_subj__dprime_modvision",1.00131359210634,2107.1158593052,1725.23064026799
+"fe_fixed","fixed","random-effect SD",NA,"sd_subj__c_modmemory",1.00199356396441,1875.85866207388,2809.76565094854
+"fe_fixed","fixed","random-effect SD",NA,"sd_subj__c_modCalories",1.00245462268919,581.858577034962,730.79496173255
+"fe_fixed","fixed","random-effect SD",NA,"sd_subj__c_modGDP",1.00079415403981,1580.47825649649,2362.67865202341
+"fe_fixed","fixed","random-effect SD",NA,"sd_subj__c_modvision",1.00188505327509,2074.44415268711,2892.10953334736
+"fe_fixed","fixed","random-effect SD",NA,"sd_subj__metac2zero1diff_modmemory",1.00229848226428,630.258695724566,1396.3344684791
+"fe_fixed","fixed","random-effect SD",NA,"sd_subj__metac2zero1diff_modCalories",1.0014567781768,1789.53523822299,2251.25501596467
+"fe_fixed","fixed","random-effect SD",NA,"sd_subj__metac2zero1diff_modGDP",1.00240309839498,1356.31566502853,1977.07629915022
+"fe_fixed","fixed","random-effect SD",NA,"sd_subj__metac2zero1diff_modvision",1.00058553000527,1185.54240913535,2279.62087952301
+"fe_fixed","fixed","random-effect SD",NA,"sd_subj__metac2zero2diff_modmemory",1.00170830470357,1587.14007716135,2375.35355939876
+"fe_fixed","fixed","random-effect SD",NA,"sd_subj__metac2zero2diff_modCalories",0.999999581901384,1699.18641021417,3206.63587123056
+"fe_fixed","fixed","random-effect SD",NA,"sd_subj__metac2zero2diff_modGDP",1.00023653223544,1677.15959087208,2452.05893439721
+"fe_fixed","fixed","random-effect SD",NA,"sd_subj__metac2zero2diff_modvision",1.00112322952883,1475.69841824285,2694.28796960716
+"fe_fixed","fixed","random-effect SD",NA,"sd_subj__metac2zero3diff_modmemory",1.00192542424375,1509.23429403018,2323.87469321185
+"fe_fixed","fixed","random-effect SD",NA,"sd_subj__metac2zero3diff_modCalories",1.00327705716166,1742.0051945023,2372.7982223685
+"fe_fixed","fixed","random-effect SD",NA,"sd_subj__metac2zero3diff_modGDP",1.00157325643739,2281.50780444573,3218.32728780174
+"fe_fixed","fixed","random-effect SD",NA,"sd_subj__metac2zero3diff_modvision",1.00267854278209,1649.34592339428,2621.43351709969
+"fe_fixed","fixed","random-effect SD",NA,"sd_subj__metac2zero4diff_modmemory",1.00417313642391,1856.32876837774,2909.90681677171
+"fe_fixed","fixed","random-effect SD",NA,"sd_subj__metac2zero4diff_modCalories",1.00097715468846,2013.26216587766,2771.47351680019
+"fe_fixed","fixed","random-effect SD",NA,"sd_subj__metac2zero4diff_modGDP",1.003239535975,1962.85246973893,2599.02774826738
+"fe_fixed","fixed","random-effect SD",NA,"sd_subj__metac2zero4diff_modvision",1.00219293724462,1741.05935475534,2383.74805350396
+"fe_fixed","fixed","random-effect SD",NA,"sd_subj__metac2zero5diff_modmemory",1.00075076405919,1369.71788679126,1960.55874349603
+"fe_fixed","fixed","random-effect SD",NA,"sd_subj__metac2zero5diff_modCalories",1.00101212785023,1790.90047473932,2919.94969980021
+"fe_fixed","fixed","random-effect SD",NA,"sd_subj__metac2zero5diff_modGDP",1.00025930291266,1926.302265364,2879.10797903621
+"fe_fixed","fixed","random-effect SD",NA,"sd_subj__metac2zero5diff_modvision",1.00094747632553,1772.20791128648,2830.06898461877
+"fe_fixed","fixed","random-effect SD",NA,"sd_subj__metac2zero6diff_modmemory",1.00108108841526,1625.48976166359,2184.92960234661
+"fe_fixed","fixed","random-effect SD",NA,"sd_subj__metac2zero6diff_modCalories",0.999946687328968,2253.1106384602,3055.72629757528
+"fe_fixed","fixed","random-effect SD",NA,"sd_subj__metac2zero6diff_modGDP",1.00122542787575,2279.07860680621,3047.74530860211
+"fe_fixed","fixed","random-effect SD",NA,"sd_subj__metac2zero6diff_modvision",1.00173804461923,1842.02227566155,2707.93554331549
+"fe_fixed","fixed","random-effect SD",NA,"sd_subj__metac2one1diff_modmemory",1.00248010987098,919.324163780103,1411.37546185862
+"fe_fixed","fixed","random-effect SD",NA,"sd_subj__metac2one1diff_modCalories",1.00031992856935,1776.53013519052,2810.60556896284
+"fe_fixed","fixed","random-effect SD",NA,"sd_subj__metac2one1diff_modGDP",1.00292181819652,1469.047874191,2050.74366852838
+"fe_fixed","fixed","random-effect SD",NA,"sd_subj__metac2one1diff_modvision",1.00133599027993,1052.14238811027,2244.08446110074
+"fe_fixed","fixed","random-effect SD",NA,"sd_subj__metac2one2diff_modmemory",1.0047756166319,1775.3276553286,2573.62108220388
+"fe_fixed","fixed","random-effect SD",NA,"sd_subj__metac2one2diff_modCalories",1.00100178081606,2387.49743500161,3123.10355949548
+"fe_fixed","fixed","random-effect SD",NA,"sd_subj__metac2one2diff_modGDP",1.00063580359368,1612.55852170378,2661.65263315644
+"fe_fixed","fixed","random-effect SD",NA,"sd_subj__metac2one2diff_modvision",1.0047965780022,1506.546467398,2410.36811352047
+"fe_fixed","fixed","random-effect SD",NA,"sd_subj__metac2one3diff_modmemory",1.00109010679681,1818.3469059285,3212.66405480038
+"fe_fixed","fixed","random-effect SD",NA,"sd_subj__metac2one3diff_modCalories",1.00162433595412,1872.07130172955,2474.53591371083
+"fe_fixed","fixed","random-effect SD",NA,"sd_subj__metac2one3diff_modGDP",1.00171280517181,1781.50694191273,2701.14448842733
+"fe_fixed","fixed","random-effect SD",NA,"sd_subj__metac2one3diff_modvision",1.00206281974735,1262.70581468399,2243.9184530845
+"fe_fixed","fixed","random-effect SD",NA,"sd_subj__metac2one4diff_modmemory",1.0024334340242,1943.05798229812,2824.92146815058
+"fe_fixed","fixed","random-effect SD",NA,"sd_subj__metac2one4diff_modCalories",1.00109585989564,2372.03430178105,3040.48346936618
+"fe_fixed","fixed","random-effect SD",NA,"sd_subj__metac2one4diff_modGDP",1.00047113689828,2143.07736095373,3046.55038517064
+"fe_fixed","fixed","random-effect SD",NA,"sd_subj__metac2one4diff_modvision",1.00311983656774,1858.63723322864,2651.93233530491
+"fe_fixed","fixed","random-effect SD",NA,"sd_subj__metac2one5diff_modmemory",1.00120639415471,1856.56625261999,2813.73930275465
+"fe_fixed","fixed","random-effect SD",NA,"sd_subj__metac2one5diff_modCalories",1.00160098336425,1902.63472908159,2930.15296905396
+"fe_fixed","fixed","random-effect SD",NA,"sd_subj__metac2one5diff_modGDP",1.00108410495396,2383.6809357648,3236.24897112049
+"fe_fixed","fixed","random-effect SD",NA,"sd_subj__metac2one5diff_modvision",1.00120881873614,1397.14799631909,2455.48311490562
+"fe_fixed","fixed","random-effect SD",NA,"sd_subj__metac2one6diff_modmemory",1.00175330315564,1524.46444400271,2717.0299835415
+"fe_fixed","fixed","random-effect SD",NA,"sd_subj__metac2one6diff_modCalories",1.00107951117305,2120.34189506537,3364.50227650912
+"fe_fixed","fixed","random-effect SD",NA,"sd_subj__metac2one6diff_modGDP",1.00202563976887,2287.5150297625,2716.37104185072
+"fe_fixed","fixed","random-effect SD",NA,"sd_subj__metac2one6diff_modvision",1.00155357684708,1867.14497624463,2704.27048461815
+"fe_fixed","fixed","between-domain correlation (log M)",NA,"cor_subj__modmemory__modCalories",1.00430498706897,690.61930592296,1332.34944070349
+"fe_fixed","fixed","between-domain correlation (log M)",NA,"cor_subj__modmemory__modGDP",1.00741995385669,754.034322117223,1591.13774660454
+"fe_fixed","fixed","between-domain correlation (log M)",NA,"cor_subj__modCalories__modGDP",1.00580407289906,964.83441533675,1867.95840596033
+"fe_fixed","fixed","between-domain correlation (log M)",NA,"cor_subj__modmemory__modvision",1.01169457778847,574.76827222132,1183.24786092027
+"fe_fixed","fixed","between-domain correlation (log M)",NA,"cor_subj__modCalories__modvision",1.00066383625297,816.699032775822,1534.44439616087
+"fe_fixed","fixed","between-domain correlation (log M)",NA,"cor_subj__modGDP__modvision",1.00235996225683,1014.07175147696,1833.30383035443
+"fe_fixed","fixed","correlation, other dpars (not reported)",NA,"cor_subj__dprime_modmemory__dprime_modCalories",1.00436618198386,6921.4627263975,2742.01367929411
+"fe_fixed","fixed","correlation, other dpars (not reported)",NA,"cor_subj__dprime_modmemory__dprime_modGDP",1.00184815249185,4979.61384479858,2801.75421384861
+"fe_fixed","fixed","correlation, other dpars (not reported)",NA,"cor_subj__dprime_modCalories__dprime_modGDP",0.999911690318897,4268.02421219204,3272.40119309335
+"fe_fixed","fixed","correlation, other dpars (not reported)",NA,"cor_subj__dprime_modmemory__dprime_modvision",1.00454801516709,5475.44365948525,2749.92825064843
+"fe_fixed","fixed","correlation, other dpars (not reported)",NA,"cor_subj__dprime_modCalories__dprime_modvision",1.00010408054501,4551.68360971591,3075.94358023473
+"fe_fixed","fixed","correlation, other dpars (not reported)",NA,"cor_subj__dprime_modGDP__dprime_modvision",1.00064274960628,3643.76669880416,3141.7024838241
+"fe_fixed","fixed","correlation, other dpars (not reported)",NA,"cor_subj__c_modmemory__c_modCalories",1.00112605141022,3206.99573038094,2580.76164494428
+"fe_fixed","fixed","correlation, other dpars (not reported)",NA,"cor_subj__c_modmemory__c_modGDP",1.00059782212142,2423.71671113872,3252.53504151295
+"fe_fixed","fixed","correlation, other dpars (not reported)",NA,"cor_subj__c_modCalories__c_modGDP",1.03115825738525,194.687913530153,336.50435232569
+"fe_fixed","fixed","correlation, other dpars (not reported)",NA,"cor_subj__c_modmemory__c_modvision",1.0065528166885,946.878932156526,1699.76383040605
+"fe_fixed","fixed","correlation, other dpars (not reported)",NA,"cor_subj__c_modCalories__c_modvision",1.11108644631172,36.0737333346755,95.2444378031996
+"fe_fixed","fixed","correlation, other dpars (not reported)",NA,"cor_subj__c_modGDP__c_modvision",1.01536541688536,165.978507021901,792.917531058052
+"fe_fixed","fixed","correlation, other dpars (not reported)",NA,"cor_subj__metac2zero1diff_modmemory__metac2zero1diff_modCalories",1.00107995984294,1964.43376988838,2726.9352624965
+"fe_fixed","fixed","correlation, other dpars (not reported)",NA,"cor_subj__metac2zero1diff_modmemory__metac2zero1diff_modGDP",1.00468377829108,1206.95100669773,2052.7029456051
+"fe_fixed","fixed","correlation, other dpars (not reported)",NA,"cor_subj__metac2zero1diff_modCalories__metac2zero1diff_modGDP",1.00663775790487,573.838786299037,1036.35525259579
+"fe_fixed","fixed","correlation, other dpars (not reported)",NA,"cor_subj__metac2zero1diff_modmemory__metac2zero1diff_modvision",1.00059430533812,1126.59429996847,2147.64463733644
+"fe_fixed","fixed","correlation, other dpars (not reported)",NA,"cor_subj__metac2zero1diff_modCalories__metac2zero1diff_modvision",1.00306083180843,534.515505823839,977.81101768438
+"fe_fixed","fixed","correlation, other dpars (not reported)",NA,"cor_subj__metac2zero1diff_modGDP__metac2zero1diff_modvision",1.00463397143021,1256.02516791732,2370.07055311601
+"fe_fixed","fixed","correlation, other dpars (not reported)",NA,"cor_subj__metac2zero2diff_modmemory__metac2zero2diff_modCalories",1.00134679286707,1023.3719142963,1915.31518866473
+"fe_fixed","fixed","correlation, other dpars (not reported)",NA,"cor_subj__metac2zero2diff_modmemory__metac2zero2diff_modGDP",1.00123395297738,1118.63414570129,2324.61237132017
+"fe_fixed","fixed","correlation, other dpars (not reported)",NA,"cor_subj__metac2zero2diff_modCalories__metac2zero2diff_modGDP",1.00164085936648,1130.5947630633,2318.83023162855
+"fe_fixed","fixed","correlation, other dpars (not reported)",NA,"cor_subj__metac2zero2diff_modmemory__metac2zero2diff_modvision",1.00220692510554,1156.29034038243,2046.85753741412
+"fe_fixed","fixed","correlation, other dpars (not reported)",NA,"cor_subj__metac2zero2diff_modCalories__metac2zero2diff_modvision",1.00416132599453,794.882797751939,1196.70749736062
+"fe_fixed","fixed","correlation, other dpars (not reported)",NA,"cor_subj__metac2zero2diff_modGDP__metac2zero2diff_modvision",1.00299075333926,1294.27081946774,2127.91109355005
+"fe_fixed","fixed","correlation, other dpars (not reported)",NA,"cor_subj__metac2zero3diff_modmemory__metac2zero3diff_modCalories",1.00903028819263,670.242269247989,1254.92669160205
+"fe_fixed","fixed","correlation, other dpars (not reported)",NA,"cor_subj__metac2zero3diff_modmemory__metac2zero3diff_modGDP",1.00379015459687,853.247757778247,1958.77677013711
+"fe_fixed","fixed","correlation, other dpars (not reported)",NA,"cor_subj__metac2zero3diff_modCalories__metac2zero3diff_modGDP",1.00643763219801,1189.57200891124,2193.52782495505
+"fe_fixed","fixed","correlation, other dpars (not reported)",NA,"cor_subj__metac2zero3diff_modmemory__metac2zero3diff_modvision",1.01246572903538,565.109301709082,1558.59573046368
+"fe_fixed","fixed","correlation, other dpars (not reported)",NA,"cor_subj__metac2zero3diff_modCalories__metac2zero3diff_modvision",1.00252560563743,850.994808194243,1622.73102276724
+"fe_fixed","fixed","correlation, other dpars (not reported)",NA,"cor_subj__metac2zero3diff_modGDP__metac2zero3diff_modvision",1.00743200326254,560.581011321268,821.509860228566
+"fe_fixed","fixed","correlation, other dpars (not reported)",NA,"cor_subj__metac2zero4diff_modmemory__metac2zero4diff_modCalories",1.00418138035871,738.69540908634,1458.58520248417
+"fe_fixed","fixed","correlation, other dpars (not reported)",NA,"cor_subj__metac2zero4diff_modmemory__metac2zero4diff_modGDP",1.00311642693058,1139.52844656637,2221.01547082091
+"fe_fixed","fixed","correlation, other dpars (not reported)",NA,"cor_subj__metac2zero4diff_modCalories__metac2zero4diff_modGDP",1.00226894330612,1598.60172386426,2339.06005533128
+"fe_fixed","fixed","correlation, other dpars (not reported)",NA,"cor_subj__metac2zero4diff_modmemory__metac2zero4diff_modvision",1.00358023986816,661.742172910469,1490.1643915883
+"fe_fixed","fixed","correlation, other dpars (not reported)",NA,"cor_subj__metac2zero4diff_modCalories__metac2zero4diff_modvision",1.00378348138545,1010.48654452873,2131.69002464786
+"fe_fixed","fixed","correlation, other dpars (not reported)",NA,"cor_subj__metac2zero4diff_modGDP__metac2zero4diff_modvision",1.00384549422517,532.127375105249,1295.96088288337
+"fe_fixed","fixed","correlation, other dpars (not reported)",NA,"cor_subj__metac2zero5diff_modmemory__metac2zero5diff_modCalories",1.00493581085818,762.932741123008,1540.1030873838
+"fe_fixed","fixed","correlation, other dpars (not reported)",NA,"cor_subj__metac2zero5diff_modmemory__metac2zero5diff_modGDP",1.00343149888623,1346.77812192615,2198.77183688793
+"fe_fixed","fixed","correlation, other dpars (not reported)",NA,"cor_subj__metac2zero5diff_modCalories__metac2zero5diff_modGDP",0.999857934651402,1700.01520789002,2512.10976070126
+"fe_fixed","fixed","correlation, other dpars (not reported)",NA,"cor_subj__metac2zero5diff_modmemory__metac2zero5diff_modvision",1.00187167531894,977.661134397664,1889.33734581653
+"fe_fixed","fixed","correlation, other dpars (not reported)",NA,"cor_subj__metac2zero5diff_modCalories__metac2zero5diff_modvision",1.00378602149659,983.150162008591,1844.93376008204
+"fe_fixed","fixed","correlation, other dpars (not reported)",NA,"cor_subj__metac2zero5diff_modGDP__metac2zero5diff_modvision",1.00311140208663,777.317049852212,1060.92030691485
+"fe_fixed","fixed","correlation, other dpars (not reported)",NA,"cor_subj__metac2zero6diff_modmemory__metac2zero6diff_modCalories",1.00075149699501,1021.45097171104,2015.98974957041
+"fe_fixed","fixed","correlation, other dpars (not reported)",NA,"cor_subj__metac2zero6diff_modmemory__metac2zero6diff_modGDP",1.00053864086792,1455.58624314105,2342.78996821119
+"fe_fixed","fixed","correlation, other dpars (not reported)",NA,"cor_subj__metac2zero6diff_modCalories__metac2zero6diff_modGDP",0.99993732421686,1468.45078924319,2308.32550555532
+"fe_fixed","fixed","correlation, other dpars (not reported)",NA,"cor_subj__metac2zero6diff_modmemory__metac2zero6diff_modvision",1.0030046742411,1009.86141615495,1886.21314616103
+"fe_fixed","fixed","correlation, other dpars (not reported)",NA,"cor_subj__metac2zero6diff_modCalories__metac2zero6diff_modvision",1.00741572561614,829.422714862794,1695.73819740735
+"fe_fixed","fixed","correlation, other dpars (not reported)",NA,"cor_subj__metac2zero6diff_modGDP__metac2zero6diff_modvision",1.00530908828146,799.909095923971,1503.94846863387
+"fe_fixed","fixed","correlation, other dpars (not reported)",NA,"cor_subj__metac2one1diff_modmemory__metac2one1diff_modCalories",1.00262802389537,1607.51927095718,2570.25585681767
+"fe_fixed","fixed","correlation, other dpars (not reported)",NA,"cor_subj__metac2one1diff_modmemory__metac2one1diff_modGDP",1.00203730907279,1032.88827897152,1788.32665318429
+"fe_fixed","fixed","correlation, other dpars (not reported)",NA,"cor_subj__metac2one1diff_modCalories__metac2one1diff_modGDP",1.00521239097181,563.423239694523,1130.61204222719
+"fe_fixed","fixed","correlation, other dpars (not reported)",NA,"cor_subj__metac2one1diff_modmemory__metac2one1diff_modvision",1.00010086985366,1214.06739944576,1941.6459578583
+"fe_fixed","fixed","correlation, other dpars (not reported)",NA,"cor_subj__metac2one1diff_modCalories__metac2one1diff_modvision",1.00604770997705,636.855665068672,1085.30592642551
+"fe_fixed","fixed","correlation, other dpars (not reported)",NA,"cor_subj__metac2one1diff_modGDP__metac2one1diff_modvision",1.00329446642962,1209.64667285577,1753.30808353681
+"fe_fixed","fixed","correlation, other dpars (not reported)",NA,"cor_subj__metac2one2diff_modmemory__metac2one2diff_modCalories",1.00049148449989,1315.71363592011,2136.75519445874
+"fe_fixed","fixed","correlation, other dpars (not reported)",NA,"cor_subj__metac2one2diff_modmemory__metac2one2diff_modGDP",1.00285072210303,1208.94433133983,2074.22913634538
+"fe_fixed","fixed","correlation, other dpars (not reported)",NA,"cor_subj__metac2one2diff_modCalories__metac2one2diff_modGDP",1.00519334967604,787.830019047558,1737.87362531217
+"fe_fixed","fixed","correlation, other dpars (not reported)",NA,"cor_subj__metac2one2diff_modmemory__metac2one2diff_modvision",1.00155955232297,1025.70393343307,1620.37797239165
+"fe_fixed","fixed","correlation, other dpars (not reported)",NA,"cor_subj__metac2one2diff_modCalories__metac2one2diff_modvision",1.01088496846803,840.125960608067,1782.19739373816
+"fe_fixed","fixed","correlation, other dpars (not reported)",NA,"cor_subj__metac2one2diff_modGDP__metac2one2diff_modvision",1.00192040079645,1191.34848186249,1959.77867839811
+"fe_fixed","fixed","correlation, other dpars (not reported)",NA,"cor_subj__metac2one3diff_modmemory__metac2one3diff_modCalories",1.00454301405913,1108.69501818568,2078.3249235836
+"fe_fixed","fixed","correlation, other dpars (not reported)",NA,"cor_subj__metac2one3diff_modmemory__metac2one3diff_modGDP",1.00367522567912,1175.55924252331,1828.66137953617
+"fe_fixed","fixed","correlation, other dpars (not reported)",NA,"cor_subj__metac2one3diff_modCalories__metac2one3diff_modGDP",1.00196596041421,1223.34476247177,1518.40275217216
+"fe_fixed","fixed","correlation, other dpars (not reported)",NA,"cor_subj__metac2one3diff_modmemory__metac2one3diff_modvision",1.00245826488563,837.232831038723,1637.06852732981
+"fe_fixed","fixed","correlation, other dpars (not reported)",NA,"cor_subj__metac2one3diff_modCalories__metac2one3diff_modvision",1.00232223921383,875.197426421509,1776.25473227712
+"fe_fixed","fixed","correlation, other dpars (not reported)",NA,"cor_subj__metac2one3diff_modGDP__metac2one3diff_modvision",1.00519792715434,790.789636827157,1770.66606167203
+"fe_fixed","fixed","correlation, other dpars (not reported)",NA,"cor_subj__metac2one4diff_modmemory__metac2one4diff_modCalories",1.00125666273531,1187.58721643932,2362.40260834948
+"fe_fixed","fixed","correlation, other dpars (not reported)",NA,"cor_subj__metac2one4diff_modmemory__metac2one4diff_modGDP",1.00161936953711,1216.46582268388,2280.59221602787
+"fe_fixed","fixed","correlation, other dpars (not reported)",NA,"cor_subj__metac2one4diff_modCalories__metac2one4diff_modGDP",1.00014470196094,1232.62961184307,1929.22853464457
+"fe_fixed","fixed","correlation, other dpars (not reported)",NA,"cor_subj__metac2one4diff_modmemory__metac2one4diff_modvision",1.00307467042871,792.254986364499,1599.46081507988
+"fe_fixed","fixed","correlation, other dpars (not reported)",NA,"cor_subj__metac2one4diff_modCalories__metac2one4diff_modvision",1.0027074828327,614.659871405474,1087.39337107589
+"fe_fixed","fixed","correlation, other dpars (not reported)",NA,"cor_subj__metac2one4diff_modGDP__metac2one4diff_modvision",1.01033866391338,641.195150628621,1332.39862084723
+"fe_fixed","fixed","correlation, other dpars (not reported)",NA,"cor_subj__metac2one5diff_modmemory__metac2one5diff_modCalories",1.00288369597845,748.066880961564,1561.19599734522
+"fe_fixed","fixed","correlation, other dpars (not reported)",NA,"cor_subj__metac2one5diff_modmemory__metac2one5diff_modGDP",1.00150473476967,1188.71404444128,2222.25806117129
+"fe_fixed","fixed","correlation, other dpars (not reported)",NA,"cor_subj__metac2one5diff_modCalories__metac2one5diff_modGDP",1.00087333635517,1667.14298512624,2463.36605344567
+"fe_fixed","fixed","correlation, other dpars (not reported)",NA,"cor_subj__metac2one5diff_modmemory__metac2one5diff_modvision",1.00253490090803,797.308820552094,1408.61089682426
+"fe_fixed","fixed","correlation, other dpars (not reported)",NA,"cor_subj__metac2one5diff_modCalories__metac2one5diff_modvision",1.00550993433002,964.093243971161,1603.04979596595
+"fe_fixed","fixed","correlation, other dpars (not reported)",NA,"cor_subj__metac2one5diff_modGDP__metac2one5diff_modvision",1.01095360104925,534.409275738424,1205.17398140309
+"fe_fixed","fixed","correlation, other dpars (not reported)",NA,"cor_subj__metac2one6diff_modmemory__metac2one6diff_modCalories",1.00092578168841,1284.51872070131,2203.89022553131
+"fe_fixed","fixed","correlation, other dpars (not reported)",NA,"cor_subj__metac2one6diff_modmemory__metac2one6diff_modGDP",0.999884677383942,1691.18249984627,2637.80664673574
+"fe_fixed","fixed","correlation, other dpars (not reported)",NA,"cor_subj__metac2one6diff_modCalories__metac2one6diff_modGDP",1.00114937478266,1505.58052226303,2499.35282277127
+"fe_fixed","fixed","correlation, other dpars (not reported)",NA,"cor_subj__metac2one6diff_modmemory__metac2one6diff_modvision",1.00528486030513,1050.89553690356,1414.83807638373
+"fe_fixed","fixed","correlation, other dpars (not reported)",NA,"cor_subj__metac2one6diff_modCalories__metac2one6diff_modvision",1.00357676118705,904.916955195459,1744.49286631539
+"fe_fixed","fixed","correlation, other dpars (not reported)",NA,"cor_subj__metac2one6diff_modGDP__metac2one6diff_modvision",1.00371090080695,669.178163361727,1386.12496964796
+"fe_relative","relative","domain cell mean","N","b_modmemory",0.999958427765856,4400.01072502143,3085.2093415238
+"fe_relative","relative","domain cell mean","N","b_modCalories",1.00034187102323,4406.85612177705,2992.77337113497
+"fe_relative","relative","domain cell mean","N","b_modGDP",1.00019838050676,4142.23743486637,3248.45741839719
+"fe_relative","relative","domain cell mean","N","b_modvision",1.0010930233416,3452.5598050735,3005.87833280461
+"fe_relative","relative","gender contrast","N","b_modmemory:fem_c",1.00117189280093,4633.66441313648,3362.60651133413
+"fe_relative","relative","gender contrast","N","b_modCalories:fem_c",1.00040238340351,4062.94123382234,3432.04728967094
+"fe_relative","relative","gender contrast","N","b_modGDP:fem_c",0.99990119201419,4090.12068352825,3467.63257934221
+"fe_relative","relative","gender contrast","N","b_modvision:fem_c",1.00141907720894,3018.13271838597,3016.8641795858
+"fe_relative","relative","domain cell mean","dprime","b_dprime_modmemory",1.00273367704689,926.625112542067,1519.90326349082
+"fe_relative","relative","domain cell mean","dprime","b_dprime_modCalories",1.00045325168952,9060.12278744172,3293.21247013859
+"fe_relative","relative","domain cell mean","dprime","b_dprime_modGDP",0.999982447280921,7539.90361356966,2706.13957723068
+"fe_relative","relative","domain cell mean","dprime","b_dprime_modvision",1.00205766462249,8395.29212585672,2604.72049793267
+"fe_relative","relative","gender contrast","dprime","b_dprime_modmemory:fem_c",1.00562974232612,859.008250650679,1388.69230136514
+"fe_relative","relative","gender contrast","dprime","b_dprime_modCalories:fem_c",1.00056902570282,8296.61058990231,2867.40591953413
+"fe_relative","relative","gender contrast","dprime","b_dprime_modGDP:fem_c",0.999962146810718,8130.19738695862,3206.05156477181
+"fe_relative","relative","gender contrast","dprime","b_dprime_modvision:fem_c",1.0023185373081,8774.68747091332,3332.11979778381
+"fe_relative","relative","domain cell mean","c","b_c_modmemory",1.00169148744104,2141.9669730508,2600.23252742951
+"fe_relative","relative","domain cell mean","c","b_c_modCalories",1.00048686001852,7174.55552413841,3538.44700082633
+"fe_relative","relative","domain cell mean","c","b_c_modGDP",1.00184404293158,5580.2898162938,3352.63205007802
+"fe_relative","relative","domain cell mean","c","b_c_modvision",1.00121092011854,1931.97234439774,2673.10425217683
+"fe_relative","relative","gender contrast","c","b_c_modmemory:fem_c",1.0008478001261,2315.63268195644,2748.30365225472
+"fe_relative","relative","gender contrast","c","b_c_modCalories:fem_c",1.00294601703196,7682.54280527244,3288.90267652048
+"fe_relative","relative","gender contrast","c","b_c_modGDP:fem_c",0.999823466003201,4884.9429940593,2921.49729572411
+"fe_relative","relative","gender contrast","c","b_c_modvision:fem_c",1.00140650614425,1851.74374437155,2327.29459604514
+"fe_relative","relative","domain cell mean","metac2zero1diff","b_metac2zero1diff_modmemory",1.00256525685915,570.182029956033,838.675696542387
+"fe_relative","relative","domain cell mean","metac2zero1diff","b_metac2zero1diff_modCalories",1.00058752428557,2478.02347082331,2900.26578324245
+"fe_relative","relative","domain cell mean","metac2zero1diff","b_metac2zero1diff_modGDP",1.00140665006705,1393.38496473678,2170.53125067914
+"fe_relative","relative","domain cell mean","metac2zero1diff","b_metac2zero1diff_modvision",1.00063109823902,1085.91959250069,2030.34372901617
+"fe_relative","relative","gender contrast","metac2zero1diff","b_metac2zero1diff_modmemory:fem_c",1.01740959969709,443.316754755388,993.956683067548
+"fe_relative","relative","gender contrast","metac2zero1diff","b_metac2zero1diff_modCalories:fem_c",1.00310955528995,1694.23373272173,2691.21400312471
+"fe_relative","relative","gender contrast","metac2zero1diff","b_metac2zero1diff_modGDP:fem_c",1.00410784952929,1275.600641753,1996.68412125288
+"fe_relative","relative","gender contrast","metac2zero1diff","b_metac2zero1diff_modvision:fem_c",1.00888702829932,858.547194955681,1844.95779136039
+"fe_relative","relative","domain cell mean","metac2zero2diff","b_metac2zero2diff_modmemory",1.00263610359442,1212.16238707392,2027.77696296125
+"fe_relative","relative","domain cell mean","metac2zero2diff","b_metac2zero2diff_modCalories",1.00179249459251,2043.96962532812,2676.95460669931
+"fe_relative","relative","domain cell mean","metac2zero2diff","b_metac2zero2diff_modGDP",1.00135105273719,2095.41170684681,2341.19881728433
+"fe_relative","relative","domain cell mean","metac2zero2diff","b_metac2zero2diff_modvision",1.00136070869599,1665.93999588244,2294.9037230151
+"fe_relative","relative","gender contrast","metac2zero2diff","b_metac2zero2diff_modmemory:fem_c",1.0014544393374,1333.73504274607,2066.71763097762
+"fe_relative","relative","gender contrast","metac2zero2diff","b_metac2zero2diff_modCalories:fem_c",1.00219836669678,2019.63689396917,2581.74641899209
+"fe_relative","relative","gender contrast","metac2zero2diff","b_metac2zero2diff_modGDP:fem_c",1.00011510446253,2271.04104828624,2487.59687340113
+"fe_relative","relative","gender contrast","metac2zero2diff","b_metac2zero2diff_modvision:fem_c",1.00349373700888,1781.98208746362,2350.44701180376
+"fe_relative","relative","domain cell mean","metac2zero3diff","b_metac2zero3diff_modmemory",1.0000955245322,1989.43876056656,2668.68439351497
+"fe_relative","relative","domain cell mean","metac2zero3diff","b_metac2zero3diff_modCalories",1.00096562541971,1952.53152204476,2652.12857415776
+"fe_relative","relative","domain cell mean","metac2zero3diff","b_metac2zero3diff_modGDP",1.00097397718112,2588.81659138917,2929.25288629616
+"fe_relative","relative","domain cell mean","metac2zero3diff","b_metac2zero3diff_modvision",1.00188329755844,1653.50535350594,2363.49105107172
+"fe_relative","relative","gender contrast","metac2zero3diff","b_metac2zero3diff_modmemory:fem_c",1.00095633209759,1691.99820625357,2711.64707235419
+"fe_relative","relative","gender contrast","metac2zero3diff","b_metac2zero3diff_modCalories:fem_c",1.00247697416774,2005.81580008216,2481.0437510119
+"fe_relative","relative","gender contrast","metac2zero3diff","b_metac2zero3diff_modGDP:fem_c",1.00191078171096,2538.06107893812,3106.29550350583
+"fe_relative","relative","gender contrast","metac2zero3diff","b_metac2zero3diff_modvision:fem_c",1.00065991807115,1639.94842848495,2447.24011234952
+"fe_relative","relative","domain cell mean","metac2zero4diff","b_metac2zero4diff_modmemory",1.00047335923205,2327.93645566549,2882.80240587345
+"fe_relative","relative","domain cell mean","metac2zero4diff","b_metac2zero4diff_modCalories",1.00101008870379,2599.97410903057,3179.14427065573
+"fe_relative","relative","domain cell mean","metac2zero4diff","b_metac2zero4diff_modGDP",1.00053843343204,2929.18960086367,3194.62499684212
+"fe_relative","relative","domain cell mean","metac2zero4diff","b_metac2zero4diff_modvision",1.00163438112558,2085.94249356419,2612.20005674449
+"fe_relative","relative","gender contrast","metac2zero4diff","b_metac2zero4diff_modmemory:fem_c",1.00043964244391,1770.3607692296,2632.65084593954
+"fe_relative","relative","gender contrast","metac2zero4diff","b_metac2zero4diff_modCalories:fem_c",1.00017585764458,2397.20292083412,2797.64761963698
+"fe_relative","relative","gender contrast","metac2zero4diff","b_metac2zero4diff_modGDP:fem_c",1.00120519982276,2971.54404855011,3181.35030198352
+"fe_relative","relative","gender contrast","metac2zero4diff","b_metac2zero4diff_modvision:fem_c",1.00046572949434,2104.31819078144,2784.17580279247
+"fe_relative","relative","domain cell mean","metac2zero5diff","b_metac2zero5diff_modmemory",1.0010707855804,1910.73482946745,2664.8561045819
+"fe_relative","relative","domain cell mean","metac2zero5diff","b_metac2zero5diff_modCalories",1.00003967850421,1894.08551111361,2534.72485951334
+"fe_relative","relative","domain cell mean","metac2zero5diff","b_metac2zero5diff_modGDP",1.00024400110079,2642.28534994731,3000.17852227198
+"fe_relative","relative","domain cell mean","metac2zero5diff","b_metac2zero5diff_modvision",1.00132850044284,2013.09450468714,2833.83144364219
+"fe_relative","relative","gender contrast","metac2zero5diff","b_metac2zero5diff_modmemory:fem_c",1.00110745379866,1704.08604800443,2616.03880192204
+"fe_relative","relative","gender contrast","metac2zero5diff","b_metac2zero5diff_modCalories:fem_c",1.00147973758603,2015.23191660357,2549.88197725861
+"fe_relative","relative","gender contrast","metac2zero5diff","b_metac2zero5diff_modGDP:fem_c",0.999981482397532,2658.87838242672,3111.08149365382
+"fe_relative","relative","gender contrast","metac2zero5diff","b_metac2zero5diff_modvision:fem_c",1.0017009294343,1975.24426599497,2912.70198736397
+"fe_relative","relative","domain cell mean","metac2zero6diff","b_metac2zero6diff_modmemory",1.0001031335192,1764.81189244677,2560.87108302412
+"fe_relative","relative","domain cell mean","metac2zero6diff","b_metac2zero6diff_modCalories",1.00043602025454,2182.28672603962,2898.01465632614
+"fe_relative","relative","domain cell mean","metac2zero6diff","b_metac2zero6diff_modGDP",1.0003220498568,2963.74042575923,3148.1052473011
+"fe_relative","relative","domain cell mean","metac2zero6diff","b_metac2zero6diff_modvision",1.00103362253091,1833.6441089059,2651.34374328866
+"fe_relative","relative","gender contrast","metac2zero6diff","b_metac2zero6diff_modmemory:fem_c",1.00178390157885,1336.63995425147,2306.17995917697
+"fe_relative","relative","gender contrast","metac2zero6diff","b_metac2zero6diff_modCalories:fem_c",0.999783721941737,2293.49371856593,3057.48663871529
+"fe_relative","relative","gender contrast","metac2zero6diff","b_metac2zero6diff_modGDP:fem_c",1.00004000857812,2852.68266732042,3339.47940572874
+"fe_relative","relative","gender contrast","metac2zero6diff","b_metac2zero6diff_modvision:fem_c",1.00162639973727,2138.08521942686,2734.97964346306
+"fe_relative","relative","domain cell mean","metac2one1diff","b_metac2one1diff_modmemory",1.00172232026284,1012.95233305436,1568.08764988473
+"fe_relative","relative","domain cell mean","metac2one1diff","b_metac2one1diff_modCalories",1.00086538854788,2529.36926893563,2948.52046477442
+"fe_relative","relative","domain cell mean","metac2one1diff","b_metac2one1diff_modGDP",1.00066209515844,1804.65544320287,2329.86623825085
+"fe_relative","relative","domain cell mean","metac2one1diff","b_metac2one1diff_modvision",1.00073633587876,1342.03566600714,2221.42973697832
+"fe_relative","relative","gender contrast","metac2one1diff","b_metac2one1diff_modmemory:fem_c",1.00649177855714,827.768766111254,1667.11909909997
+"fe_relative","relative","gender contrast","metac2one1diff","b_metac2one1diff_modCalories:fem_c",1.00335011550938,2117.2520587628,3050.69189318913
+"fe_relative","relative","gender contrast","metac2one1diff","b_metac2one1diff_modGDP:fem_c",1.00458251018963,1207.65934467411,1996.19093103606
+"fe_relative","relative","gender contrast","metac2one1diff","b_metac2one1diff_modvision:fem_c",1.00277327753089,1327.22412173639,1922.76232207004
+"fe_relative","relative","domain cell mean","metac2one2diff","b_metac2one2diff_modmemory",1.00130438658653,1417.25421582836,2246.36361057792
+"fe_relative","relative","domain cell mean","metac2one2diff","b_metac2one2diff_modCalories",1.00040132380237,2239.27826338395,2800.41209309726
+"fe_relative","relative","domain cell mean","metac2one2diff","b_metac2one2diff_modGDP",1.00063671387567,2355.2887616998,2851.60097478497
+"fe_relative","relative","domain cell mean","metac2one2diff","b_metac2one2diff_modvision",1.00232935941346,1814.19041339192,2940.85887494114
+"fe_relative","relative","gender contrast","metac2one2diff","b_metac2one2diff_modmemory:fem_c",1.00103491369488,1496.38031929771,2481.89665457706
+"fe_relative","relative","gender contrast","metac2one2diff","b_metac2one2diff_modCalories:fem_c",1.00038533646234,2538.68831032295,3162.46924756783
+"fe_relative","relative","gender contrast","metac2one2diff","b_metac2one2diff_modGDP:fem_c",1.00163178295031,2375.14575498593,2793.58287914803
+"fe_relative","relative","gender contrast","metac2one2diff","b_metac2one2diff_modvision:fem_c",1.00045647428648,1779.66542902129,1961.09208302087
+"fe_relative","relative","domain cell mean","metac2one3diff","b_metac2one3diff_modmemory",1.00048939023223,1897.24282577344,2795.76395974678
+"fe_relative","relative","domain cell mean","metac2one3diff","b_metac2one3diff_modCalories",1.00059144156381,2496.89274802541,3036.97501142
+"fe_relative","relative","domain cell mean","metac2one3diff","b_metac2one3diff_modGDP",1.00072929164786,2730.55314260112,2838.29016016029
+"fe_relative","relative","domain cell mean","metac2one3diff","b_metac2one3diff_modvision",1.00024601301408,2022.63693311205,2668.10479532751
+"fe_relative","relative","gender contrast","metac2one3diff","b_metac2one3diff_modmemory:fem_c",1.00116525738995,2196.87440937577,2974.13109264922
+"fe_relative","relative","gender contrast","metac2one3diff","b_metac2one3diff_modCalories:fem_c",1.00100782959449,2192.82289427873,2335.14898678362
+"fe_relative","relative","gender contrast","metac2one3diff","b_metac2one3diff_modGDP:fem_c",1.00001169939988,2981.11981739687,3240.53768807185
+"fe_relative","relative","gender contrast","metac2one3diff","b_metac2one3diff_modvision:fem_c",1.00077478922678,2007.66692124631,2225.7053693831
+"fe_relative","relative","domain cell mean","metac2one4diff","b_metac2one4diff_modmemory",1.00262891511023,1989.32119837847,2670.98675112429
+"fe_relative","relative","domain cell mean","metac2one4diff","b_metac2one4diff_modCalories",1.00062310834548,2476.72860814899,2941.59243902074
+"fe_relative","relative","domain cell mean","metac2one4diff","b_metac2one4diff_modGDP",1.00053967003703,2435.01804394144,3067.67263085999
+"fe_relative","relative","domain cell mean","metac2one4diff","b_metac2one4diff_modvision",1.00270986492896,1710.86696851616,2666.23955102307
+"fe_relative","relative","gender contrast","metac2one4diff","b_metac2one4diff_modmemory:fem_c",1.00208467610977,2083.16864415895,2899.65592860546
+"fe_relative","relative","gender contrast","metac2one4diff","b_metac2one4diff_modCalories:fem_c",1.00029584189126,2546.40892775579,3000.31425733843
+"fe_relative","relative","gender contrast","metac2one4diff","b_metac2one4diff_modGDP:fem_c",0.999686355568083,3137.90124256594,3194.42963307975
+"fe_relative","relative","gender contrast","metac2one4diff","b_metac2one4diff_modvision:fem_c",1.00082208206401,1687.50138423318,2454.18990467752
+"fe_relative","relative","domain cell mean","metac2one5diff","b_metac2one5diff_modmemory",1.00072215782787,1826.09834393079,2269.92664771581
+"fe_relative","relative","domain cell mean","metac2one5diff","b_metac2one5diff_modCalories",1.00021649284429,1979.65202508279,2598.64663798774
+"fe_relative","relative","domain cell mean","metac2one5diff","b_metac2one5diff_modGDP",0.999835257619462,2665.20663600497,2598.84332709532
+"fe_relative","relative","domain cell mean","metac2one5diff","b_metac2one5diff_modvision",1.00079108973284,2111.68707807771,2437.15827643752
+"fe_relative","relative","gender contrast","metac2one5diff","b_metac2one5diff_modmemory:fem_c",1.0008881275531,2184.29917089218,2677.93969695944
+"fe_relative","relative","gender contrast","metac2one5diff","b_metac2one5diff_modCalories:fem_c",1.00130195347974,2130.40279760533,2724.22465270301
+"fe_relative","relative","gender contrast","metac2one5diff","b_metac2one5diff_modGDP:fem_c",1.00178137003424,2656.0057090075,3093.37187194658
+"fe_relative","relative","gender contrast","metac2one5diff","b_metac2one5diff_modvision:fem_c",1.00199802583685,2152.47722254847,2877.68609797128
+"fe_relative","relative","domain cell mean","metac2one6diff","b_metac2one6diff_modmemory",1.00023406030964,1698.12166314623,2474.57561530259
+"fe_relative","relative","domain cell mean","metac2one6diff","b_metac2one6diff_modCalories",1.00187998976366,2000.48149615026,2425.81291524074
+"fe_relative","relative","domain cell mean","metac2one6diff","b_metac2one6diff_modGDP",1.00086753104364,2692.44828831872,2596.48960681396
+"fe_relative","relative","domain cell mean","metac2one6diff","b_metac2one6diff_modvision",1.00070530264657,2244.81919461037,2770.43509857176
+"fe_relative","relative","gender contrast","metac2one6diff","b_metac2one6diff_modmemory:fem_c",1.00209511273772,1516.67534848861,2520.17151480476
+"fe_relative","relative","gender contrast","metac2one6diff","b_metac2one6diff_modCalories:fem_c",1.00291879665747,1992.18322510054,2574.73836523877
+"fe_relative","relative","gender contrast","metac2one6diff","b_metac2one6diff_modGDP:fem_c",1.00104120930084,2556.79486603513,2727.2826804015
+"fe_relative","relative","gender contrast","metac2one6diff","b_metac2one6diff_modvision:fem_c",1.0020199566967,2018.92990226297,2783.12591246077
+"fe_relative","relative","random-effect SD",NA,"sd_subj__modmemory",1.00457432388725,1270.63797250483,2328.74106598377
+"fe_relative","relative","random-effect SD",NA,"sd_subj__modCalories",1.00238721426413,1678.9084498529,2759.10609163048
+"fe_relative","relative","random-effect SD",NA,"sd_subj__modGDP",0.999640204854209,2107.67385913041,2761.82509709199
+"fe_relative","relative","random-effect SD",NA,"sd_subj__modvision",1.00034974337582,2458.71123304414,2865.92710959048
+"fe_relative","relative","random-effect SD",NA,"sd_subj__dprime_modmemory",1.00577646419879,1315.14428920665,2190.73637184466
+"fe_relative","relative","random-effect SD",NA,"sd_subj__dprime_modCalories",1.00077847291952,2882.91950888661,2363.92694575933
+"fe_relative","relative","random-effect SD",NA,"sd_subj__dprime_modGDP",1.00089619549875,1581.30179959934,1809.15787947178
+"fe_relative","relative","random-effect SD",NA,"sd_subj__dprime_modvision",1.00018380624805,2849.22421910393,2494.66056077096
+"fe_relative","relative","random-effect SD",NA,"sd_subj__c_modmemory",1.00275333271954,2036.16568549313,2805.00567474591
+"fe_relative","relative","random-effect SD",NA,"sd_subj__c_modCalories",1.00773286790247,417.684651623943,729.974893679893
+"fe_relative","relative","random-effect SD",NA,"sd_subj__c_modGDP",1.00203920748587,1469.39640208086,2089.76600503261
+"fe_relative","relative","random-effect SD",NA,"sd_subj__c_modvision",1.00001523920706,2149.01566497191,2689.26679011927
+"fe_relative","relative","random-effect SD",NA,"sd_subj__metac2zero1diff_modmemory",1.00590123091725,690.425587505318,1554.36116275627
+"fe_relative","relative","random-effect SD",NA,"sd_subj__metac2zero1diff_modCalories",1.00390988766456,1900.78495446226,2653.81071615637
+"fe_relative","relative","random-effect SD",NA,"sd_subj__metac2zero1diff_modGDP",1.00088481106229,1694.48882150826,2404.80900298889
+"fe_relative","relative","random-effect SD",NA,"sd_subj__metac2zero1diff_modvision",1.00555632181266,1444.98972488817,2306.41496006838
+"fe_relative","relative","random-effect SD",NA,"sd_subj__metac2zero2diff_modmemory",1.00031058034389,1635.60097237514,2342.26681242835
+"fe_relative","relative","random-effect SD",NA,"sd_subj__metac2zero2diff_modCalories",1.00124663678036,2325.30409490453,3063.5568867756
+"fe_relative","relative","random-effect SD",NA,"sd_subj__metac2zero2diff_modGDP",1.00241370370967,2410.73232100816,2986.09782859235
+"fe_relative","relative","random-effect SD",NA,"sd_subj__metac2zero2diff_modvision",1.00042386249105,1804.92555225147,2624.41742922075
+"fe_relative","relative","random-effect SD",NA,"sd_subj__metac2zero3diff_modmemory",1.00132921197585,1706.4039734908,2840.31430727569
+"fe_relative","relative","random-effect SD",NA,"sd_subj__metac2zero3diff_modCalories",1.00066499475486,1747.86973640474,2423.82959106496
+"fe_relative","relative","random-effect SD",NA,"sd_subj__metac2zero3diff_modGDP",1.00178908168611,2436.3850754485,2871.23234832896
+"fe_relative","relative","random-effect SD",NA,"sd_subj__metac2zero3diff_modvision",1.00031141907505,1810.06920649601,2945.59679372982
+"fe_relative","relative","random-effect SD",NA,"sd_subj__metac2zero4diff_modmemory",1.003359957323,2120.42245750962,2822.55074210674
+"fe_relative","relative","random-effect SD",NA,"sd_subj__metac2zero4diff_modCalories",1.00092652385789,2149.3259669492,3311.22177219782
+"fe_relative","relative","random-effect SD",NA,"sd_subj__metac2zero4diff_modGDP",1.00215163716207,2301.20211786631,2441.22748110364
+"fe_relative","relative","random-effect SD",NA,"sd_subj__metac2zero4diff_modvision",1.0013807143678,1941.54885319336,2873.22239858792
+"fe_relative","relative","random-effect SD",NA,"sd_subj__metac2zero5diff_modmemory",1.00136785449625,1628.04653231651,2272.80943039321
+"fe_relative","relative","random-effect SD",NA,"sd_subj__metac2zero5diff_modCalories",1.00281046979741,2078.73854491417,2888.07538277781
+"fe_relative","relative","random-effect SD",NA,"sd_subj__metac2zero5diff_modGDP",1.00027125157578,2503.53608810341,2986.85545809025
+"fe_relative","relative","random-effect SD",NA,"sd_subj__metac2zero5diff_modvision",1.00097816492267,1991.06063765269,2964.97596914518
+"fe_relative","relative","random-effect SD",NA,"sd_subj__metac2zero6diff_modmemory",1.00078585164543,1865.42204542186,2345.4437797232
+"fe_relative","relative","random-effect SD",NA,"sd_subj__metac2zero6diff_modCalories",1.001963721154,2109.52013404319,2728.23105601274
+"fe_relative","relative","random-effect SD",NA,"sd_subj__metac2zero6diff_modGDP",1.00077845456017,2353.89045453559,2776.83870247274
+"fe_relative","relative","random-effect SD",NA,"sd_subj__metac2zero6diff_modvision",1.00274312810034,2180.75890571444,2379.38816060545
+"fe_relative","relative","random-effect SD",NA,"sd_subj__metac2one1diff_modmemory",1.00371815582961,904.950490947792,2041.46111992115
+"fe_relative","relative","random-effect SD",NA,"sd_subj__metac2one1diff_modCalories",0.999616487907448,2286.79048868384,3027.92761265928
+"fe_relative","relative","random-effect SD",NA,"sd_subj__metac2one1diff_modGDP",1.00440839514689,1506.07882992579,2550.40822866293
+"fe_relative","relative","random-effect SD",NA,"sd_subj__metac2one1diff_modvision",1.00307077140531,1641.93835842204,2125.06155221472
+"fe_relative","relative","random-effect SD",NA,"sd_subj__metac2one2diff_modmemory",1.00125288178168,1984.72298853562,2677.28938515875
+"fe_relative","relative","random-effect SD",NA,"sd_subj__metac2one2diff_modCalories",1.00034146371787,2121.43402403207,3067.03588410239
+"fe_relative","relative","random-effect SD",NA,"sd_subj__metac2one2diff_modGDP",1.00059554020773,2018.52837209193,2947.75102700553
+"fe_relative","relative","random-effect SD",NA,"sd_subj__metac2one2diff_modvision",1.00094744385332,1829.98904273616,2489.76203234784
+"fe_relative","relative","random-effect SD",NA,"sd_subj__metac2one3diff_modmemory",1.00220473640419,1987.1414942974,2993.51828733029
+"fe_relative","relative","random-effect SD",NA,"sd_subj__metac2one3diff_modCalories",1.00109194670512,2184.7337031359,3012.85947282304
+"fe_relative","relative","random-effect SD",NA,"sd_subj__metac2one3diff_modGDP",1.0003215661245,2481.76098143931,3513.18072276145
+"fe_relative","relative","random-effect SD",NA,"sd_subj__metac2one3diff_modvision",1.0011197527939,1757.96085259355,2846.2054216447
+"fe_relative","relative","random-effect SD",NA,"sd_subj__metac2one4diff_modmemory",1.00004923216801,1855.83935104356,2621.57093571587
+"fe_relative","relative","random-effect SD",NA,"sd_subj__metac2one4diff_modCalories",1.0004264605142,2461.07305066228,2938.52855831682
+"fe_relative","relative","random-effect SD",NA,"sd_subj__metac2one4diff_modGDP",0.999843345804091,2344.4929627477,3125.84817056486
+"fe_relative","relative","random-effect SD",NA,"sd_subj__metac2one4diff_modvision",1.00190045043719,1859.68863799311,2579.14619166507
+"fe_relative","relative","random-effect SD",NA,"sd_subj__metac2one5diff_modmemory",0.999731099658247,2402.45554761518,3247.47074787418
+"fe_relative","relative","random-effect SD",NA,"sd_subj__metac2one5diff_modCalories",0.999648481184773,2298.96261256366,3027.82484874519
+"fe_relative","relative","random-effect SD",NA,"sd_subj__metac2one5diff_modGDP",0.999970939465612,2550.05451410383,3483.52768639791
+"fe_relative","relative","random-effect SD",NA,"sd_subj__metac2one5diff_modvision",1.00249131617782,2124.38963249882,2644.32400789037
+"fe_relative","relative","random-effect SD",NA,"sd_subj__metac2one6diff_modmemory",1.00175457596374,1757.69915473369,2624.56564122539
+"fe_relative","relative","random-effect SD",NA,"sd_subj__metac2one6diff_modCalories",1.00117710133994,2332.55605940777,2990.79809848058
+"fe_relative","relative","random-effect SD",NA,"sd_subj__metac2one6diff_modGDP",1.00027868608411,2589.25390233309,3050.86361328651
+"fe_relative","relative","random-effect SD",NA,"sd_subj__metac2one6diff_modvision",1.00098459972318,2149.10615487964,2946.64868021268
+"fe_relative","relative","between-domain correlation (log M)",NA,"cor_subj__modmemory__modCalories",1.00489211940549,931.9427777,1737.25518438514
+"fe_relative","relative","between-domain correlation (log M)",NA,"cor_subj__modmemory__modGDP",1.00136266794134,796.162361795238,1474.74253126285
+"fe_relative","relative","between-domain correlation (log M)",NA,"cor_subj__modCalories__modGDP",1.00180364670128,1319.97497182914,2337.67347294355
+"fe_relative","relative","between-domain correlation (log M)",NA,"cor_subj__modmemory__modvision",1.01374224620643,607.641948551087,1115.87119902015
+"fe_relative","relative","between-domain correlation (log M)",NA,"cor_subj__modCalories__modvision",1.00257865257903,1024.9352137665,1988.96138842833
+"fe_relative","relative","between-domain correlation (log M)",NA,"cor_subj__modGDP__modvision",1.00076714072046,1094.76955586948,2133.7767733106
+"fe_relative","relative","correlation, other dpars (not reported)",NA,"cor_subj__dprime_modmemory__dprime_modCalories",1.00285702002631,7311.54391704101,2755.37856758831
+"fe_relative","relative","correlation, other dpars (not reported)",NA,"cor_subj__dprime_modmemory__dprime_modGDP",0.999647737138397,6394.01587022743,2868.53040292672
+"fe_relative","relative","correlation, other dpars (not reported)",NA,"cor_subj__dprime_modCalories__dprime_modGDP",1.000013647841,4082.73096642287,3211.77887098288
+"fe_relative","relative","correlation, other dpars (not reported)",NA,"cor_subj__dprime_modmemory__dprime_modvision",1.00321394562368,8150.66141032134,2576.70768327467
+"fe_relative","relative","correlation, other dpars (not reported)",NA,"cor_subj__dprime_modCalories__dprime_modvision",1.00065630887686,4895.91886946023,3158.47757890084
+"fe_relative","relative","correlation, other dpars (not reported)",NA,"cor_subj__dprime_modGDP__dprime_modvision",1.00040869215472,4277.42468204461,3109.96344492701
+"fe_relative","relative","correlation, other dpars (not reported)",NA,"cor_subj__c_modmemory__c_modCalories",1.00335623313048,3456.40130123643,2416.00945569088
+"fe_relative","relative","correlation, other dpars (not reported)",NA,"cor_subj__c_modmemory__c_modGDP",1.00171246641725,2422.604407987,2813.49507632195
+"fe_relative","relative","correlation, other dpars (not reported)",NA,"cor_subj__c_modCalories__c_modGDP",1.0076390495536,229.288407137926,344.930688055523
+"fe_relative","relative","correlation, other dpars (not reported)",NA,"cor_subj__c_modmemory__c_modvision",1.00230711807999,1121.66423821133,1841.23289198185
+"fe_relative","relative","correlation, other dpars (not reported)",NA,"cor_subj__c_modCalories__c_modvision",1.05906358450885,50.9814520132094,137.563918935839
+"fe_relative","relative","correlation, other dpars (not reported)",NA,"cor_subj__c_modGDP__c_modvision",1.00837515622341,281.342330079728,538.93940444739
+"fe_relative","relative","correlation, other dpars (not reported)",NA,"cor_subj__metac2zero1diff_modmemory__metac2zero1diff_modCalories",1.00014377166778,2423.14770910107,3275.03369178992
+"fe_relative","relative","correlation, other dpars (not reported)",NA,"cor_subj__metac2zero1diff_modmemory__metac2zero1diff_modGDP",1.00103846760516,1273.57702777974,2431.53942465528
+"fe_relative","relative","correlation, other dpars (not reported)",NA,"cor_subj__metac2zero1diff_modCalories__metac2zero1diff_modGDP",1.00463139886718,554.475904009384,1096.72030929042
+"fe_relative","relative","correlation, other dpars (not reported)",NA,"cor_subj__metac2zero1diff_modmemory__metac2zero1diff_modvision",1.00374203138772,1386.39444968005,2464.29083594669
+"fe_relative","relative","correlation, other dpars (not reported)",NA,"cor_subj__metac2zero1diff_modCalories__metac2zero1diff_modvision",1.00250504899863,766.265970583323,1569.02205058186
+"fe_relative","relative","correlation, other dpars (not reported)",NA,"cor_subj__metac2zero1diff_modGDP__metac2zero1diff_modvision",1.00263141521414,1278.90449920137,2302.39827733714
+"fe_relative","relative","correlation, other dpars (not reported)",NA,"cor_subj__metac2zero2diff_modmemory__metac2zero2diff_modCalories",1.00201003307006,1327.86019354328,1833.33599286261
+"fe_relative","relative","correlation, other dpars (not reported)",NA,"cor_subj__metac2zero2diff_modmemory__metac2zero2diff_modGDP",1.0002124782982,1518.14596348767,2321.68353058849
+"fe_relative","relative","correlation, other dpars (not reported)",NA,"cor_subj__metac2zero2diff_modCalories__metac2zero2diff_modGDP",1.0012132418759,1159.62565783034,1773.0453949994
+"fe_relative","relative","correlation, other dpars (not reported)",NA,"cor_subj__metac2zero2diff_modmemory__metac2zero2diff_modvision",1.00160633263649,1408.26136344493,2257.3673588462
+"fe_relative","relative","correlation, other dpars (not reported)",NA,"cor_subj__metac2zero2diff_modCalories__metac2zero2diff_modvision",1.00229985560065,882.919244189421,1627.11391893885
+"fe_relative","relative","correlation, other dpars (not reported)",NA,"cor_subj__metac2zero2diff_modGDP__metac2zero2diff_modvision",1.00151446162487,1206.21500101093,2001.0427030608
+"fe_relative","relative","correlation, other dpars (not reported)",NA,"cor_subj__metac2zero3diff_modmemory__metac2zero3diff_modCalories",1.00412968848999,979.806242416779,2235.47862118289
+"fe_relative","relative","correlation, other dpars (not reported)",NA,"cor_subj__metac2zero3diff_modmemory__metac2zero3diff_modGDP",1.00110418592867,1547.43856022206,2742.03843756378
+"fe_relative","relative","correlation, other dpars (not reported)",NA,"cor_subj__metac2zero3diff_modCalories__metac2zero3diff_modGDP",1.00183192562493,1636.38152622876,2734.08779837178
+"fe_relative","relative","correlation, other dpars (not reported)",NA,"cor_subj__metac2zero3diff_modmemory__metac2zero3diff_modvision",1.00376422899531,985.760237588726,1759.48452052119
+"fe_relative","relative","correlation, other dpars (not reported)",NA,"cor_subj__metac2zero3diff_modCalories__metac2zero3diff_modvision",1.00409887555576,997.656834859797,1831.73199296254
+"fe_relative","relative","correlation, other dpars (not reported)",NA,"cor_subj__metac2zero3diff_modGDP__metac2zero3diff_modvision",1.00398219278942,585.342176144645,1416.57619534072
+"fe_relative","relative","correlation, other dpars (not reported)",NA,"cor_subj__metac2zero4diff_modmemory__metac2zero4diff_modCalories",1.00406623043472,1440.7731328661,2293.21560057796
+"fe_relative","relative","correlation, other dpars (not reported)",NA,"cor_subj__metac2zero4diff_modmemory__metac2zero4diff_modGDP",1.00028986838083,1615.22950610943,2578.09985752342
+"fe_relative","relative","correlation, other dpars (not reported)",NA,"cor_subj__metac2zero4diff_modCalories__metac2zero4diff_modGDP",0.999946026593607,1938.37329052246,2560.00445904588
+"fe_relative","relative","correlation, other dpars (not reported)",NA,"cor_subj__metac2zero4diff_modmemory__metac2zero4diff_modvision",0.999702125014755,1171.8340195929,1996.87368114799
+"fe_relative","relative","correlation, other dpars (not reported)",NA,"cor_subj__metac2zero4diff_modCalories__metac2zero4diff_modvision",1.00314636311326,1050.7302599733,1974.7085006563
+"fe_relative","relative","correlation, other dpars (not reported)",NA,"cor_subj__metac2zero4diff_modGDP__metac2zero4diff_modvision",1.00606715550625,749.748759088023,1887.29025844819
+"fe_relative","relative","correlation, other dpars (not reported)",NA,"cor_subj__metac2zero5diff_modmemory__metac2zero5diff_modCalories",1.0024569738688,1166.94577411354,1992.22899633735
+"fe_relative","relative","correlation, other dpars (not reported)",NA,"cor_subj__metac2zero5diff_modmemory__metac2zero5diff_modGDP",1.00338180208283,1622.70169505856,2385.84586937714
+"fe_relative","relative","correlation, other dpars (not reported)",NA,"cor_subj__metac2zero5diff_modCalories__metac2zero5diff_modGDP",1.0009569743585,1942.98517969002,2974.90555002634
+"fe_relative","relative","correlation, other dpars (not reported)",NA,"cor_subj__metac2zero5diff_modmemory__metac2zero5diff_modvision",1.00534269614027,1137.27894313732,2057.01655112185
+"fe_relative","relative","correlation, other dpars (not reported)",NA,"cor_subj__metac2zero5diff_modCalories__metac2zero5diff_modvision",1.00113688456418,1378.04389496669,2532.8872092152
+"fe_relative","relative","correlation, other dpars (not reported)",NA,"cor_subj__metac2zero5diff_modGDP__metac2zero5diff_modvision",1.00218536619378,749.958949403587,1770.57151803383
+"fe_relative","relative","correlation, other dpars (not reported)",NA,"cor_subj__metac2zero6diff_modmemory__metac2zero6diff_modCalories",1.00273820021479,1468.38701301872,2253.08411035034
+"fe_relative","relative","correlation, other dpars (not reported)",NA,"cor_subj__metac2zero6diff_modmemory__metac2zero6diff_modGDP",1.00059794013786,1974.54781653638,2471.85291009004
+"fe_relative","relative","correlation, other dpars (not reported)",NA,"cor_subj__metac2zero6diff_modCalories__metac2zero6diff_modGDP",1.00169486182949,1465.51123435896,2490.05764185132
+"fe_relative","relative","correlation, other dpars (not reported)",NA,"cor_subj__metac2zero6diff_modmemory__metac2zero6diff_modvision",1.0003882227356,1241.36701793554,2046.71466939623
+"fe_relative","relative","correlation, other dpars (not reported)",NA,"cor_subj__metac2zero6diff_modCalories__metac2zero6diff_modvision",1.00566773786231,929.354363377403,1836.34938315143
+"fe_relative","relative","correlation, other dpars (not reported)",NA,"cor_subj__metac2zero6diff_modGDP__metac2zero6diff_modvision",1.00816938021126,712.339317010365,1635.21887284253
+"fe_relative","relative","correlation, other dpars (not reported)",NA,"cor_subj__metac2one1diff_modmemory__metac2one1diff_modCalories",1.00212031335147,1924.5154078052,2963.30806726147
+"fe_relative","relative","correlation, other dpars (not reported)",NA,"cor_subj__metac2one1diff_modmemory__metac2one1diff_modGDP",1.00664799313319,1149.91471657874,1879.30554700413
+"fe_relative","relative","correlation, other dpars (not reported)",NA,"cor_subj__metac2one1diff_modCalories__metac2one1diff_modGDP",1.00381606492276,565.807708018192,1170.60090622401
+"fe_relative","relative","correlation, other dpars (not reported)",NA,"cor_subj__metac2one1diff_modmemory__metac2one1diff_modvision",1.00076845684141,1374.37297539525,1663.41212607874
+"fe_relative","relative","correlation, other dpars (not reported)",NA,"cor_subj__metac2one1diff_modCalories__metac2one1diff_modvision",1.00334648799667,944.778831970569,1616.81289436156
+"fe_relative","relative","correlation, other dpars (not reported)",NA,"cor_subj__metac2one1diff_modGDP__metac2one1diff_modvision",1.00151691927863,1682.50659754966,2134.89539019649
+"fe_relative","relative","correlation, other dpars (not reported)",NA,"cor_subj__metac2one2diff_modmemory__metac2one2diff_modCalories",1.00223967405346,1543.30534758823,2501.60797913418
+"fe_relative","relative","correlation, other dpars (not reported)",NA,"cor_subj__metac2one2diff_modmemory__metac2one2diff_modGDP",1.00747967861944,1233.24919960454,2074.18206380467
+"fe_relative","relative","correlation, other dpars (not reported)",NA,"cor_subj__metac2one2diff_modCalories__metac2one2diff_modGDP",1.0025860329925,850.387147263423,1903.79417306249
+"fe_relative","relative","correlation, other dpars (not reported)",NA,"cor_subj__metac2one2diff_modmemory__metac2one2diff_modvision",1.0018101393003,1238.0522784634,2015.27586485533
+"fe_relative","relative","correlation, other dpars (not reported)",NA,"cor_subj__metac2one2diff_modCalories__metac2one2diff_modvision",1.00064509380083,1030.8669179354,1915.09909215693
+"fe_relative","relative","correlation, other dpars (not reported)",NA,"cor_subj__metac2one2diff_modGDP__metac2one2diff_modvision",1.0023641380475,1498.32861467657,2591.11220295157
+"fe_relative","relative","correlation, other dpars (not reported)",NA,"cor_subj__metac2one3diff_modmemory__metac2one3diff_modCalories",1.00520796829933,1054.74701053803,2502.44207424146
+"fe_relative","relative","correlation, other dpars (not reported)",NA,"cor_subj__metac2one3diff_modmemory__metac2one3diff_modGDP",1.00335324984316,1425.37802516166,2070.31955721231
+"fe_relative","relative","correlation, other dpars (not reported)",NA,"cor_subj__metac2one3diff_modCalories__metac2one3diff_modGDP",1.00056374478887,1426.10283987507,2128.9366396912
+"fe_relative","relative","correlation, other dpars (not reported)",NA,"cor_subj__metac2one3diff_modmemory__metac2one3diff_modvision",1.00184865935946,910.746575370911,1461.16312319297
+"fe_relative","relative","correlation, other dpars (not reported)",NA,"cor_subj__metac2one3diff_modCalories__metac2one3diff_modvision",1.00172814031744,744.237083072531,1999.76569560743
+"fe_relative","relative","correlation, other dpars (not reported)",NA,"cor_subj__metac2one3diff_modGDP__metac2one3diff_modvision",1.00246766203302,750.901164897398,1675.61690105413
+"fe_relative","relative","correlation, other dpars (not reported)",NA,"cor_subj__metac2one4diff_modmemory__metac2one4diff_modCalories",1.00240428514475,1443.28328679902,2254.86465439718
+"fe_relative","relative","correlation, other dpars (not reported)",NA,"cor_subj__metac2one4diff_modmemory__metac2one4diff_modGDP",1.00116605484279,1462.85182601756,2531.27486834514
+"fe_relative","relative","correlation, other dpars (not reported)",NA,"cor_subj__metac2one4diff_modCalories__metac2one4diff_modGDP",1.00111429891243,1360.90144240691,2222.76172832029
+"fe_relative","relative","correlation, other dpars (not reported)",NA,"cor_subj__metac2one4diff_modmemory__metac2one4diff_modvision",1.00204861317219,894.143543532932,1746.98757787941
+"fe_relative","relative","correlation, other dpars (not reported)",NA,"cor_subj__metac2one4diff_modCalories__metac2one4diff_modvision",1.00318558096376,744.273104861409,1596.81520130511
+"fe_relative","relative","correlation, other dpars (not reported)",NA,"cor_subj__metac2one4diff_modGDP__metac2one4diff_modvision",1.00762880720099,712.415110544983,1142.20302728814
+"fe_relative","relative","correlation, other dpars (not reported)",NA,"cor_subj__metac2one5diff_modmemory__metac2one5diff_modCalories",1.00154785493139,1163.52138864306,1871.23191046036
+"fe_relative","relative","correlation, other dpars (not reported)",NA,"cor_subj__metac2one5diff_modmemory__metac2one5diff_modGDP",1.00158891328132,1579.60334665514,2253.37675622759
+"fe_relative","relative","correlation, other dpars (not reported)",NA,"cor_subj__metac2one5diff_modCalories__metac2one5diff_modGDP",1.00370120152522,1832.7320172046,2787.14276022297
+"fe_relative","relative","correlation, other dpars (not reported)",NA,"cor_subj__metac2one5diff_modmemory__metac2one5diff_modvision",1.00019066093882,1162.88522615948,2112.51290552708
+"fe_relative","relative","correlation, other dpars (not reported)",NA,"cor_subj__metac2one5diff_modCalories__metac2one5diff_modvision",1.0038404138158,1085.34166201623,2300.62057135047
+"fe_relative","relative","correlation, other dpars (not reported)",NA,"cor_subj__metac2one5diff_modGDP__metac2one5diff_modvision",1.00197450435823,911.036634437343,1720.57638303136
+"fe_relative","relative","correlation, other dpars (not reported)",NA,"cor_subj__metac2one6diff_modmemory__metac2one6diff_modCalories",1.00109556256267,1443.46868558958,2609.60586886516
+"fe_relative","relative","correlation, other dpars (not reported)",NA,"cor_subj__metac2one6diff_modmemory__metac2one6diff_modGDP",1.0004504456935,1953.24633529521,2753.91026595621
+"fe_relative","relative","correlation, other dpars (not reported)",NA,"cor_subj__metac2one6diff_modCalories__metac2one6diff_modGDP",1.00121182845969,1541.94028220262,2040.19084703164
+"fe_relative","relative","correlation, other dpars (not reported)",NA,"cor_subj__metac2one6diff_modmemory__metac2one6diff_modvision",1.00281209141354,1203.71351728086,1954.15309826141
+"fe_relative","relative","correlation, other dpars (not reported)",NA,"cor_subj__metac2one6diff_modCalories__metac2one6diff_modvision",1.00596279374761,961.350780551305,2218.84682366874
+"fe_relative","relative","correlation, other dpars (not reported)",NA,"cor_subj__metac2one6diff_modGDP__metac2one6diff_modvision",1.00012543270871,871.959911384531,1791.80069464742
+"vmp_fixed","fixed","domain cell mean","N","b_modGDP",1.00039714772841,1963.88265746619,2155.31342365121
+"vmp_fixed","fixed","domain cell mean","N","b_modCalories",1.00121184599981,1993.77398337382,2388.20069504735
+"vmp_fixed","fixed","gender contrast","N","b_modGDP:fem_c",1.00088221126106,1739.19291768339,2448.56114280187
+"vmp_fixed","fixed","gender contrast","N","b_modCalories:fem_c",1.00071542488518,1870.40987225437,2357.94994375717
+"vmp_fixed","fixed","domain cell mean","dprime","b_dprime_modGDP",1.00035446261253,3572.60529206753,2737.57264038062
+"vmp_fixed","fixed","domain cell mean","dprime","b_dprime_modCalories",1.00027986817193,4409.4547173617,3238.01531562443
+"vmp_fixed","fixed","gender contrast","dprime","b_dprime_modGDP:fem_c",1.0005978385588,3252.54125140846,2855.20513828365
+"vmp_fixed","fixed","gender contrast","dprime","b_dprime_modCalories:fem_c",1.00055625500316,4313.38157220968,3064.66474577982
+"vmp_fixed","fixed","domain cell mean","c","b_c_modGDP",1.00205781413994,3405.10342682535,2796.38667472583
+"vmp_fixed","fixed","domain cell mean","c","b_c_modCalories",1.00000504217598,4318.84792132602,2604.70269463263
+"vmp_fixed","fixed","gender contrast","c","b_c_modGDP:fem_c",1.00081585993342,3620.52342785686,3210.93119470641
+"vmp_fixed","fixed","gender contrast","c","b_c_modCalories:fem_c",1.00089060483744,3864.38658566551,2952.97778876671
+"vmp_fixed","fixed","domain cell mean","metac2zero1diff","b_metac2zero1diff_modGDP",1.01077237565499,546.700396116506,1260.38552882732
+"vmp_fixed","fixed","domain cell mean","metac2zero1diff","b_metac2zero1diff_modCalories",1.00325903761866,1122.11511874078,2054.53192847332
+"vmp_fixed","fixed","gender contrast","metac2zero1diff","b_metac2zero1diff_modGDP:fem_c",1.00714219267941,363.237202315597,753.845627521895
+"vmp_fixed","fixed","gender contrast","metac2zero1diff","b_metac2zero1diff_modCalories:fem_c",1.00140426708548,886.955616039518,2145.96667115704
+"vmp_fixed","fixed","domain cell mean","metac2zero2diff","b_metac2zero2diff_modGDP",1.00414515782675,945.994407834592,1827.91006304473
+"vmp_fixed","fixed","domain cell mean","metac2zero2diff","b_metac2zero2diff_modCalories",1.00124548667816,1272.0029844714,2187.55607696303
+"vmp_fixed","fixed","gender contrast","metac2zero2diff","b_metac2zero2diff_modGDP:fem_c",1.00137547824643,1037.30560273324,2273.69955292118
+"vmp_fixed","fixed","gender contrast","metac2zero2diff","b_metac2zero2diff_modCalories:fem_c",1.00075372972185,1280.45120535023,2022.44038048741
+"vmp_fixed","fixed","domain cell mean","metac2zero3diff","b_metac2zero3diff_modGDP",1.00161647925767,1411.38129682227,2194.21011719772
+"vmp_fixed","fixed","domain cell mean","metac2zero3diff","b_metac2zero3diff_modCalories",0.99999249896815,1364.2713512999,1814.89014552206
+"vmp_fixed","fixed","gender contrast","metac2zero3diff","b_metac2zero3diff_modGDP:fem_c",1.0011309333494,1529.6381355546,2241.68905884415
+"vmp_fixed","fixed","gender contrast","metac2zero3diff","b_metac2zero3diff_modCalories:fem_c",1.00326050386194,1209.21635719088,2174.92910993118
+"vmp_fixed","fixed","domain cell mean","metac2zero4diff","b_metac2zero4diff_modGDP",1.00205177692203,1590.45139487281,1907.5205312055
+"vmp_fixed","fixed","domain cell mean","metac2zero4diff","b_metac2zero4diff_modCalories",1.00068678676785,1556.38792094669,2251.95717125556
+"vmp_fixed","fixed","gender contrast","metac2zero4diff","b_metac2zero4diff_modGDP:fem_c",1.00019982617551,1385.15119676826,2216.38320160472
+"vmp_fixed","fixed","gender contrast","metac2zero4diff","b_metac2zero4diff_modCalories:fem_c",1.00183119432594,1462.30319533433,2576.13881488553
+"vmp_fixed","fixed","domain cell mean","metac2zero5diff","b_metac2zero5diff_modGDP",1.00255099187059,1466.24525780823,2269.79691498957
+"vmp_fixed","fixed","domain cell mean","metac2zero5diff","b_metac2zero5diff_modCalories",1.00178929889643,1376.12528200683,2564.24854267134
+"vmp_fixed","fixed","gender contrast","metac2zero5diff","b_metac2zero5diff_modGDP:fem_c",1.00009689680027,1363.27594640617,2238.65054135703
+"vmp_fixed","fixed","gender contrast","metac2zero5diff","b_metac2zero5diff_modCalories:fem_c",1.00109729351444,1408.61420810086,2137.09514263827
+"vmp_fixed","fixed","domain cell mean","metac2zero6diff","b_metac2zero6diff_modGDP",1.00289168725306,1251.80489885617,1998.64281300089
+"vmp_fixed","fixed","domain cell mean","metac2zero6diff","b_metac2zero6diff_modCalories",1.00291596729292,1346.75305155791,2323.35287394007
+"vmp_fixed","fixed","gender contrast","metac2zero6diff","b_metac2zero6diff_modGDP:fem_c",1.000536834773,1205.00900078587,2118.12752078177
+"vmp_fixed","fixed","gender contrast","metac2zero6diff","b_metac2zero6diff_modCalories:fem_c",1.00218947390815,1233.67955541067,2060.9505932832
+"vmp_fixed","fixed","domain cell mean","metac2one1diff","b_metac2one1diff_modGDP",1.00219506034949,518.883469281722,1143.53378501685
+"vmp_fixed","fixed","domain cell mean","metac2one1diff","b_metac2one1diff_modCalories",1.00155855479877,1356.00339964394,2068.73107632855
+"vmp_fixed","fixed","gender contrast","metac2one1diff","b_metac2one1diff_modGDP:fem_c",1.01365015035816,426.412982895115,619.487450561604
+"vmp_fixed","fixed","gender contrast","metac2one1diff","b_metac2one1diff_modCalories:fem_c",1.00302918883765,1169.00283433476,2133.46767364288
+"vmp_fixed","fixed","domain cell mean","metac2one2diff","b_metac2one2diff_modGDP",1.00346562564154,982.737853305865,2034.67238241564
+"vmp_fixed","fixed","domain cell mean","metac2one2diff","b_metac2one2diff_modCalories",1.00235293534973,1330.30793340733,2406.07130630543
+"vmp_fixed","fixed","gender contrast","metac2one2diff","b_metac2one2diff_modGDP:fem_c",1.00408012963381,939.895741941997,1616.11944658222
+"vmp_fixed","fixed","gender contrast","metac2one2diff","b_metac2one2diff_modCalories:fem_c",1.00137842343404,1046.12776331058,1989.97349963966
+"vmp_fixed","fixed","domain cell mean","metac2one3diff","b_metac2one3diff_modGDP",1.0049594805067,1212.3933099506,2323.47344897276
+"vmp_fixed","fixed","domain cell mean","metac2one3diff","b_metac2one3diff_modCalories",1.00492937354088,1525.1887994337,2194.63665656993
+"vmp_fixed","fixed","gender contrast","metac2one3diff","b_metac2one3diff_modGDP:fem_c",1.00098727757762,1197.16366752688,2140.00665767009
+"vmp_fixed","fixed","gender contrast","metac2one3diff","b_metac2one3diff_modCalories:fem_c",1.00021671034236,1234.90710003794,2162.29373477206
+"vmp_fixed","fixed","domain cell mean","metac2one4diff","b_metac2one4diff_modGDP",1.00084781660322,1745.81354743807,2287.35480852105
+"vmp_fixed","fixed","domain cell mean","metac2one4diff","b_metac2one4diff_modCalories",1.00195606847938,1686.3044366671,2528.89428382756
+"vmp_fixed","fixed","gender contrast","metac2one4diff","b_metac2one4diff_modGDP:fem_c",1.00234568898684,1488.56585959883,2671.79913498108
+"vmp_fixed","fixed","gender contrast","metac2one4diff","b_metac2one4diff_modCalories:fem_c",1.00077200650858,1513.72322562,2064.65731285644
+"vmp_fixed","fixed","domain cell mean","metac2one5diff","b_metac2one5diff_modGDP",1.00111335350415,1570.05283950288,2503.84775716381
+"vmp_fixed","fixed","domain cell mean","metac2one5diff","b_metac2one5diff_modCalories",1.00163106435242,1358.71436331719,2198.14009403449
+"vmp_fixed","fixed","gender contrast","metac2one5diff","b_metac2one5diff_modGDP:fem_c",1.00018177337787,1529.87204548454,2464.37040922081
+"vmp_fixed","fixed","gender contrast","metac2one5diff","b_metac2one5diff_modCalories:fem_c",1.0020255795263,1331.27135958874,2064.32887199655
+"vmp_fixed","fixed","domain cell mean","metac2one6diff","b_metac2one6diff_modGDP",1.00254811788124,1016.61038191902,1650.11888285343
+"vmp_fixed","fixed","domain cell mean","metac2one6diff","b_metac2one6diff_modCalories",1.00125018574682,1086.71475142628,1775.90653339293
+"vmp_fixed","fixed","gender contrast","metac2one6diff","b_metac2one6diff_modGDP:fem_c",1.00282646603192,1111.98672225762,2180.19477147207
+"vmp_fixed","fixed","gender contrast","metac2one6diff","b_metac2one6diff_modCalories:fem_c",1.00329627083795,1095.07720203665,1786.20452401632
+"vmp_fixed","fixed","random-effect SD",NA,"sd_subj__modGDP",1.00118635220712,1260.86726814574,2265.73604035201
+"vmp_fixed","fixed","random-effect SD",NA,"sd_subj__modCalories",1.00313838584708,1720.4208421765,2549.58514732713
+"vmp_fixed","fixed","random-effect SD",NA,"sd_subj__dprime_modGDP",1.00356017332269,925.136797966174,1599.51020348998
+"vmp_fixed","fixed","random-effect SD",NA,"sd_subj__dprime_modCalories",1.00278449251991,1644.94100905634,1508.46852986015
+"vmp_fixed","fixed","random-effect SD",NA,"sd_subj__c_modGDP",1.00090834341526,755.966938862694,1162.86676891068
+"vmp_fixed","fixed","random-effect SD",NA,"sd_subj__c_modCalories",1.00990922369159,405.219765570331,391.817754325696
+"vmp_fixed","fixed","random-effect SD",NA,"sd_subj__metac2zero1diff_modGDP",1.0031127373929,695.370693727249,1246.44022750539
+"vmp_fixed","fixed","random-effect SD",NA,"sd_subj__metac2zero1diff_modCalories",1.00239199646833,1063.33728023999,1667.921073759
+"vmp_fixed","fixed","random-effect SD",NA,"sd_subj__metac2zero2diff_modGDP",1.0016882781791,1220.15849122159,2054.45914038843
+"vmp_fixed","fixed","random-effect SD",NA,"sd_subj__metac2zero2diff_modCalories",1.00237393913102,1385.83918201575,2521.96096733257
+"vmp_fixed","fixed","random-effect SD",NA,"sd_subj__metac2zero3diff_modGDP",1.00293524656915,1509.76777727367,2234.73527267447
+"vmp_fixed","fixed","random-effect SD",NA,"sd_subj__metac2zero3diff_modCalories",1.00260869524924,1397.72267363148,2279.48566079026
+"vmp_fixed","fixed","random-effect SD",NA,"sd_subj__metac2zero4diff_modGDP",1.00071233758454,1899.97992687036,2757.42867451445
+"vmp_fixed","fixed","random-effect SD",NA,"sd_subj__metac2zero4diff_modCalories",1.00276600689015,1254.31747687021,1772.36971374271
+"vmp_fixed","fixed","random-effect SD",NA,"sd_subj__metac2zero5diff_modGDP",1.00218104632606,1536.20091023141,2262.79858742492
+"vmp_fixed","fixed","random-effect SD",NA,"sd_subj__metac2zero5diff_modCalories",1.00071369453669,1631.89096156095,2292.94895551324
+"vmp_fixed","fixed","random-effect SD",NA,"sd_subj__metac2zero6diff_modGDP",1.00230884462054,1491.68461062885,2037.08485264566
+"vmp_fixed","fixed","random-effect SD",NA,"sd_subj__metac2zero6diff_modCalories",1.00049455178341,1421.99505994881,2433.08944501072
+"vmp_fixed","fixed","random-effect SD",NA,"sd_subj__metac2one1diff_modGDP",1.0027951665244,640.991960659195,1235.50542048188
+"vmp_fixed","fixed","random-effect SD",NA,"sd_subj__metac2one1diff_modCalories",1.00291133194443,1012.16466186555,2044.62545336564
+"vmp_fixed","fixed","random-effect SD",NA,"sd_subj__metac2one2diff_modGDP",1.00258318870741,1039.48226706636,1705.61295080162
+"vmp_fixed","fixed","random-effect SD",NA,"sd_subj__metac2one2diff_modCalories",1.00174236485524,1287.94485160924,1791.70352870583
+"vmp_fixed","fixed","random-effect SD",NA,"sd_subj__metac2one3diff_modGDP",1.00405243916752,1417.24621589436,2365.90770046191
+"vmp_fixed","fixed","random-effect SD",NA,"sd_subj__metac2one3diff_modCalories",1.00266359443075,1420.59843805727,2230.78449502984
+"vmp_fixed","fixed","random-effect SD",NA,"sd_subj__metac2one4diff_modGDP",1.00059817497448,1795.59611057265,2522.7883087919
+"vmp_fixed","fixed","random-effect SD",NA,"sd_subj__metac2one4diff_modCalories",1.00031068092185,1337.79625114807,2424.97146714745
+"vmp_fixed","fixed","random-effect SD",NA,"sd_subj__metac2one5diff_modGDP",1.0044769873655,1303.5817926432,2384.61861815341
+"vmp_fixed","fixed","random-effect SD",NA,"sd_subj__metac2one5diff_modCalories",1.00167328169612,1497.71731468434,2461.8798537367
+"vmp_fixed","fixed","random-effect SD",NA,"sd_subj__metac2one6diff_modGDP",1.00051204785883,1589.6469654492,2127.89505863315
+"vmp_fixed","fixed","random-effect SD",NA,"sd_subj__metac2one6diff_modCalories",1.0007370281501,1623.37889597845,2433.85532515863
+"vmp_fixed","fixed","between-domain correlation (log M)",NA,"cor_subj__modGDP__modCalories",1.00547557031873,999.932079457816,1925.22653524255
+"vmp_fixed","fixed","correlation, other dpars (not reported)",NA,"cor_subj__dprime_modGDP__dprime_modCalories",1.00204255310845,3932.12660090671,2918.96575671863
+"vmp_fixed","fixed","correlation, other dpars (not reported)",NA,"cor_subj__c_modGDP__c_modCalories",1.00103903505401,724.381318265945,1140.08316652785
+"vmp_fixed","fixed","correlation, other dpars (not reported)",NA,"cor_subj__metac2zero1diff_modGDP__metac2zero1diff_modCalories",1.00111500851767,968.853221778063,1787.08300141072
+"vmp_fixed","fixed","correlation, other dpars (not reported)",NA,"cor_subj__metac2zero2diff_modGDP__metac2zero2diff_modCalories",1.00350796915282,989.650468414805,1605.54086804682
+"vmp_fixed","fixed","correlation, other dpars (not reported)",NA,"cor_subj__metac2zero3diff_modGDP__metac2zero3diff_modCalories",1.00240148175505,625.449053517536,1293.68353261229
+"vmp_fixed","fixed","correlation, other dpars (not reported)",NA,"cor_subj__metac2zero4diff_modGDP__metac2zero4diff_modCalories",1.0056030882025,618.60373612902,1229.77244391183
+"vmp_fixed","fixed","correlation, other dpars (not reported)",NA,"cor_subj__metac2zero5diff_modGDP__metac2zero5diff_modCalories",1.00751153372703,608.863499483476,1229.77112040672
+"vmp_fixed","fixed","correlation, other dpars (not reported)",NA,"cor_subj__metac2zero6diff_modGDP__metac2zero6diff_modCalories",1.01105194411953,399.981416750004,1021.240361807
+"vmp_fixed","fixed","correlation, other dpars (not reported)",NA,"cor_subj__metac2one1diff_modGDP__metac2one1diff_modCalories",1.00061085841689,1093.24841004968,2119.80869727453
+"vmp_fixed","fixed","correlation, other dpars (not reported)",NA,"cor_subj__metac2one2diff_modGDP__metac2one2diff_modCalories",1.01037969283224,721.755029049409,1508.32307681433
+"vmp_fixed","fixed","correlation, other dpars (not reported)",NA,"cor_subj__metac2one3diff_modGDP__metac2one3diff_modCalories",1.00300355505488,859.126054711843,1191.04988755507
+"vmp_fixed","fixed","correlation, other dpars (not reported)",NA,"cor_subj__metac2one4diff_modGDP__metac2one4diff_modCalories",1.00340898600333,677.38079036073,1225.08605858559
+"vmp_fixed","fixed","correlation, other dpars (not reported)",NA,"cor_subj__metac2one5diff_modGDP__metac2one5diff_modCalories",1.01187075886227,572.420739934626,1128.06330543283
+"vmp_fixed","fixed","correlation, other dpars (not reported)",NA,"cor_subj__metac2one6diff_modGDP__metac2one6diff_modCalories",1.00169056350123,627.854102626417,1341.95528791908
+"vmp_relative","relative","domain cell mean","N","b_modGDP",1.00208590204043,2120.09105142394,2479.02053128983
+"vmp_relative","relative","domain cell mean","N","b_modCalories",1.00036616326689,2244.43842951488,3004.48717449532
+"vmp_relative","relative","gender contrast","N","b_modGDP:fem_c",1.00093467685696,2229.25431571855,2656.81024828993
+"vmp_relative","relative","gender contrast","N","b_modCalories:fem_c",1.00113817706546,2238.77367407318,2814.74293565644
+"vmp_relative","relative","domain cell mean","dprime","b_dprime_modGDP",1.00367661389942,4718.2974416814,3144.08474782679
+"vmp_relative","relative","domain cell mean","dprime","b_dprime_modCalories",1.00078979871572,4885.66605017091,2914.37326891326
+"vmp_relative","relative","gender contrast","dprime","b_dprime_modGDP:fem_c",0.999684455843455,4394.96036922339,3216.50607604274
+"vmp_relative","relative","gender contrast","dprime","b_dprime_modCalories:fem_c",0.999886846334499,4441.47165310802,3396.48538812363
+"vmp_relative","relative","domain cell mean","c","b_c_modGDP",1.00026815494321,4119.88399881401,3190.30317023465
+"vmp_relative","relative","domain cell mean","c","b_c_modCalories",1.00053706094028,5186.39022205935,3009.59784885701
+"vmp_relative","relative","gender contrast","c","b_c_modGDP:fem_c",1.00020721580295,3934.1209548614,3157.65422386058
+"vmp_relative","relative","gender contrast","c","b_c_modCalories:fem_c",1.00080396983933,4851.84113601948,2924.84482378937
+"vmp_relative","relative","domain cell mean","metac2zero1diff","b_metac2zero1diff_modGDP",1.00749348995719,658.573866972767,1420.43169123018
+"vmp_relative","relative","domain cell mean","metac2zero1diff","b_metac2zero1diff_modCalories",1.00077301359016,1146.00917745149,1881.59631125471
+"vmp_relative","relative","gender contrast","metac2zero1diff","b_metac2zero1diff_modGDP:fem_c",1.01557158850304,524.836777762728,1134.87062124934
+"vmp_relative","relative","gender contrast","metac2zero1diff","b_metac2zero1diff_modCalories:fem_c",1.00527022386075,1112.78450926439,2160.44952177959
+"vmp_relative","relative","domain cell mean","metac2zero2diff","b_metac2zero2diff_modGDP",1.00060711690006,1058.23460454159,1932.3269065666
+"vmp_relative","relative","domain cell mean","metac2zero2diff","b_metac2zero2diff_modCalories",1.00144645275335,1511.03341384615,2544.9229018224
+"vmp_relative","relative","gender contrast","metac2zero2diff","b_metac2zero2diff_modGDP:fem_c",1.00242027763849,1033.71273498647,2292.93022800554
+"vmp_relative","relative","gender contrast","metac2zero2diff","b_metac2zero2diff_modCalories:fem_c",1.00235053580177,1331.24686544329,1837.48130730244
+"vmp_relative","relative","domain cell mean","metac2zero3diff","b_metac2zero3diff_modGDP",0.999815052036209,1355.01600813594,2308.85075924344
+"vmp_relative","relative","domain cell mean","metac2zero3diff","b_metac2zero3diff_modCalories",1.0005879875924,1699.9955723115,2638.99444842304
+"vmp_relative","relative","gender contrast","metac2zero3diff","b_metac2zero3diff_modGDP:fem_c",1.00181482719613,1387.96827374455,2653.97513765726
+"vmp_relative","relative","gender contrast","metac2zero3diff","b_metac2zero3diff_modCalories:fem_c",1.000867376016,1604.77584743596,2624.01434538032
+"vmp_relative","relative","domain cell mean","metac2zero4diff","b_metac2zero4diff_modGDP",1.00055704718616,1755.94102527394,2696.40953891407
+"vmp_relative","relative","domain cell mean","metac2zero4diff","b_metac2zero4diff_modCalories",1.00143824670989,1960.57216035851,2761.53716885411
+"vmp_relative","relative","gender contrast","metac2zero4diff","b_metac2zero4diff_modGDP:fem_c",1.00172727815287,1746.7495531288,2677.80489030773
+"vmp_relative","relative","gender contrast","metac2zero4diff","b_metac2zero4diff_modCalories:fem_c",1.00186855073209,1825.45604738012,2727.9402418139
+"vmp_relative","relative","domain cell mean","metac2zero5diff","b_metac2zero5diff_modGDP",1.00249686947691,1538.36361181492,2445.92531134336
+"vmp_relative","relative","domain cell mean","metac2zero5diff","b_metac2zero5diff_modCalories",1.00180795754093,1706.18693233931,2327.93234436052
+"vmp_relative","relative","gender contrast","metac2zero5diff","b_metac2zero5diff_modGDP:fem_c",1.00269816725613,1568.23139261341,2379.12731080436
+"vmp_relative","relative","gender contrast","metac2zero5diff","b_metac2zero5diff_modCalories:fem_c",1.00074020585014,1866.65414615436,2592.52206774886
+"vmp_relative","relative","domain cell mean","metac2zero6diff","b_metac2zero6diff_modGDP",1.00216079597191,1144.74169773269,1962.73145198032
+"vmp_relative","relative","domain cell mean","metac2zero6diff","b_metac2zero6diff_modCalories",1.00322150306964,1246.33258036442,2110.21116109352
+"vmp_relative","relative","gender contrast","metac2zero6diff","b_metac2zero6diff_modGDP:fem_c",1.00011246020787,1207.45305593438,2158.03784437644
+"vmp_relative","relative","gender contrast","metac2zero6diff","b_metac2zero6diff_modCalories:fem_c",1.00108849404611,1166.46145573459,2085.88914953351
+"vmp_relative","relative","domain cell mean","metac2one1diff","b_metac2one1diff_modGDP",1.00214633824386,810.482770668836,1282.64271515316
+"vmp_relative","relative","domain cell mean","metac2one1diff","b_metac2one1diff_modCalories",1.00150598094625,1631.27310451631,2568.59381489225
+"vmp_relative","relative","gender contrast","metac2one1diff","b_metac2one1diff_modGDP:fem_c",1.00627257435344,563.347277584347,1088.14863371428
+"vmp_relative","relative","gender contrast","metac2one1diff","b_metac2one1diff_modCalories:fem_c",1.0013504430921,1227.19225993896,2032.15243794736
+"vmp_relative","relative","domain cell mean","metac2one2diff","b_metac2one2diff_modGDP",1.00291413648518,1057.27475326898,2082.35134922749
+"vmp_relative","relative","domain cell mean","metac2one2diff","b_metac2one2diff_modCalories",1.00328952412034,1402.44457308686,2551.78275381427
+"vmp_relative","relative","gender contrast","metac2one2diff","b_metac2one2diff_modGDP:fem_c",1.00549220312915,1026.0912530816,1772.92800602252
+"vmp_relative","relative","gender contrast","metac2one2diff","b_metac2one2diff_modCalories:fem_c",1.00526036535176,1650.87280264683,2529.57494321226
+"vmp_relative","relative","domain cell mean","metac2one3diff","b_metac2one3diff_modGDP",1.00181767772135,1285.13706280713,2472.37357481717
+"vmp_relative","relative","domain cell mean","metac2one3diff","b_metac2one3diff_modCalories",1.00142899346795,1479.77075459091,2385.64097123807
+"vmp_relative","relative","gender contrast","metac2one3diff","b_metac2one3diff_modGDP:fem_c",1.00101995069195,1263.23216380332,2445.77363736069
+"vmp_relative","relative","gender contrast","metac2one3diff","b_metac2one3diff_modCalories:fem_c",1.00354758378329,1472.47605436945,2421.6542545862
+"vmp_relative","relative","domain cell mean","metac2one4diff","b_metac2one4diff_modGDP",1.00145997499138,1918.04743474552,2663.46903107906
+"vmp_relative","relative","domain cell mean","metac2one4diff","b_metac2one4diff_modCalories",0.999817852395665,1992.57248643666,2539.53717326811
+"vmp_relative","relative","gender contrast","metac2one4diff","b_metac2one4diff_modGDP:fem_c",1.00039098394152,1937.25515458544,2372.7734821722
+"vmp_relative","relative","gender contrast","metac2one4diff","b_metac2one4diff_modCalories:fem_c",1.00109084373231,1864.86302362432,2557.9742957604
+"vmp_relative","relative","domain cell mean","metac2one5diff","b_metac2one5diff_modGDP",1.00061306983057,1740.05893064258,2741.39117058116
+"vmp_relative","relative","domain cell mean","metac2one5diff","b_metac2one5diff_modCalories",1.00277836764981,1723.97741350781,2680.52500726876
+"vmp_relative","relative","gender contrast","metac2one5diff","b_metac2one5diff_modGDP:fem_c",1.0010362480532,1753.44793494089,2134.39318269329
+"vmp_relative","relative","gender contrast","metac2one5diff","b_metac2one5diff_modCalories:fem_c",1.00116500733977,1827.93221225957,2672.43245258363
+"vmp_relative","relative","domain cell mean","metac2one6diff","b_metac2one6diff_modGDP",1.00149539632852,1524.29157331232,2411.32448736034
+"vmp_relative","relative","domain cell mean","metac2one6diff","b_metac2one6diff_modCalories",1.00188289789692,1528.61958891572,2247.50366108221
+"vmp_relative","relative","gender contrast","metac2one6diff","b_metac2one6diff_modGDP:fem_c",1.00290114001537,1473.01515106025,2203.62102942008
+"vmp_relative","relative","gender contrast","metac2one6diff","b_metac2one6diff_modCalories:fem_c",1.00495247424103,1219.1407524154,1921.11439320521
+"vmp_relative","relative","random-effect SD",NA,"sd_subj__modGDP",1.00127390974433,1496.08461104585,2267.02332073902
+"vmp_relative","relative","random-effect SD",NA,"sd_subj__modCalories",1.00102756970476,1422.03552280318,2366.33970854859
+"vmp_relative","relative","random-effect SD",NA,"sd_subj__dprime_modGDP",1.00282395159041,998.15857606297,1789.25308800394
+"vmp_relative","relative","random-effect SD",NA,"sd_subj__dprime_modCalories",1.00139303141183,2433.57878394568,2170.7806631991
+"vmp_relative","relative","random-effect SD",NA,"sd_subj__c_modGDP",1.01166369661404,386.111870080835,546.288780308431
+"vmp_relative","relative","random-effect SD",NA,"sd_subj__c_modCalories",1.00518332454965,545.623666074315,393.539895148043
+"vmp_relative","relative","random-effect SD",NA,"sd_subj__metac2zero1diff_modGDP",1.01396555105498,538.24048290818,1343.93276744526
+"vmp_relative","relative","random-effect SD",NA,"sd_subj__metac2zero1diff_modCalories",1.00641850584582,1058.0410976941,2135.79395871705
+"vmp_relative","relative","random-effect SD",NA,"sd_subj__metac2zero2diff_modGDP",1.00104290729624,1277.69965544345,2475.94728210537
+"vmp_relative","relative","random-effect SD",NA,"sd_subj__metac2zero2diff_modCalories",1.00400216400852,1270.49787747221,2175.26989434098
+"vmp_relative","relative","random-effect SD",NA,"sd_subj__metac2zero3diff_modGDP",1.00034698020465,1471.80563970025,2071.87262651252
+"vmp_relative","relative","random-effect SD",NA,"sd_subj__metac2zero3diff_modCalories",1.00473482867214,1382.41409962387,2342.07701051482
+"vmp_relative","relative","random-effect SD",NA,"sd_subj__metac2zero4diff_modGDP",1.00066452889094,1868.9859812607,2497.99591517371
+"vmp_relative","relative","random-effect SD",NA,"sd_subj__metac2zero4diff_modCalories",1.00268189962848,1630.28168096781,2417.47900766974
+"vmp_relative","relative","random-effect SD",NA,"sd_subj__metac2zero5diff_modGDP",1.00389442707995,1861.76580223117,2069.03504406091
+"vmp_relative","relative","random-effect SD",NA,"sd_subj__metac2zero5diff_modCalories",1.00125684394734,1578.90724973144,2515.76896757773
+"vmp_relative","relative","random-effect SD",NA,"sd_subj__metac2zero6diff_modGDP",0.999676159290037,1454.81786016556,2213.12028441461
+"vmp_relative","relative","random-effect SD",NA,"sd_subj__metac2zero6diff_modCalories",1.00028766547055,1619.28400252558,2632.64690082194
+"vmp_relative","relative","random-effect SD",NA,"sd_subj__metac2one1diff_modGDP",1.00164852383374,696.49748597309,1332.37040403146
+"vmp_relative","relative","random-effect SD",NA,"sd_subj__metac2one1diff_modCalories",1.00120096707233,1321.48245266052,2283.7952946647
+"vmp_relative","relative","random-effect SD",NA,"sd_subj__metac2one2diff_modGDP",1.00140823687247,1462.97337529341,2231.90580365358
+"vmp_relative","relative","random-effect SD",NA,"sd_subj__metac2one2diff_modCalories",1.00256758486033,1193.77162029326,1798.84793216297
+"vmp_relative","relative","random-effect SD",NA,"sd_subj__metac2one3diff_modGDP",1.00148110705306,1780.6162404312,2720.42608605796
+"vmp_relative","relative","random-effect SD",NA,"sd_subj__metac2one3diff_modCalories",1.00261734452668,1592.12750314847,2509.18197697463
+"vmp_relative","relative","random-effect SD",NA,"sd_subj__metac2one4diff_modGDP",1.00110275738043,2066.78075066798,2791.53876464289
+"vmp_relative","relative","random-effect SD",NA,"sd_subj__metac2one4diff_modCalories",1.00139531815392,1663.81213505913,2276.17356584851
+"vmp_relative","relative","random-effect SD",NA,"sd_subj__metac2one5diff_modGDP",1.000513380298,1750.29660074475,2684.78504664362
+"vmp_relative","relative","random-effect SD",NA,"sd_subj__metac2one5diff_modCalories",1.00130641871531,1427.06211419269,2381.92973990875
+"vmp_relative","relative","random-effect SD",NA,"sd_subj__metac2one6diff_modGDP",1.00143195737378,1546.77174841384,2180.23574221058
+"vmp_relative","relative","random-effect SD",NA,"sd_subj__metac2one6diff_modCalories",1.00404887484748,1659.27157712206,2303.50584276946
+"vmp_relative","relative","between-domain correlation (log M)",NA,"cor_subj__modGDP__modCalories",1.00181542849827,1090.52093870948,1633.38588222528
+"vmp_relative","relative","correlation, other dpars (not reported)",NA,"cor_subj__dprime_modGDP__dprime_modCalories",1.00043886082301,4455.01211710875,2912.32743905404
+"vmp_relative","relative","correlation, other dpars (not reported)",NA,"cor_subj__c_modGDP__c_modCalories",1.00132064850386,866.818582118557,1490.56297672039
+"vmp_relative","relative","correlation, other dpars (not reported)",NA,"cor_subj__metac2zero1diff_modGDP__metac2zero1diff_modCalories",1.00280527500696,1272.49076599651,2464.07335868428
+"vmp_relative","relative","correlation, other dpars (not reported)",NA,"cor_subj__metac2zero2diff_modGDP__metac2zero2diff_modCalories",1.00796969908134,1066.54067597896,1846.98451658785
+"vmp_relative","relative","correlation, other dpars (not reported)",NA,"cor_subj__metac2zero3diff_modGDP__metac2zero3diff_modCalories",1.00350558613422,738.337369589678,1576.40334251959
+"vmp_relative","relative","correlation, other dpars (not reported)",NA,"cor_subj__metac2zero4diff_modGDP__metac2zero4diff_modCalories",1.00198782383471,787.574296118598,1555.71847619157
+"vmp_relative","relative","correlation, other dpars (not reported)",NA,"cor_subj__metac2zero5diff_modGDP__metac2zero5diff_modCalories",1.0033356033462,585.215847255844,1157.84092979436
+"vmp_relative","relative","correlation, other dpars (not reported)",NA,"cor_subj__metac2zero6diff_modGDP__metac2zero6diff_modCalories",1.00655054711204,596.973581733187,1335.5700237428
+"vmp_relative","relative","correlation, other dpars (not reported)",NA,"cor_subj__metac2one1diff_modGDP__metac2one1diff_modCalories",1.00126864492676,1176.82204276743,1927.5811336648
+"vmp_relative","relative","correlation, other dpars (not reported)",NA,"cor_subj__metac2one2diff_modGDP__metac2one2diff_modCalories",1.00644469363199,1012.23807725975,1459.73793444956
+"vmp_relative","relative","correlation, other dpars (not reported)",NA,"cor_subj__metac2one3diff_modGDP__metac2one3diff_modCalories",1.00407726542331,863.151671633703,1616.88988757499
+"vmp_relative","relative","correlation, other dpars (not reported)",NA,"cor_subj__metac2one4diff_modGDP__metac2one4diff_modCalories",1.00733969367331,677.257579155627,1379.52417889254
+"vmp_relative","relative","correlation, other dpars (not reported)",NA,"cor_subj__metac2one5diff_modGDP__metac2one5diff_modCalories",1.0041122483247,629.702133737452,1065.6696569685
+"vmp_relative","relative","correlation, other dpars (not reported)",NA,"cor_subj__metac2one6diff_modGDP__metac2one6diff_modCalories",1.00987831629889,638.142895821682,1199.04511962549

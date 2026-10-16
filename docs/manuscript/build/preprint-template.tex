@@ -1,0 +1,153 @@
+% preprint-template.tex -- pandoc template for the `preprint` target.
+%
+% Typesets the clean manuscript in the HenriquesLab preprint class (two columns,
+% Times, sans headings) with the bioRxiv branding removed: the footers carry the
+% lead author, short title and page number only, links are black, and the
+% abstract is set in roman rather than bold. preprint.lua supplies every
+% variable used below from 00_frontmatter.md and preprint-metadata.yaml.
+\documentclass[times,twoside,rmabstract]{zHenriquesLab-StyleBioRxiv}
+
+% --- Unicode for pdflatex (the class loads inputenc/fontenc itself) -----------
+\usepackage{newunicodechar}
+\newunicodechar{′}{\ensuremath{^{\prime}}}
+\newunicodechar{Δ}{\ensuremath{\Delta}}
+\newunicodechar{×}{\ensuremath{\times}}
+\newunicodechar{−}{\ensuremath{-}}
+\newunicodechar{≤}{\ensuremath{\leq}}
+\newunicodechar{≥}{\ensuremath{\geq}}
+\newunicodechar{≈}{\ensuremath{\approx}}
+\newunicodechar{±}{\ensuremath{\pm}}
+\newunicodechar{→}{\ensuremath{\rightarrow}}
+\newunicodechar{ⁿ}{\textsuperscript{n}}
+\newunicodechar{⁰}{\textsuperscript{0}}
+\newunicodechar{¹}{\textsuperscript{1}}
+\newunicodechar{²}{\textsuperscript{2}}
+\newunicodechar{³}{\textsuperscript{3}}
+\newunicodechar{⁴}{\textsuperscript{4}}
+\newunicodechar{⁵}{\textsuperscript{5}}
+\newunicodechar{⁶}{\textsuperscript{6}}
+\newunicodechar{⁷}{\textsuperscript{7}}
+\newunicodechar{⁸}{\textsuperscript{8}}
+\newunicodechar{⁹}{\textsuperscript{9}}
+\newunicodechar{α}{\ensuremath{\alpha}}
+\newunicodechar{β}{\ensuremath{\beta}}
+\newunicodechar{σ}{\ensuremath{\sigma}}
+\newunicodechar{μ}{\ensuremath{\mu}}
+\newunicodechar{χ}{\ensuremath{\chi}}
+\newunicodechar{η}{\ensuremath{\eta}}
+\newunicodechar{ω}{\ensuremath{\omega}}
+\newunicodechar{θ}{\ensuremath{\theta}}
+\newunicodechar{ρ}{\ensuremath{\rho}}
+
+% --- What pandoc's LaTeX output expects ---------------------------------------
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{calc}
+\usepackage{url}
+\providecommand{\tightlist}{\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\providecommand{\pandocbounded}[1]{#1}
+\providecommand{\needspace}[1]{}   % tables are floats here; the keep-with-next is moot
+\setcounter{secnumdepth}{-\maxdimen}
+\setkeys{Gin}{keepaspectratio}
+
+% --- Debranding and restraint ------------------------------------------------
+\makeatletter
+% Footers: lead author, short title and page; no server logo, no date.
+\def\aBioRXiv{{\footnotesize\footerfont
+  \@leadauthor\ifnum\value{authors}>1\hspace{2pt}\textit{et al.}\fi
+  \hspace{7pt}|\hspace{7pt}\@shorttitle\hspace{7pt}|\hspace{7pt}\thepage}}
+\def\bBioRXiv{{\footnotesize\footerfont\thepage}}
+\def\cBioRXiv{{\footnotesize\footerfont\thepage}}
+\def\dBioRXiv{{\footnotesize\footerfont
+  \@leadauthor\ifnum\value{authors}>1\hspace{2pt}\textit{et al.}\fi
+  \hspace{7pt}|\hspace{7pt}\@shorttitle}}
+% Title in the text face, one size down from the class's \Huge.
+\def\@maketitle{\newpage
+  \begin{center}
+    \vskip0.2em{\LARGE\bfseries\@title\par}\vskip1.0em%
+    {\lineskip.5em\large\@author\par}
+  \end{center}\par\vskip 1.2em}
+\makeatother
+% No running heads; the footer carries author, title and page.
+\lhead{}\rhead{}
+% The class zeroes \parindent and pandoc adds no \parskip, so paragraphs would run
+% together; indent them as a journal does.
+\setlength{\parindent}{1.2em}
+\setlength{\parskip}{0pt}
+% The class sets \flushbottom, which stretches the space above headings to make
+% columns end level; let columns end where the text does.
+\raggedbottom
+% Run-in subsection heads need only a little space above them.
+\makeatletter\titlespacing*{\subsection}{0pc}{1ex \@plus1pt}{2pt}\makeatother
+% The class sets \belowcaptionskip to -10pt, so a figure caption's box ends above its
+% last line and the next float's title lands on top of it.
+\setlength{\belowcaptionskip}{2pt}
+\captionsetup{skip=6pt}
+\hypersetup{colorlinks=true, allcolors=black}
+
+% Abstract and statement of relevance: the same headed block, in place of the
+% class's unheaded abstract environment.
+\newenvironment{ppblock}[1]{%
+  \par\noindent{\sffamily\bfseries\small #1}\par\vspace{3pt}%
+  \footnotesize\setlength{\parindent}{0pt}}{\par\vspace{0.9em}\normalsize}
+
+% Reference list: hanging indent, slightly smaller.
+\newenvironment{refslist}{%
+  \small\setlength{\parindent}{0pt}\setlength{\parskip}{3pt}%
+  \everypar{\hangindent=1.2em\hangafter=1}%
+}{\par}
+
+% Long DOIs in a narrow column.
+\makeatletter
+\g@addto@macro\UrlBreaks{\do\/\do\-\do\.\do\_\do\:\do\=\do\&\do\?\do\#}
+\makeatother
+\Urlmuskip=0mu plus 0.3mu\relax
+\setlength{\emergencystretch}{3em}
+\hfuzz=2pt
+
+$for(header-includes)$
+$header-includes$
+$endfor$
+
+\leadauthor{$leadauthor$}
+
+\begin{document}
+
+\title{$title$}
+\shorttitle{$shorttitle$}
+
+$for(authors)$
+\author[$authors.affil$]{$authors.name$}
+$endfor$
+
+$for(affiliations)$
+\affil[$affiliations.id$]{$affiliations.text$}
+$endfor$
+
+\maketitle
+
+\begin{ppblock}{Abstract}
+$abstract$
+\end{ppblock}
+
+$if(relevance)$
+\begin{ppblock}{Statement of relevance}
+$relevance$
+\end{ppblock}
+$endif$
+
+$if(keywords)$
+\begin{keywords}
+$keywords$
+\end{keywords}
+$endif$
+
+$if(corresponding)$
+\begin{corrauthor}
+$corresponding$
+\end{corrauthor}
+$endif$
+
+$body$
+
+\end{document}

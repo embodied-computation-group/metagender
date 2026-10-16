@@ -1,0 +1,4 @@
+"param","effect","term","mean","hdi_lo","hdi_hi","p_gt0","excludes0"
+"log M-ratio","cell mean: GDP","modGDP",0.2250277630575,0.176634619161758,0.275677249896731,1,TRUE
+"log M-ratio","cell mean: Calories","modCalories",-0.2693789893025,-0.338447011056585,-0.199211330530447,0,TRUE
+"log M-ratio","GDP - Calories","modGDP - modCalories",0.49440675236,0.406298539286207,0.577721369383648,1,TRUE

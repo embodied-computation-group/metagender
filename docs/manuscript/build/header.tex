@@ -1,0 +1,129 @@
+% ---------------------------------------------------------------------------
+% header.tex -- injected by build.sh via `pandoc -H`.
+% Written to work under BOTH document classes the build may pick (apa7 when the
+% class is installed, article otherwise) and under both engines (xelatex first,
+% pdflatex as a fallback). Everything class- or engine-specific is guarded.
+% ---------------------------------------------------------------------------
+
+% --- Figures stay where they are written, not floated to the end of the doc ---
+\usepackage{float}
+\floatplacement{figure}{H}
+\floatplacement{table}{H}
+
+% --- Captions -------------------------------------------------------------
+% Loaded after pandoc's own longtable/graphicx so caption can patch them.
+\usepackage{caption}
+\captionsetup{
+  font=small,
+  labelfont=bf,
+  labelsep=period,
+  justification=raggedright,
+  singlelinecheck=false,
+  skip=6pt
+}
+% Figure captions in the source already begin "Figure N." (or "Figure SN." in
+% the supplement), so LaTeX's own label would print the number twice.
+\captionsetup[figure]{labelformat=empty}
+
+% Keep a table title with its table: the tables script emits \needspace before
+% each title. needspace.sty is not in this TinyTeX, so provide the classic
+% definition when it is absent.
+\IfFileExists{needspace.sty}{\usepackage{needspace}}{%
+  \providecommand{\needspace}[1]{\par\penalty-100\begingroup
+    \vskip 0pt plus ##1\penalty-100\vskip 0pt plus -##1\endgroup}}
+
+% --- Revision marking (see build/changed.lua) -------------------------------
+% [text]{.changed} and ::: changed ... ::: both come out in this blue.
+\usepackage{xcolor}
+\definecolor{RevBlue}{RGB}{0,70,160}
+% A plain colour group: no framed/mdframed bar, because a bar environment
+% cannot contain a float or a longtable and marked blocks sometimes do.
+\newenvironment{revchanged}{\par\color{RevBlue}\ignorespaces}{\par}
+
+% --- Long URLs -------------------------------------------------------------
+% The reference list is full of DOIs. build.sh turns bare URIs into links
+% (+autolink_bare_uris) so they arrive as \url{}; these settings then let them
+% wrap instead of running into the margin.
+\usepackage{url}
+\makeatletter
+\g@addto@macro\UrlBreaks{\do\/\do\-\do\.\do\_\do\:\do\=\do\&\do\?\do\#}
+\makeatother
+\Urlmuskip=0mu plus 1mu\relax
+\setlength{\emergencystretch}{2em}
+% pandoc's longtable column arithmetic lands ~0.12pt (0.04mm) over the text
+% block on most tables. That is invisible, so stop LaTeX reporting it and keep
+% the log free for warnings that matter.
+\hfuzz=2pt
+
+% --- Wide tables ----------------------------------------------------------
+% Markdown pipe tables become longtables; let them shrink rather than overflow.
+\usepackage{array}
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.1}
+% Markdown pipe tables become longtables. build.sh raises pandoc's --columns so
+% these tables size their own columns instead of wrapping every cell; several of
+% tables/*.md are then wider than the text block at \small or \footnotesize
+% (Table S9 by 177 pt and 127 pt respectively), so they are set in \scriptsize,
+% at which only S9 still runs over, by 20 pt. pandoc only loads longtable when a
+% table is present, hence the guard.
+\makeatletter
+\AtBeginDocument{%
+  \@ifpackageloaded{longtable}{%
+    \setlength{\LTleft}{0pt}%
+    \setlength{\LTright}{0pt}%
+    \let\mgOldLongtable\longtable
+    \let\endmgOldLongtable\endlongtable
+    \renewenvironment{longtable}{\scriptsize\mgOldLongtable}{\endmgOldLongtable}%
+  }{}%
+}
+\makeatother
+
+% --- article-only layout (apa7 already does all of this its own way) --------
+\makeatletter
+\@ifclassloaded{apa7}{}{%
+  \usepackage{setspace}
+  \onehalfspacing
+  \usepackage[left]{lineno}
+  \linenumbers
+}
+\makeatother
+
+% --- Unicode under pdflatex ------------------------------------------------
+% xelatex/lualatex take these straight from the main font, so this block only
+% fires for the pdflatex fallback. newunicodechar is not in a minimal TinyTeX;
+% if it is absent we degrade to plain LaTeX rather than failing the build.
+\ifdefined\directlua\else\ifdefined\XeTeXversion\else
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp}
+  \IfFileExists{newunicodechar.sty}{%
+    \usepackage{newunicodechar}
+    \newunicodechar{′}{\ensuremath{^{\prime}}}   % U+2032 prime (d', meta-d')
+    \newunicodechar{Δ}{\ensuremath{\Delta}}      % U+0394
+    \newunicodechar{×}{\ensuremath{\times}}      % U+00D7
+    \newunicodechar{−}{\ensuremath{-}}           % U+2212 minus
+    \newunicodechar{≤}{\ensuremath{\leq}}        % U+2264
+    \newunicodechar{≥}{\ensuremath{\geq}}        % U+2265
+    \newunicodechar{≈}{\ensuremath{\approx}}     % U+2248
+    \newunicodechar{±}{\ensuremath{\pm}}         % U+00B1
+    \newunicodechar{ⁿ}{\textsuperscript{n}}      % U+207F
+    \newunicodechar{⁰}{\textsuperscript{0}}
+    \newunicodechar{¹}{\textsuperscript{1}}
+    \newunicodechar{²}{\textsuperscript{2}}
+    \newunicodechar{³}{\textsuperscript{3}}
+    \newunicodechar{⁴}{\textsuperscript{4}}
+    \newunicodechar{⁵}{\textsuperscript{5}}
+    \newunicodechar{⁶}{\textsuperscript{6}}      % U+2076
+    \newunicodechar{⁷}{\textsuperscript{7}}
+    \newunicodechar{⁸}{\textsuperscript{8}}
+    \newunicodechar{⁹}{\textsuperscript{9}}
+    \newunicodechar{α}{\ensuremath{\alpha}}
+    \newunicodechar{β}{\ensuremath{\beta}}
+    \newunicodechar{σ}{\ensuremath{\sigma}}
+    \newunicodechar{μ}{\ensuremath{\mu}}
+    \newunicodechar{χ}{\ensuremath{\chi}}
+    \newunicodechar{η}{\ensuremath{\eta}}
+    \newunicodechar{ω}{\ensuremath{\omega}}
+    \newunicodechar{θ}{\ensuremath{\theta}}
+  }{}
+\fi\fi

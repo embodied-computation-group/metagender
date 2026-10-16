@@ -1,0 +1,22 @@
+# Metadata for the `preprint` target only. The review draft uses metadata.yaml.
+#
+# Title, authors, affiliations, abstract and keywords are NOT repeated here:
+# preprint.lua lifts them out of 00_frontmatter.md and hands them to
+# preprint-template.tex, so there is one source for them.
+
+preprint: true
+
+# Running footer: "<leadauthor> et al. | <shorttitle>"
+leadauthor: Hoogervorst
+shorttitle: Women set a higher bar for confidence
+
+# Marked with the letter symbol in the author list, and printed under the keywords.
+corresponding_author: Micah Allen
+corresponding: "Micah Allen, Center of Functionally Integrative Neuroscience, Aarhus University. micah@cfin.au.dk"
+
+# Figures that fill both columns; every other figure is set at 0.72 of the text
+# width. A list rather than a measured aspect ratio because a Lua filter cannot
+# read image dimensions.
+landscape_figures:
+  - Figure1_task.png
+  - Figure4.png

@@ -1,0 +1,25 @@
+{
+    "participant_id": {
+        "LongName": "Participant ID in BIDS format",
+        "Description": "Participant specific identification number (sub, sub_id) in BIDS format, e.g.: sub-0001"
+    },
+    "cohort": {
+        "Description": "first (vmp1) or second (vmp2) data collection cohort of the Visceral Mind Project",
+        "Levels": {
+            "vmp1": "first data collection cohort",
+            "vmp2": "second data collection cohort"
+        }
+    },
+    "gender": {
+        "Description": "What is your gender?",
+        "Levels": {
+            "1.0": "Female",
+            "2.0": "Male",
+            "3.0": "Other"
+        }
+    },
+    "age": {
+        "Description": "What is your age?",
+        "Units": "Years"
+    }
+}

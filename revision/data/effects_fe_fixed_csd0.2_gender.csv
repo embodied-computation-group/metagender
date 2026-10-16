@@ -1,0 +1,166 @@
+"param","dpar","effect","term","mean","hdi_lo","hdi_hi","p_gt0","excludes0","bf01","bf10","pct_in_rope","M_mult","M_mult_lo","M_mult_hi","rope_width"
+"log M-ratio","N","domain-general","mean of domains",0.0684277335094253,0.010704730259694,0.123254910374163,0.98925,TRUE,0.231503410504971,4.31959079055783,26.1,1.07082323751735,1.0107622308777,1.13117273186353,0.05
+"log M-ratio","N","memory","modmemory:fem_c",0.0122187774049581,-0.0446142429807153,0.065873102230064,0.66375,FALSE,5.83318447161406,0.171432946251963,89.2,1.01229373163752,0.956366335711548,1.06809117017829,0.05
+"log M-ratio","N","Calories","modCalories:fem_c",0.10994036035227,-0.0270162279064223,0.26645467868399,0.92975,FALSE,0.874501421204836,1.14350871908505,17.95,1.11621149801318,0.973345446037359,1.30532842879251,0.05
+"log M-ratio","N","GDP","modGDP:fem_c",0.0690668175548582,-0.0387466932823358,0.176609579805986,0.9005,FALSE,1.5667482598719,0.638264631027426,34.2,1.07150780228784,0.961994357919345,1.1931651664037,0.05
+"log M-ratio","N","vision","modvision:fem_c",0.082484978725615,-0.0131693591409114,0.185943515089028,0.9515,FALSE,1.12467140527712,0.889148595143305,26.425,1.08598236047752,0.986916977454404,1.20435423061482,0.05
+"log M-ratio","N","gender x domain: memory - Calories","modmemory:fem_c - modCalories:fem_c",-0.0977215829473119,-0.243068068659637,0.0651517353781509,0.105,FALSE,NA,NA,23.8,0.906901365412712,0.78421813127768,1.06732096244786,0.05
+"log M-ratio","N","gender x domain: memory - GDP","modmemory:fem_c - modGDP:fem_c",-0.0568480401499002,-0.179857441912673,0.0541474947261726,0.16975,FALSE,NA,NA,41.825,0.944737620646449,0.835389294422933,1.05564029204889,0.05
+"log M-ratio","N","gender x domain: memory - vision","modmemory:fem_c - modvision:fem_c",-0.0702662013206569,-0.18965765788488,0.0387535116307271,0.11475,FALSE,NA,NA,34.575,0.932145648472964,0.827242285346954,1.03951422390305,0.05
+"log M-ratio","N","gender x domain: Calories - GDP","modCalories:fem_c - modGDP:fem_c",0.0408735427974118,-0.133431059746288,0.219566620496041,0.67675,FALSE,NA,NA,38.75,1.0417203641727,0.875087795672778,1.24553682347277,0.05
+"log M-ratio","N","gender x domain: Calories - vision","modCalories:fem_c - modvision:fem_c",0.027455381626655,-0.138173066996796,0.202324429822816,0.62775,FALSE,NA,NA,40.85,1.02783575372473,0.870947946356207,1.22424512531863,0.05
+"log M-ratio","N","gender x domain: GDP - vision","modGDP:fem_c - modvision:fem_c",-0.0134181611707568,-0.159317605417906,0.125977443346895,0.427,FALSE,NA,NA,48.375,0.98667146105088,0.852725485721751,1.13425658296219,0.05
+"d'","dprime","domain-general","mean of domains",0.0336358976248529,-0.00202487676807352,0.0699637881304517,0.96725,FALSE,1.07487790011443,0.930338227154494,NA,NA,NA,NA,0.05
+"d'","dprime","memory","modmemory:fem_c",0.126485012376787,0.0167890525678147,0.23585222162962,0.98975,TRUE,0.313361925420956,3.19119816058268,NA,NA,NA,NA,0.05
+"d'","dprime","Calories","modCalories:fem_c",0.0406762532256185,-0.0157145782024084,0.097363993948351,0.9235,FALSE,2.59742511629989,0.384996662165387,NA,NA,NA,NA,0.05
+"d'","dprime","GDP","modGDP:fem_c",-0.0264108469487526,-0.0862835465919623,0.0306455877901654,0.18325,FALSE,4.39388469266247,0.227589040210805,NA,NA,NA,NA,0.05
+"d'","dprime","vision","modvision:fem_c",-0.0062068281542418,-0.0484683700072212,0.037857261999089,0.37275,FALSE,9.2169652234654,0.108495581328018,NA,NA,NA,NA,0.05
+"d'","dprime","gender x domain: memory - Calories","modmemory:fem_c - modCalories:fem_c",0.085808759151169,-0.0341720808616368,0.210217390516454,0.9115,FALSE,NA,NA,NA,NA,NA,NA,0.05
+"d'","dprime","gender x domain: memory - GDP","modmemory:fem_c - modGDP:fem_c",0.15289585932554,0.0199116271613122,0.271169784073247,0.9935,TRUE,NA,NA,NA,NA,NA,NA,0.05
+"d'","dprime","gender x domain: memory - vision","modmemory:fem_c - modvision:fem_c",0.132691840531029,0.0030252607923269,0.245632574626904,0.98725,TRUE,NA,NA,NA,NA,NA,NA,0.05
+"d'","dprime","gender x domain: Calories - GDP","modCalories:fem_c - modGDP:fem_c",0.0670871001743711,-0.0158527844692661,0.149632506636586,0.9455,FALSE,NA,NA,NA,NA,NA,NA,0.05
+"d'","dprime","gender x domain: Calories - vision","modCalories:fem_c - modvision:fem_c",0.0468830813798603,-0.0223181882736324,0.115267946106183,0.89825,FALSE,NA,NA,NA,NA,NA,NA,0.05
+"d'","dprime","gender x domain: GDP - vision","modGDP:fem_c - modvision:fem_c",-0.0202040187945108,-0.0932564821706087,0.0471190901849112,0.29075,FALSE,NA,NA,NA,NA,NA,NA,0.05
+"c","c","domain-general","mean of domains",0.0175582095571099,-0.00615809136522573,0.0422626181213995,0.923,FALSE,3.01021300946534,0.332202404565919,NA,NA,NA,NA,0.05
+"c","c","memory","modmemory:fem_c",-0.0123554618666855,-0.0526532613956081,0.0267928837452404,0.2705,FALSE,7.99132797403777,0.125135647447934,NA,NA,NA,NA,0.05
+"c","c","Calories","modCalories:fem_c",-0.00381464646382312,-0.0339536184505925,0.0270109688454267,0.40375,FALSE,12.7434027420284,0.0784719764605687,NA,NA,NA,NA,0.05
+"c","c","GDP","modGDP:fem_c",0.0162212802213967,-0.0183588394202877,0.0554168539638254,0.8075,FALSE,7.45236225329281,0.134185640205312,NA,NA,NA,NA,0.05
+"c","c","vision","modvision:fem_c",0.0701816663375515,0.00535429890498035,0.133231439331348,0.98225,TRUE,0.665819781237795,1.50190791589422,NA,NA,NA,NA,0.05
+"c","c","gender x domain: memory - Calories","modmemory:fem_c - modCalories:fem_c",-0.00854081540286238,-0.0559900181936772,0.0403091359232265,0.36275,FALSE,NA,NA,NA,NA,NA,NA,0.05
+"c","c","gender x domain: memory - GDP","modmemory:fem_c - modGDP:fem_c",-0.0285767420880822,-0.0753628853346139,0.0259965491965191,0.136,FALSE,NA,NA,NA,NA,NA,NA,0.05
+"c","c","gender x domain: memory - vision","modmemory:fem_c - modvision:fem_c",-0.082537128204237,-0.159722544994958,-0.0082726034540901,0.0165,TRUE,NA,NA,NA,NA,NA,NA,0.05
+"c","c","gender x domain: Calories - GDP","modCalories:fem_c - modGDP:fem_c",-0.0200359266852199,-0.0657678327502902,0.0251983346109129,0.197,FALSE,NA,NA,NA,NA,NA,NA,0.05
+"c","c","gender x domain: Calories - vision","modCalories:fem_c - modvision:fem_c",-0.0739963128013746,-0.143925737788119,-0.00190000061003715,0.01725,TRUE,NA,NA,NA,NA,NA,NA,0.05
+"c","c","gender x domain: GDP - vision","modGDP:fem_c - modvision:fem_c",-0.0539603861161548,-0.129336659737141,0.0180265589649945,0.0725,FALSE,NA,NA,NA,NA,NA,NA,0.05
+"metac2zero1diff","metac2zero1diff","domain-general","mean of domains",0.128746689755208,-0.00734343975050842,0.276309948360908,0.96175,FALSE,0.290289073022846,3.44484203138194,NA,NA,NA,NA,0.05
+"metac2zero1diff","metac2zero1diff","memory","modmemory:fem_c",0.152691202768484,-0.0316894067422787,0.346409381248175,0.94675,FALSE,0.646692784857181,1.54632929795381,NA,NA,NA,NA,0.05
+"metac2zero1diff","metac2zero1diff","Calories","modCalories:fem_c",-0.0995836500523002,-0.324964805535015,0.137663469328959,0.19425,FALSE,1.1547209246365,0.866010114361438,NA,NA,NA,NA,0.05
+"metac2zero1diff","metac2zero1diff","GDP","modGDP:fem_c",0.286241125111363,0.0700586199319471,0.489755173068992,0.9975,TRUE,0.0498626746748466,20.0550814115163,NA,NA,NA,NA,0.05
+"metac2zero1diff","metac2zero1diff","vision","modvision:fem_c",0.175638081193285,-0.0259092056552252,0.399177239092583,0.94925,FALSE,0.536153209087735,1.86513851460761,NA,NA,NA,NA,0.05
+"metac2zero1diff","metac2zero1diff","gender x domain: memory - Calories","modmemory:fem_c - modCalories:fem_c",0.252274852820784,-0.00887603822809187,0.513871387161935,0.96925,FALSE,NA,NA,NA,NA,NA,NA,0.05
+"metac2zero1diff","metac2zero1diff","gender x domain: memory - GDP","modmemory:fem_c - modGDP:fem_c",-0.133549922342878,-0.370030232826501,0.111974149948561,0.13675,FALSE,NA,NA,NA,NA,NA,NA,0.05
+"metac2zero1diff","metac2zero1diff","gender x domain: memory - vision","modmemory:fem_c - modvision:fem_c",-0.022946878424801,-0.248041799592069,0.188407208978165,0.42225,FALSE,NA,NA,NA,NA,NA,NA,0.05
+"metac2zero1diff","metac2zero1diff","gender x domain: Calories - GDP","modCalories:fem_c - modGDP:fem_c",-0.385824775163663,-0.661819143917686,-0.116752471596961,0.0025,TRUE,NA,NA,NA,NA,NA,NA,0.05
+"metac2zero1diff","metac2zero1diff","gender x domain: Calories - vision","modCalories:fem_c - modvision:fem_c",-0.275221731245585,-0.543520909514764,0.00377039289511119,0.02225,FALSE,NA,NA,NA,NA,NA,NA,0.05
+"metac2zero1diff","metac2zero1diff","gender x domain: GDP - vision","modGDP:fem_c - modvision:fem_c",0.110603043918078,-0.136786351877575,0.386953358060317,0.7985,FALSE,NA,NA,NA,NA,NA,NA,0.05
+"metac2zero2diff","metac2zero2diff","domain-general","mean of domains",0.155895519747528,0.0325693983765789,0.273458003514683,0.9945,TRUE,0.0807678353580957,12.3811662844046,NA,NA,NA,NA,0.05
+"metac2zero2diff","metac2zero2diff","memory","modmemory:fem_c",0.0559981739174227,-0.0594679134549669,0.193774869892767,0.806,FALSE,2.21108674942063,0.452266289534786,NA,NA,NA,NA,0.05
+"metac2zero2diff","metac2zero2diff","Calories","modCalories:fem_c",0.00174407117066802,-0.204952025357334,0.225217430486712,0.5095,FALSE,1.87135993524278,0.534370743525758,NA,NA,NA,NA,0.05
+"metac2zero2diff","metac2zero2diff","GDP","modGDP:fem_c",0.351208632697,0.170697440065492,0.513338328414795,1,TRUE,0.00060283152043431,1658.83827587441,NA,NA,NA,NA,0.05
+"metac2zero2diff","metac2zero2diff","vision","modvision:fem_c",0.214631201205022,0.0338186344293065,0.375946111464731,0.994,TRUE,0.110457640697209,9.05324424537767,NA,NA,NA,NA,0.05
+"metac2zero2diff","metac2zero2diff","gender x domain: memory - Calories","modmemory:fem_c - modCalories:fem_c",0.0542541027467546,-0.166926872286287,0.268037304921358,0.68375,FALSE,NA,NA,NA,NA,NA,NA,0.05
+"metac2zero2diff","metac2zero2diff","gender x domain: memory - GDP","modmemory:fem_c - modGDP:fem_c",-0.295210458779577,-0.493763289230682,-0.124742956844609,0.001,TRUE,NA,NA,NA,NA,NA,NA,0.05
+"metac2zero2diff","metac2zero2diff","gender x domain: memory - vision","modmemory:fem_c - modvision:fem_c",-0.1586330272876,-0.330893000085473,0.0133791602911356,0.036,FALSE,NA,NA,NA,NA,NA,NA,0.05
+"metac2zero2diff","metac2zero2diff","gender x domain: Calories - GDP","modCalories:fem_c - modGDP:fem_c",-0.349464561526332,-0.56237296454875,-0.131771410261292,5e-04,TRUE,NA,NA,NA,NA,NA,NA,0.05
+"metac2zero2diff","metac2zero2diff","gender x domain: Calories - vision","modCalories:fem_c - modvision:fem_c",-0.212887130034354,-0.439015063492429,-0.000565721882570441,0.02675,TRUE,NA,NA,NA,NA,NA,NA,0.05
+"metac2zero2diff","metac2zero2diff","gender x domain: GDP - vision","modGDP:fem_c - modvision:fem_c",0.136577431491978,-0.065883820530249,0.321385928061,0.91475,FALSE,NA,NA,NA,NA,NA,NA,0.05
+"metac2zero3diff","metac2zero3diff","domain-general","mean of domains",0.117090493514219,0.020263925503721,0.215277024741572,0.99,TRUE,0.133785245595193,7.47466580153239,NA,NA,NA,NA,0.05
+"metac2zero3diff","metac2zero3diff","memory","modmemory:fem_c",0.000493728060576762,-0.121356762911186,0.113449469715067,0.5035,FALSE,3.30964618010502,0.302147101406552,NA,NA,NA,NA,0.05
+"metac2zero3diff","metac2zero3diff","Calories","modCalories:fem_c",0.0515270492909725,-0.130341661230598,0.233261651120566,0.7015,FALSE,1.86586906852994,0.53594328608913,NA,NA,NA,NA,0.05
+"metac2zero3diff","metac2zero3diff","GDP","modGDP:fem_c",0.27576086420225,0.141649434208989,0.425326696712931,1,TRUE,0.00129038928882508,774.959935470725,NA,NA,NA,NA,0.05
+"metac2zero3diff","metac2zero3diff","vision","modvision:fem_c",0.140580332503075,0.000272641481463712,0.282389238652652,0.975,TRUE,0.43784486291576,2.28391397204173,NA,NA,NA,NA,0.05
+"metac2zero3diff","metac2zero3diff","gender x domain: memory - Calories","modmemory:fem_c - modCalories:fem_c",-0.0510333212303957,-0.255024377643395,0.15282341967044,0.31425,FALSE,NA,NA,NA,NA,NA,NA,0.05
+"metac2zero3diff","metac2zero3diff","gender x domain: memory - GDP","modmemory:fem_c - modGDP:fem_c",-0.275267136141673,-0.441724611514499,-0.11229897225935,0.00075,TRUE,NA,NA,NA,NA,NA,NA,0.05
+"metac2zero3diff","metac2zero3diff","gender x domain: memory - vision","modmemory:fem_c - modvision:fem_c",-0.140086604442498,-0.306736815884166,0.00971315267933289,0.04275,FALSE,NA,NA,NA,NA,NA,NA,0.05
+"metac2zero3diff","metac2zero3diff","gender x domain: Calories - GDP","modCalories:fem_c - modGDP:fem_c",-0.224233814911278,-0.420082081044941,-0.0396312419407345,0.0085,TRUE,NA,NA,NA,NA,NA,NA,0.05
+"metac2zero3diff","metac2zero3diff","gender x domain: Calories - vision","modCalories:fem_c - modvision:fem_c",-0.0890532832121025,-0.282819217720072,0.101468804633667,0.18275,FALSE,NA,NA,NA,NA,NA,NA,0.05
+"metac2zero3diff","metac2zero3diff","gender x domain: GDP - vision","modGDP:fem_c - modvision:fem_c",0.135180531699175,-0.0328749872987884,0.285362323178743,0.95025,FALSE,NA,NA,NA,NA,NA,NA,0.05
+"metac2zero4diff","metac2zero4diff","domain-general","mean of domains",0.0826200314622353,-0.00471917377038381,0.171204910679508,0.965,FALSE,0.40204601033601,2.4872775112586,NA,NA,NA,NA,0.05
+"metac2zero4diff","metac2zero4diff","memory","modmemory:fem_c",0.00682391225190375,-0.113180142355969,0.123445919686436,0.54475,FALSE,3.19809594060462,0.312686054005917,NA,NA,NA,NA,0.05
+"metac2zero4diff","metac2zero4diff","Calories","modCalories:fem_c",0.0329275003759005,-0.111654549128383,0.181301735785528,0.6745,FALSE,2.49789846375772,0.400336528689661,NA,NA,NA,NA,0.05
+"metac2zero4diff","metac2zero4diff","GDP","modGDP:fem_c",0.196465374651025,0.06189518251003,0.3323313485222,0.99675,TRUE,0.0592454571907237,16.8789312703046,NA,NA,NA,NA,0.05
+"metac2zero4diff","metac2zero4diff","vision","modvision:fem_c",0.094263338570112,-0.0259265591674955,0.22036079942938,0.935,FALSE,0.963397557913084,1.03799308165801,NA,NA,NA,NA,0.05
+"metac2zero4diff","metac2zero4diff","gender x domain: memory - Calories","modmemory:fem_c - modCalories:fem_c",-0.0261035881239968,-0.196749187706334,0.137405241847689,0.38425,FALSE,NA,NA,NA,NA,NA,NA,0.05
+"metac2zero4diff","metac2zero4diff","gender x domain: memory - GDP","modmemory:fem_c - modGDP:fem_c",-0.189641462399121,-0.33817430424657,-0.043539743114976,0.0075,TRUE,NA,NA,NA,NA,NA,NA,0.05
+"metac2zero4diff","metac2zero4diff","gender x domain: memory - vision","modmemory:fem_c - modvision:fem_c",-0.0874394263182083,-0.225487350813684,0.0555829947669175,0.1125,FALSE,NA,NA,NA,NA,NA,NA,0.05
+"metac2zero4diff","metac2zero4diff","gender x domain: Calories - GDP","modCalories:fem_c - modGDP:fem_c",-0.163537874275125,-0.330372387371838,0.00245508397163432,0.02775,FALSE,NA,NA,NA,NA,NA,NA,0.05
+"metac2zero4diff","metac2zero4diff","gender x domain: Calories - vision","modCalories:fem_c - modvision:fem_c",-0.0613358381942115,-0.220834576612691,0.102119812454729,0.22325,FALSE,NA,NA,NA,NA,NA,NA,0.05
+"metac2zero4diff","metac2zero4diff","gender x domain: GDP - vision","modGDP:fem_c - modvision:fem_c",0.102202036080913,-0.0621087977526047,0.257785432643215,0.8945,FALSE,NA,NA,NA,NA,NA,NA,0.05
+"metac2zero5diff","metac2zero5diff","domain-general","mean of domains",0.0100146050020241,-0.0733138405559002,0.0959438519609373,0.5815,FALSE,2.45863706013261,0.406729409645384,NA,NA,NA,NA,0.05
+"metac2zero5diff","metac2zero5diff","memory","modmemory:fem_c",-0.0302772288081593,-0.153452170443082,0.0853849579244058,0.32525,FALSE,2.50308391521405,0.399507181489953,NA,NA,NA,NA,0.05
+"metac2zero5diff","metac2zero5diff","Calories","modCalories:fem_c",-0.030362337711519,-0.165104421115833,0.0975633619779424,0.32325,FALSE,2.68374020612287,0.372614308090824,NA,NA,NA,NA,0.05
+"metac2zero5diff","metac2zero5diff","GDP","modGDP:fem_c",0.134710289319922,0.0102162632636293,0.256454410343872,0.98425,TRUE,0.294722818040381,3.39301858827566,NA,NA,NA,NA,0.05
+"metac2zero5diff","metac2zero5diff","vision","modvision:fem_c",-0.0340123027921478,-0.140505802719484,0.0669816669865354,0.26775,FALSE,3.00563327135617,0.332708587414854,NA,NA,NA,NA,0.05
+"metac2zero5diff","metac2zero5diff","gender x domain: memory - Calories","modmemory:fem_c - modCalories:fem_c",8.510890335975e-05,-0.161145234596109,0.155780171010754,0.50375,FALSE,NA,NA,NA,NA,NA,NA,0.05
+"metac2zero5diff","metac2zero5diff","gender x domain: memory - GDP","modmemory:fem_c - modGDP:fem_c",-0.164987518128082,-0.315565397910111,-0.0211708917011283,0.014,TRUE,NA,NA,NA,NA,NA,NA,0.05
+"metac2zero5diff","metac2zero5diff","gender x domain: memory - vision","modmemory:fem_c - modvision:fem_c",0.0037350739839885,-0.13496301740394,0.142462961668592,0.52375,FALSE,NA,NA,NA,NA,NA,NA,0.05
+"metac2zero5diff","metac2zero5diff","gender x domain: Calories - GDP","modCalories:fem_c - modGDP:fem_c",-0.165072627031441,-0.310563889952709,-0.0369969183362671,0.01175,TRUE,NA,NA,NA,NA,NA,NA,0.05
+"metac2zero5diff","metac2zero5diff","gender x domain: Calories - vision","modCalories:fem_c - modvision:fem_c",0.00364996508062875,-0.124815051430216,0.137923712657088,0.5225,FALSE,NA,NA,NA,NA,NA,NA,0.05
+"metac2zero5diff","metac2zero5diff","gender x domain: GDP - vision","modGDP:fem_c - modvision:fem_c",0.16872259211207,0.0425344133063085,0.307716200340815,0.9925,TRUE,NA,NA,NA,NA,NA,NA,0.05
+"metac2zero6diff","metac2zero6diff","domain-general","mean of domains",0.0390231934387107,-0.048707989860912,0.131197003883221,0.806,FALSE,1.54971433802138,0.645280214208229,NA,NA,NA,NA,0.05
+"metac2zero6diff","metac2zero6diff","memory","modmemory:fem_c",-0.0634647963148943,-0.194481849871359,0.076632218036361,0.187,FALSE,1.9413800249143,0.51509750134786,NA,NA,NA,NA,0.05
+"metac2zero6diff","metac2zero6diff","Calories","modCalories:fem_c",0.0590320780582411,-0.0668802564860817,0.189141373815479,0.821,FALSE,2.12195697660087,0.471263089227137,NA,NA,NA,NA,0.05
+"metac2zero6diff","metac2zero6diff","GDP","modGDP:fem_c",0.130773296136825,-0.00107536958073629,0.259188651759686,0.9755,FALSE,0.500517049059663,1.99793394026983,NA,NA,NA,NA,0.05
+"metac2zero6diff","metac2zero6diff","vision","modvision:fem_c",0.0297521958746706,-0.102405615027104,0.150709715190174,0.6785,FALSE,2.62473064587149,0.380991474905407,NA,NA,NA,NA,0.05
+"metac2zero6diff","metac2zero6diff","gender x domain: memory - Calories","modmemory:fem_c - modCalories:fem_c",-0.122496874373135,-0.280582860147079,0.0389769979606403,0.0635,FALSE,NA,NA,NA,NA,NA,NA,0.05
+"metac2zero6diff","metac2zero6diff","gender x domain: memory - GDP","modmemory:fem_c - modGDP:fem_c",-0.194238092451719,-0.352913403005451,-0.035696790382626,0.008,TRUE,NA,NA,NA,NA,NA,NA,0.05
+"metac2zero6diff","metac2zero6diff","gender x domain: memory - vision","modmemory:fem_c - modvision:fem_c",-0.0932169921895649,-0.257687953019663,0.0633207631854788,0.1355,FALSE,NA,NA,NA,NA,NA,NA,0.05
+"metac2zero6diff","metac2zero6diff","gender x domain: Calories - GDP","modCalories:fem_c - modGDP:fem_c",-0.0717412180785841,-0.203841606759546,0.0765507507126626,0.16075,FALSE,NA,NA,NA,NA,NA,NA,0.05
+"metac2zero6diff","metac2zero6diff","gender x domain: Calories - vision","modCalories:fem_c - modvision:fem_c",0.0292798821835705,-0.118861349475598,0.174781440626716,0.64825,FALSE,NA,NA,NA,NA,NA,NA,0.05
+"metac2zero6diff","metac2zero6diff","gender x domain: GDP - vision","modGDP:fem_c - modvision:fem_c",0.101021100262155,-0.0528336497261795,0.259404706812054,0.8975,FALSE,NA,NA,NA,NA,NA,NA,0.05
+"metac2one1diff","metac2one1diff","domain-general","mean of domains",0.121901425937681,-0.0256250580880631,0.256868381431816,0.95375,FALSE,0.327357311039843,3.05476605004948,NA,NA,NA,NA,0.05
+"metac2one1diff","metac2one1diff","memory","modmemory:fem_c",0.0807890274019865,-0.104468539672179,0.254139647865417,0.81075,FALSE,1.52920236178172,0.653935688952813,NA,NA,NA,NA,0.05
+"metac2one1diff","metac2one1diff","Calories","modCalories:fem_c",-0.0855429427338048,-0.339750968021612,0.149364085441363,0.25375,FALSE,1.29605141623984,0.77157432758435,NA,NA,NA,NA,0.05
+"metac2one1diff","metac2one1diff","GDP","modGDP:fem_c",0.39158089177,0.170353248430617,0.590026320858753,0.9995,TRUE,0.00339779774021002,294.308277436841,NA,NA,NA,NA,0.05
+"metac2one1diff","metac2one1diff","vision","modvision:fem_c",0.100778727312544,-0.103433775324223,0.311330118430521,0.83175,FALSE,1.21391521719164,0.823780759840441,NA,NA,NA,NA,0.05
+"metac2one1diff","metac2one1diff","gender x domain: memory - Calories","modmemory:fem_c - modCalories:fem_c",0.166331970135791,-0.109443807883278,0.443028983199083,0.878,FALSE,NA,NA,NA,NA,NA,NA,0.05
+"metac2one1diff","metac2one1diff","gender x domain: memory - GDP","modmemory:fem_c - modGDP:fem_c",-0.310791864368013,-0.53049929923508,-0.0819322028604109,0.0055,TRUE,NA,NA,NA,NA,NA,NA,0.05
+"metac2one1diff","metac2one1diff","gender x domain: memory - vision","modmemory:fem_c - modvision:fem_c",-0.019989699910557,-0.216972676462161,0.194786483279147,0.423,FALSE,NA,NA,NA,NA,NA,NA,0.05
+"metac2one1diff","metac2one1diff","gender x domain: Calories - GDP","modCalories:fem_c - modGDP:fem_c",-0.477123834503805,-0.771797128683331,-0.18052782296189,5e-04,TRUE,NA,NA,NA,NA,NA,NA,0.05
+"metac2one1diff","metac2one1diff","gender x domain: Calories - vision","modCalories:fem_c - modvision:fem_c",-0.186321670046348,-0.452442682636834,0.0822960298258057,0.08875,FALSE,NA,NA,NA,NA,NA,NA,0.05
+"metac2one1diff","metac2one1diff","gender x domain: GDP - vision","modGDP:fem_c - modvision:fem_c",0.290802164457456,0.0360273647061591,0.543424147521809,0.987,TRUE,NA,NA,NA,NA,NA,NA,0.05
+"metac2one2diff","metac2one2diff","domain-general","mean of domains",0.143658811965303,0.0291304721908164,0.272075314424181,0.99,TRUE,0.125491966168077,7.96863759916437,NA,NA,NA,NA,0.05
+"metac2one2diff","metac2one2diff","memory","modmemory:fem_c",0.148415591731893,0.0197071852163251,0.266789051625814,0.99275,TRUE,0.224959103273953,4.44525242787002,NA,NA,NA,NA,0.05
+"metac2one2diff","metac2one2diff","Calories","modCalories:fem_c",0.0134474536028227,-0.200915149520844,0.219683025486,0.558,FALSE,1.93790688711544,0.516020664691734,NA,NA,NA,NA,0.05
+"metac2one2diff","metac2one2diff","GDP","modGDP:fem_c",0.343717633729,0.181152570036773,0.525798725162397,1,TRUE,0.00118896905953707,841.064779590945,NA,NA,NA,NA,0.05
+"metac2one2diff","metac2one2diff","vision","modvision:fem_c",0.0690545687974977,-0.119925425662719,0.23116214996876,0.77525,FALSE,1.74547863715699,0.572908759071829,NA,NA,NA,NA,0.05
+"metac2one2diff","metac2one2diff","gender x domain: memory - Calories","modmemory:fem_c - modCalories:fem_c",0.13496813812907,-0.0685164894897758,0.338980073299423,0.9005,FALSE,NA,NA,NA,NA,NA,NA,0.05
+"metac2one2diff","metac2one2diff","gender x domain: memory - GDP","modmemory:fem_c - modGDP:fem_c",-0.195302041997107,-0.379001349891256,-0.0138007487255209,0.01775,TRUE,NA,NA,NA,NA,NA,NA,0.05
+"metac2one2diff","metac2one2diff","gender x domain: memory - vision","modmemory:fem_c - modvision:fem_c",0.0793610229343947,-0.0755209479632949,0.248803099007135,0.836,FALSE,NA,NA,NA,NA,NA,NA,0.05
+"metac2one2diff","metac2one2diff","gender x domain: Calories - GDP","modCalories:fem_c - modGDP:fem_c",-0.330270180126177,-0.568138021354305,-0.0984977804861353,0.003,TRUE,NA,NA,NA,NA,NA,NA,0.05
+"metac2one2diff","metac2one2diff","gender x domain: Calories - vision","modCalories:fem_c - modvision:fem_c",-0.055607115194675,-0.289151299871086,0.149571692427585,0.30725,FALSE,NA,NA,NA,NA,NA,NA,0.05
+"metac2one2diff","metac2one2diff","gender x domain: GDP - vision","modGDP:fem_c - modvision:fem_c",0.274663064931502,0.0767800700074652,0.470211682067067,0.99575,TRUE,NA,NA,NA,NA,NA,NA,0.05
+"metac2one3diff","metac2one3diff","domain-general","mean of domains",0.108407824730019,0.00497671171458513,0.197208796371979,0.9865,TRUE,0.224928199534992,4.4458631779713,NA,NA,NA,NA,0.05
+"metac2one3diff","metac2one3diff","memory","modmemory:fem_c",0.0136261435977512,-0.0981344844003525,0.130955431003784,0.596,FALSE,3.18319001712101,0.314150268950779,NA,NA,NA,NA,0.05
+"metac2one3diff","metac2one3diff","Calories","modCalories:fem_c",0.112649203514781,-0.0539723075150185,0.292008753729618,0.898,FALSE,1.10598635139179,0.904170289933134,NA,NA,NA,NA,0.05
+"metac2one3diff","metac2one3diff","GDP","modGDP:fem_c",0.17621912408565,0.0455278237085486,0.322302330969732,0.994,TRUE,0.12556403531493,7.96406389370872,NA,NA,NA,NA,0.05
+"metac2one3diff","metac2one3diff","vision","modvision:fem_c",0.131136827721895,-0.0157396649645138,0.274888670127111,0.9625,FALSE,0.524147545692129,1.90785973953101,NA,NA,NA,NA,0.05
+"metac2one3diff","metac2one3diff","gender x domain: memory - Calories","modmemory:fem_c - modCalories:fem_c",-0.0990230599170302,-0.292880182402592,0.0886805781159527,0.165,FALSE,NA,NA,NA,NA,NA,NA,0.05
+"metac2one3diff","metac2one3diff","gender x domain: memory - GDP","modmemory:fem_c - modGDP:fem_c",-0.162592980487899,-0.328643259113798,-0.0114458700054551,0.0225,TRUE,NA,NA,NA,NA,NA,NA,0.05
+"metac2one3diff","metac2one3diff","gender x domain: memory - vision","modmemory:fem_c - modvision:fem_c",-0.117510684124144,-0.271779566959297,0.0395816446576663,0.075,FALSE,NA,NA,NA,NA,NA,NA,0.05
+"metac2one3diff","metac2one3diff","gender x domain: Calories - GDP","modCalories:fem_c - modGDP:fem_c",-0.0635699205708685,-0.241269113596148,0.131686274213303,0.25225,FALSE,NA,NA,NA,NA,NA,NA,0.05
+"metac2one3diff","metac2one3diff","gender x domain: Calories - vision","modCalories:fem_c - modvision:fem_c",-0.0184876242071135,-0.205245534612378,0.164913952503152,0.41925,FALSE,NA,NA,NA,NA,NA,NA,0.05
+"metac2one3diff","metac2one3diff","gender x domain: GDP - vision","modGDP:fem_c - modvision:fem_c",0.045082296363755,-0.127256094502628,0.208964023464289,0.7,FALSE,NA,NA,NA,NA,NA,NA,0.05
+"metac2one4diff","metac2one4diff","domain-general","mean of domains",0.0788474203206508,-0.00816031092626834,0.162725448050179,0.9655,FALSE,0.434659984877686,2.30064886299897,NA,NA,NA,NA,0.05
+"metac2one4diff","metac2one4diff","memory","modmemory:fem_c",0.0299373996414622,-0.0834814950242673,0.151655499411969,0.67925,FALSE,2.76866992169592,0.361184261137008,NA,NA,NA,NA,0.05
+"metac2one4diff","metac2one4diff","Calories","modCalories:fem_c",0.0461843408687321,-0.0985229569902931,0.17974414878407,0.74175,FALSE,2.31471584872746,0.432018470236751,NA,NA,NA,NA,0.05
+"metac2one4diff","metac2one4diff","GDP","modGDP:fem_c",0.23276453517379,0.103817087644275,0.373812759013984,0.99975,TRUE,0.0157977343221957,63.3002163224766,NA,NA,NA,NA,0.05
+"metac2one4diff","metac2one4diff","vision","modvision:fem_c",0.0065034055986189,-0.120865400471824,0.125423919833207,0.53325,FALSE,3.03006589424349,0.330025826137906,NA,NA,NA,NA,0.05
+"metac2one4diff","metac2one4diff","gender x domain: memory - Calories","modmemory:fem_c - modCalories:fem_c",-0.0162469412272698,-0.185979894746011,0.149169301602718,0.42275,FALSE,NA,NA,NA,NA,NA,NA,0.05
+"metac2one4diff","metac2one4diff","gender x domain: memory - GDP","modmemory:fem_c - modGDP:fem_c",-0.202827135532328,-0.359045033861745,-0.0387022006192407,0.00725,TRUE,NA,NA,NA,NA,NA,NA,0.05
+"metac2one4diff","metac2one4diff","gender x domain: memory - vision","modmemory:fem_c - modvision:fem_c",0.0234339940428433,-0.134583401585723,0.17690809731587,0.608,FALSE,NA,NA,NA,NA,NA,NA,0.05
+"metac2one4diff","metac2one4diff","gender x domain: Calories - GDP","modCalories:fem_c - modGDP:fem_c",-0.186580194305058,-0.350378068814179,-0.0291576500757308,0.01225,TRUE,NA,NA,NA,NA,NA,NA,0.05
+"metac2one4diff","metac2one4diff","gender x domain: Calories - vision","modCalories:fem_c - modvision:fem_c",0.0396809352701132,-0.115310110090452,0.202190357284648,0.68375,FALSE,NA,NA,NA,NA,NA,NA,0.05
+"metac2one4diff","metac2one4diff","gender x domain: GDP - vision","modGDP:fem_c - modvision:fem_c",0.226261129575171,0.0733350832472674,0.389769274601021,0.99725,TRUE,NA,NA,NA,NA,NA,NA,0.05
+"metac2one5diff","metac2one5diff","domain-general","mean of domains",0.0188853301277412,-0.0647156767985544,0.104265078468449,0.67575,FALSE,2.06798998511307,0.483561335982641,NA,NA,NA,NA,0.05
+"metac2one5diff","metac2one5diff","memory","modmemory:fem_c",-0.0748164705696153,-0.181257662133375,0.0469320927191218,0.096,FALSE,1.5066667594962,0.663716773266029,NA,NA,NA,NA,0.05
+"metac2one5diff","metac2one5diff","Calories","modCalories:fem_c",-0.0157403363088243,-0.149437979851604,0.110950200709305,0.41,FALSE,2.993880150407,0.334014706588724,NA,NA,NA,NA,0.05
+"metac2one5diff","metac2one5diff","GDP","modGDP:fem_c",0.166117031076372,0.0314918412403844,0.280700708208355,0.99475,TRUE,0.12959202143666,7.71652443502289,NA,NA,NA,NA,0.05
+"metac2one5diff","metac2one5diff","vision","modvision:fem_c",-1.890368696825e-05,-0.109975984427995,0.107841378233171,0.50775,FALSE,3.33307218590493,0.300023505110046,NA,NA,NA,NA,0.05
+"metac2one5diff","metac2one5diff","gender x domain: memory - Calories","modmemory:fem_c - modCalories:fem_c",-0.059076134260791,-0.204555572649983,0.0893506777531359,0.20525,FALSE,NA,NA,NA,NA,NA,NA,0.05
+"metac2one5diff","metac2one5diff","gender x domain: memory - GDP","modmemory:fem_c - modGDP:fem_c",-0.240933501645988,-0.391568645487714,-0.103151209707715,0.00075,TRUE,NA,NA,NA,NA,NA,NA,0.05
+"metac2one5diff","metac2one5diff","gender x domain: memory - vision","modmemory:fem_c - modvision:fem_c",-0.074797566882647,-0.209850046020745,0.0586383618496361,0.13475,FALSE,NA,NA,NA,NA,NA,NA,0.05
+"metac2one5diff","metac2one5diff","gender x domain: Calories - GDP","modCalories:fem_c - modGDP:fem_c",-0.181857367385197,-0.327457150193446,-0.0490892901603606,0.007,TRUE,NA,NA,NA,NA,NA,NA,0.05
+"metac2one5diff","metac2one5diff","gender x domain: Calories - vision","modCalories:fem_c - modvision:fem_c",-0.015721432621856,-0.152907030867236,0.118033905194843,0.405,FALSE,NA,NA,NA,NA,NA,NA,0.05
+"metac2one5diff","metac2one5diff","gender x domain: GDP - vision","modGDP:fem_c - modvision:fem_c",0.166135934763341,0.0269802140645826,0.300204355072334,0.9915,TRUE,NA,NA,NA,NA,NA,NA,0.05
+"metac2one6diff","metac2one6diff","domain-general","mean of domains",0.0377958150211355,-0.0474995243673805,0.122631998787135,0.8035,FALSE,1.62625947396845,0.614908024215697,NA,NA,NA,NA,0.05
+"metac2one6diff","metac2one6diff","memory","modmemory:fem_c",-0.0298884514668498,-0.161927807636329,0.109466237266763,0.34025,FALSE,2.77465171643441,0.360405593998319,NA,NA,NA,NA,0.05
+"metac2one6diff","metac2one6diff","Calories","modCalories:fem_c",-0.0367237565552035,-0.16210252977223,0.0881192082619683,0.283,FALSE,2.65899212804699,0.376082346935901,NA,NA,NA,NA,0.05
+"metac2one6diff","metac2one6diff","GDP","modGDP:fem_c",0.15714383742382,0.0267977457184087,0.29589296980852,0.98975,TRUE,0.22540548699425,4.43644923348965,NA,NA,NA,NA,0.05
+"metac2one6diff","metac2one6diff","vision","modvision:fem_c",0.0606516306827755,-0.0514958581756815,0.167234285995892,0.862,FALSE,1.92143445744473,0.520444502348457,NA,NA,NA,NA,0.05
+"metac2one6diff","metac2one6diff","gender x domain: memory - Calories","modmemory:fem_c - modCalories:fem_c",0.00683530508835367,-0.145641562430045,0.144810418897134,0.53875,FALSE,NA,NA,NA,NA,NA,NA,0.05
+"metac2one6diff","metac2one6diff","gender x domain: memory - GDP","modmemory:fem_c - modGDP:fem_c",-0.18703228889067,-0.351104960077357,-0.0242533210466869,0.01375,TRUE,NA,NA,NA,NA,NA,NA,0.05
+"metac2one6diff","metac2one6diff","gender x domain: memory - vision","modmemory:fem_c - modvision:fem_c",-0.0905400821496253,-0.252438887859959,0.0705594431640986,0.12975,FALSE,NA,NA,NA,NA,NA,NA,0.05
+"metac2one6diff","metac2one6diff","gender x domain: Calories - GDP","modCalories:fem_c - modGDP:fem_c",-0.193867593979024,-0.33956414504287,-0.0575311227391039,0.00325,TRUE,NA,NA,NA,NA,NA,NA,0.05
+"metac2one6diff","metac2one6diff","gender x domain: Calories - vision","modCalories:fem_c - modvision:fem_c",-0.097375387237979,-0.234523701335989,0.0429792379362833,0.092,FALSE,NA,NA,NA,NA,NA,NA,0.05
+"metac2one6diff","metac2one6diff","gender x domain: GDP - vision","modGDP:fem_c - modvision:fem_c",0.0964922067410445,-0.0585168175166775,0.252499069466177,0.8875,FALSE,NA,NA,NA,NA,NA,NA,0.05

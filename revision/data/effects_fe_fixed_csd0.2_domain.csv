@@ -1,0 +1,11 @@
+"param","effect","term","mean","hdi_lo","hdi_hi","p_gt0","excludes0"
+"log M-ratio","cell mean: memory","modmemory",0.1674752043975,0.139764349792922,0.198340469978985,1,TRUE
+"log M-ratio","cell mean: Calories","modCalories",-0.337207995905,-0.424667052954994,-0.254695582637516,0,TRUE
+"log M-ratio","cell mean: GDP","modGDP",0.19901270575425,0.138429221012447,0.253010944315843,1,TRUE
+"log M-ratio","cell mean: vision","modvision",-0.2153552406225,-0.266389130085968,-0.160358110049873,0,TRUE
+"log M-ratio","memory - Calories","modmemory - modCalories",0.5046832003025,0.413378012911213,0.59131318350446,1,TRUE
+"log M-ratio","memory - GDP","modmemory - modGDP",-0.03153750135675,-0.0982048414565266,0.0267106497007224,0.16475,FALSE
+"log M-ratio","memory - vision","modmemory - modvision",0.38283044502,0.324736610182063,0.443387740334343,1,TRUE
+"log M-ratio","Calories - GDP","modCalories - modGDP",-0.53622070165925,-0.638153798783057,-0.431274447509186,0,TRUE
+"log M-ratio","Calories - vision","modCalories - modvision",-0.1218527552825,-0.218876170779993,-0.0187725801137966,0.008,TRUE
+"log M-ratio","GDP - vision","modGDP - modvision",0.41436794637675,0.333397549495163,0.487536249907328,1,TRUE

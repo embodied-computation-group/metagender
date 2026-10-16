@@ -1,0 +1,7 @@
+"param","effect","term","mean","hdi_lo","hdi_hi","p_gt0","excludes0"
+"rho(log M)","cor_subj__modmemory__modCalories","cor_subj__modmemory__modCalories",0.220794393570775,-0.0155040713632066,0.462786888757149,0.96425,FALSE
+"rho(log M)","cor_subj__modmemory__modGDP","cor_subj__modmemory__modGDP",0.223031417892825,-0.0246105114622582,0.453346012384641,0.96125,FALSE
+"rho(log M)","cor_subj__modCalories__modGDP","cor_subj__modCalories__modGDP",0.0337842427688642,-0.182879609869317,0.246615460399167,0.623,FALSE
+"rho(log M)","cor_subj__modmemory__modvision","cor_subj__modmemory__modvision",0.177758633687526,-0.0411295434448024,0.403206075389502,0.941,FALSE
+"rho(log M)","cor_subj__modCalories__modvision","cor_subj__modCalories__modvision",0.0775766457143172,-0.112483288303318,0.280326615616076,0.7835,FALSE
+"rho(log M)","cor_subj__modGDP__modvision","cor_subj__modGDP__modvision",0.0552995307956319,-0.121672898844168,0.257771243349536,0.72325,FALSE

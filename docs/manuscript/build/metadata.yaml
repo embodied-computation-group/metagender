@@ -1,0 +1,30 @@
+# Manuscript metadata for the pandoc build.
+# Title and authors live in 00_frontmatter.md, not here (see below).
+
+# No title/author/date here on purpose: 00_frontmatter.md already carries the
+# title as an H1 and the author + affiliation block as a paragraph, and adding
+# them here would print the whole thing twice.
+
+# --- Layout (used by the `article` fallback; apa7 sets most of these itself) ---
+fontsize: 12pt
+linestretch: 1.5
+papersize: a4
+geometry:
+  - margin=2.5cm
+indent: true
+colorlinks: true
+linkcolor: black
+urlcolor: blue
+citecolor: black
+
+# --- Figures and tables ---
+# Numbered captions come from pandoc's implicit_figures; keep figures where they
+# are written in the text rather than floating them to the end.
+figPrefix: ["Figure", "Figures"]
+tblPrefix: ["Table", "Tables"]
+
+# --- Fonts ---
+# mainfont is only honoured by xelatex/lualatex. build.sh overwrites it with the
+# first font from its candidate list that fontconfig actually reports, so the
+# value here is just the preferred default.
+mainfont: "Nimbus Roman"

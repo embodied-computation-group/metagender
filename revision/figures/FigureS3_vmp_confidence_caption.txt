@@ -1,0 +1,23 @@
+Figure S3. Local confidence in the VMP replication sample (457 participants, 289 women /
+168 men) on the same GDP and Calories general knowledge task and the same 7-point confidence scale
+as the first edition. This is the replication counterpart of Figure 3.
+
+(A) Mean confidence on correct and on incorrect trials, averaged over the two domains.
+Each grey line is one participant; half boxplots show the median, quartiles and 1.5 IQR
+whiskers per gender and accuracy.
+
+(B) Model-implied mean confidence per domain, gender and trial accuracy, posterior mean
+with the 95% highest-density interval, from
+
+    confidence ~ 0 + domain + domain:gender + domain:accuracy + domain:gender:accuracy
+                 + task accuracy + age + (1 | participant),
+    sigma      ~ 0 + domain:accuracy,
+
+with gender sum-coded (+0.5 women / -0.5 men), trial accuracy sum-coded (+0.5 correct /
+-0.5 incorrect), domain cell-means coded, and task accuracy the participant's overall
+accuracy in that domain, z-scored within domain. Priors: cell means and covariates
+normal(0, SD(DV)), contrast coefficients (anything on gender or trial accuracy)
+normal(0, 0.5 x SD(DV)), sd normal(0, SD(DV)), sigma student_t(3, 0, SD(DV)).
+The model is model 22 with two forced changes: two domains
+instead of four, and no years-of-education covariate, which the VMP phenotype file does
+not record.
